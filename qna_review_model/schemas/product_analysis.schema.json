@@ -1,0 +1,415 @@
+{
+  "$defs": {
+    "CrossStageInsight": {
+      "additionalProperties": false,
+      "properties": {
+        "theme_id": {
+          "title": "Theme Id",
+          "type": "string"
+        },
+        "theme": {
+          "title": "Theme",
+          "type": "string"
+        },
+        "classification": {
+          "$ref": "#/$defs/Quadrant"
+        },
+        "qna_percentile": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Qna Percentile"
+        },
+        "satisfaction_percentile": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Satisfaction Percentile"
+        },
+        "insight": {
+          "title": "Insight",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/ThemeEvidence"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "confidence": {
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "title": "Confidence",
+          "type": "string"
+        }
+      },
+      "required": [
+        "theme_id",
+        "theme",
+        "classification",
+        "insight",
+        "confidence"
+      ],
+      "title": "CrossStageInsight",
+      "type": "object"
+    },
+    "ProductContext": {
+      "additionalProperties": false,
+      "properties": {
+        "product_id": {
+          "title": "Product Id",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "category_cid": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Category Cid"
+        },
+        "category_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Category Path"
+        },
+        "category_levels": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Category Levels",
+          "type": "array"
+        },
+        "brand": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Brand"
+        },
+        "price": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Price"
+        },
+        "options": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Options",
+          "type": "array"
+        }
+      },
+      "required": [
+        "product_id",
+        "name"
+      ],
+      "title": "ProductContext",
+      "type": "object"
+    },
+    "Quadrant": {
+      "enum": [
+        "core_selling_point",
+        "hidden_selling_point",
+        "purchase_barrier",
+        "potential_pain_point",
+        "insufficient_evidence"
+      ],
+      "title": "Quadrant",
+      "type": "string"
+    },
+    "SellerAction": {
+      "additionalProperties": false,
+      "properties": {
+        "theme_id": {
+          "title": "Theme Id",
+          "type": "string"
+        },
+        "action": {
+          "title": "Action",
+          "type": "string"
+        },
+        "rationale": {
+          "title": "Rationale",
+          "type": "string"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "theme_id",
+        "action",
+        "rationale",
+        "evidence_ids"
+      ],
+      "title": "SellerAction",
+      "type": "object"
+    },
+    "ThemeDefinition": {
+      "additionalProperties": false,
+      "properties": {
+        "theme_id": {
+          "title": "Theme Id",
+          "type": "string"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "keywords": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Keywords",
+          "type": "array"
+        },
+        "source_level": {
+          "default": "cat1",
+          "enum": [
+            "global",
+            "cat1",
+            "cat2",
+            "leaf"
+          ],
+          "title": "Source Level",
+          "type": "string"
+        }
+      },
+      "required": [
+        "theme_id",
+        "label"
+      ],
+      "title": "ThemeDefinition",
+      "type": "object"
+    },
+    "ThemeEvidence": {
+      "additionalProperties": false,
+      "properties": {
+        "record_id": {
+          "title": "Record Id",
+          "type": "string"
+        },
+        "quote": {
+          "title": "Quote",
+          "type": "string"
+        },
+        "stage": {
+          "enum": [
+            "pre_purchase",
+            "post_purchase"
+          ],
+          "title": "Stage",
+          "type": "string"
+        },
+        "polarity": {
+          "enum": [
+            "positive",
+            "negative",
+            "neutral",
+            "concern"
+          ],
+          "title": "Polarity",
+          "type": "string"
+        }
+      },
+      "required": [
+        "record_id",
+        "quote",
+        "stage",
+        "polarity"
+      ],
+      "title": "ThemeEvidence",
+      "type": "object"
+    },
+    "ThemeSignal": {
+      "additionalProperties": false,
+      "properties": {
+        "theme_id": {
+          "title": "Theme Id",
+          "type": "string"
+        },
+        "theme": {
+          "title": "Theme",
+          "type": "string"
+        },
+        "qna_mentions": {
+          "minimum": 0,
+          "title": "Qna Mentions",
+          "type": "integer"
+        },
+        "qna_share": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Qna Share",
+          "type": "number"
+        },
+        "review_mentions": {
+          "minimum": 0,
+          "title": "Review Mentions",
+          "type": "integer"
+        },
+        "positive_mentions": {
+          "minimum": 0,
+          "title": "Positive Mentions",
+          "type": "integer"
+        },
+        "negative_mentions": {
+          "minimum": 0,
+          "title": "Negative Mentions",
+          "type": "integer"
+        },
+        "neutral_mentions": {
+          "minimum": 0,
+          "title": "Neutral Mentions",
+          "type": "integer"
+        },
+        "satisfaction": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Satisfaction"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/ThemeEvidence"
+          },
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "theme_id",
+        "theme",
+        "qna_mentions",
+        "qna_share",
+        "review_mentions",
+        "positive_mentions",
+        "negative_mentions",
+        "neutral_mentions"
+      ],
+      "title": "ThemeSignal",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "methodology": {
+      "const": "category_aware_cross_stage_v1",
+      "default": "category_aware_cross_stage_v1",
+      "title": "Methodology",
+      "type": "string"
+    },
+    "product": {
+      "$ref": "#/$defs/ProductContext"
+    },
+    "category_themes": {
+      "items": {
+        "$ref": "#/$defs/ThemeDefinition"
+      },
+      "title": "Category Themes",
+      "type": "array"
+    },
+    "review_count": {
+      "minimum": 0,
+      "title": "Review Count",
+      "type": "integer"
+    },
+    "qna_count": {
+      "minimum": 0,
+      "title": "Qna Count",
+      "type": "integer"
+    },
+    "signals": {
+      "items": {
+        "$ref": "#/$defs/ThemeSignal"
+      },
+      "title": "Signals",
+      "type": "array"
+    },
+    "insights": {
+      "items": {
+        "$ref": "#/$defs/CrossStageInsight"
+      },
+      "title": "Insights",
+      "type": "array"
+    },
+    "recommended_actions": {
+      "items": {
+        "$ref": "#/$defs/SellerAction"
+      },
+      "title": "Recommended Actions",
+      "type": "array"
+    }
+  },
+  "required": [
+    "product",
+    "category_themes",
+    "review_count",
+    "qna_count",
+    "signals"
+  ],
+  "title": "ProductAnalysis",
+  "type": "object"
+}

@@ -1,0 +1,125 @@
+{
+  "$defs": {
+    "Quadrant": {
+      "enum": [
+        "core_selling_point",
+        "hidden_selling_point",
+        "purchase_barrier",
+        "potential_pain_point",
+        "insufficient_evidence"
+      ],
+      "title": "Quadrant",
+      "type": "string"
+    },
+    "ThemeEvidence": {
+      "additionalProperties": false,
+      "properties": {
+        "record_id": {
+          "title": "Record Id",
+          "type": "string"
+        },
+        "quote": {
+          "title": "Quote",
+          "type": "string"
+        },
+        "stage": {
+          "enum": [
+            "pre_purchase",
+            "post_purchase"
+          ],
+          "title": "Stage",
+          "type": "string"
+        },
+        "polarity": {
+          "enum": [
+            "positive",
+            "negative",
+            "neutral",
+            "concern"
+          ],
+          "title": "Polarity",
+          "type": "string"
+        }
+      },
+      "required": [
+        "record_id",
+        "quote",
+        "stage",
+        "polarity"
+      ],
+      "title": "ThemeEvidence",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "theme_id": {
+      "title": "Theme Id",
+      "type": "string"
+    },
+    "theme": {
+      "title": "Theme",
+      "type": "string"
+    },
+    "classification": {
+      "$ref": "#/$defs/Quadrant"
+    },
+    "qna_percentile": {
+      "anyOf": [
+        {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Qna Percentile"
+    },
+    "satisfaction_percentile": {
+      "anyOf": [
+        {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Satisfaction Percentile"
+    },
+    "insight": {
+      "title": "Insight",
+      "type": "string"
+    },
+    "evidence": {
+      "items": {
+        "$ref": "#/$defs/ThemeEvidence"
+      },
+      "title": "Evidence",
+      "type": "array"
+    },
+    "confidence": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "title": "Confidence",
+      "type": "string"
+    }
+  },
+  "required": [
+    "theme_id",
+    "theme",
+    "classification",
+    "insight",
+    "confidence"
+  ],
+  "title": "CrossStageInsight",
+  "type": "object"
+}

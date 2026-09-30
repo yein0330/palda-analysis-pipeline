@@ -1,0 +1,20 @@
+flowchart TB
+  Raw[한국어 상품정보 · Review · Q&A] --> Prep[정규화 · 개인정보 최소화 · 상품/중복 분할]
+  Prep --> Gold[Gold + 독립 LLM 합의 Silver]
+  Gold --> A[A 연구: KcELECTRA / 51 themes / Val 749]
+  Gold --> B[B 서비스 후보: ko-sroberta / 334 themes / Val 707]
+  A --> AH[CLS → Review 153 · Primary 51 · Secondary 51 · Usable 1]
+  AH --> Blend[Review만 char TF-IDF + SGD와 50:50 결합 / threshold .55]
+  Blend --> AE[개발 F1 .5009 / 기존 current 미교체]
+  B --> BH[CLS → Review 1002 · Primary 334 · Secondary 334 · Usable 1]
+  BH --> Mask[Cat2 210개 mask / Review 테마별 감성 하나 선택]
+  Mask --> Agg[코드: 상품·테마 집계 / count·share / evidence ID·원문 선택]
+  Agg --> Dec[Qwen2.5-7B-Instruct + 공유 LoRA r16 / checkpoint-221]
+  Dec --> Out[근거 검증 + report-output-v1 / 요약·소구점]
+  subgraph Original[최초 요구: 현재 구현과 구분 — 완료 아님]
+    Base[공통 Base LLM] --> RL[Review 전용 LoRA + 별도 train JSONL]
+    Base --> QL[Q&A 전용 LoRA + 별도 train JSONL]
+    RL --> R[Evidence → Insight → Recommended Action → Summary]
+    QL --> R
+  end
+  Note[리프별 독립 학습 아님 / T1~T10은 제안 / 개별 구매자 답변 생성 아님]

@@ -1,0 +1,33 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "theme_id": {
+      "title": "Theme Id",
+      "type": "string"
+    },
+    "action": {
+      "title": "Action",
+      "type": "string"
+    },
+    "rationale": {
+      "title": "Rationale",
+      "type": "string"
+    },
+    "evidence_ids": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Evidence Ids",
+      "type": "array"
+    }
+  },
+  "required": [
+    "theme_id",
+    "action",
+    "rationale",
+    "evidence_ids"
+  ],
+  "title": "SellerAction",
+  "type": "object"
+}

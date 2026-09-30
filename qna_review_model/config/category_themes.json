@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "global": [
+    {"theme_id": "value", "label": "가격/가성비", "keywords": ["가격", "비싸", "저렴", "가성비", "할인"]},
+    {"theme_id": "delivery", "label": "배송", "keywords": ["배송", "도착", "택배", "출고"]},
+    {"theme_id": "quality", "label": "품질", "keywords": ["품질", "불량", "마감", "고장"]},
+    {"theme_id": "usability", "label": "사용성", "keywords": ["사용", "편리", "간편", "어려"]}
+  ],
+  "cat1": {
+    "도서": [
+      {"theme_id": "content_fit", "label": "내용 적합성", "keywords": ["내용", "주제", "설명"]},
+      {"theme_id": "difficulty", "label": "난이도", "keywords": ["난이도", "어렵", "쉽"]},
+      {"theme_id": "readability", "label": "가독성", "keywords": ["가독성", "읽기", "글씨"]},
+      {"theme_id": "binding", "label": "제본/인쇄", "keywords": ["제본", "인쇄", "페이지"]}
+    ],
+    "식품": [
+      {"theme_id": "taste", "label": "맛", "keywords": ["맛", "달", "짜", "맵", "향"]},
+      {"theme_id": "freshness", "label": "신선도", "keywords": ["신선", "상했", "싱싱"]},
+      {"theme_id": "quantity", "label": "양/용량", "keywords": ["용량", "양", "크기"]},
+      {"theme_id": "ingredients", "label": "원재료", "keywords": ["원재료", "성분", "첨가물"]},
+      {"theme_id": "expiry", "label": "유통기한", "keywords": ["유통기한", "소비기한", "보관"]}
+    ],
+    "패션의류": [
+      {"theme_id": "size", "label": "사이즈", "keywords": ["사이즈", "치수", "크게", "작게"]},
+      {"theme_id": "fit", "label": "핏", "keywords": ["핏", "기장", "품", "허리"]},
+      {"theme_id": "material", "label": "소재", "keywords": ["소재", "원단", "재질"]},
+      {"theme_id": "color", "label": "색상", "keywords": ["색상", "색깔", "컬러"]},
+      {"theme_id": "comfort", "label": "착용감", "keywords": ["착용감", "편안", "불편"]},
+      {"theme_id": "durability", "label": "내구성", "keywords": ["내구", "보풀", "늘어", "찢"]}
+    ],
+    "패션잡화": [
+      {"theme_id": "size", "label": "크기", "keywords": ["크기", "사이즈", "치수"]},
+      {"theme_id": "storage", "label": "수납", "keywords": ["수납", "공간", "들어가"]},
+      {"theme_id": "material", "label": "소재", "keywords": ["소재", "재질", "가죽"]},
+      {"theme_id": "comfort", "label": "착용감", "keywords": ["착용", "편안", "불편"]},
+      {"theme_id": "design", "label": "디자인", "keywords": ["디자인", "예쁘", "모양"]}
+    ],
+    "가구/인테리어": [
+      {"theme_id": "dimensions", "label": "크기", "keywords": ["크기", "사이즈", "높이", "폭"]},
+      {"theme_id": "assembly", "label": "조립/설치", "keywords": ["조립", "설치", "기사"]},
+      {"theme_id": "durability", "label": "내구성", "keywords": ["내구", "튼튼", "흔들", "꺼짐"]},
+      {"theme_id": "space", "label": "공간 활용", "keywords": ["공간", "수납", "배치"]},
+      {"theme_id": "design", "label": "디자인", "keywords": ["디자인", "색상", "인테리어"]}
+    ],
+    "디지털/가전": [
+      {"theme_id": "performance", "label": "성능", "keywords": ["성능", "속도", "화질", "음질"]},
+      {"theme_id": "compatibility", "label": "호환성", "keywords": ["호환", "연결", "지원", "기종"]},
+      {"theme_id": "battery", "label": "배터리", "keywords": ["배터리", "충전", "사용시간"]},
+      {"theme_id": "heat", "label": "발열", "keywords": ["발열", "뜨거", "열"]},
+      {"theme_id": "noise", "label": "소음", "keywords": ["소음", "시끄", "조용"]},
+      {"theme_id": "installation", "label": "설치", "keywords": ["설치", "세팅", "연결"]}
+    ],
+    "생활/건강": [
+      {"theme_id": "effect", "label": "기능/효과", "keywords": ["효과", "기능", "성능"]},
+      {"theme_id": "safety", "label": "안전성", "keywords": ["안전", "위험", "인증"]},
+      {"theme_id": "capacity", "label": "용량", "keywords": ["용량", "크기", "양"]},
+      {"theme_id": "hygiene", "label": "위생", "keywords": ["위생", "세척", "소독"]},
+      {"theme_id": "durability", "label": "내구성", "keywords": ["내구", "고장", "튼튼"]}
+    ],
+    "스포츠/레저": [
+      {"theme_id": "comfort", "label": "착용감", "keywords": ["착용", "편안", "불편"]},
+      {"theme_id": "weight", "label": "무게", "keywords": ["무게", "가벼", "무거"]},
+      {"theme_id": "functionality", "label": "기능성", "keywords": ["기능", "방수", "통기"]},
+      {"theme_id": "safety", "label": "안전성", "keywords": ["안전", "보호", "미끄"]},
+      {"theme_id": "portability", "label": "휴대성", "keywords": ["휴대", "보관", "접이"]}
+    ],
+    "여가/생활편의": [
+      {"theme_id": "convenience", "label": "이용 편의", "keywords": ["이용", "편의", "사용"]},
+      {"theme_id": "location", "label": "위치", "keywords": ["위치", "거리", "주차"]},
+      {"theme_id": "reservation", "label": "예약", "keywords": ["예약", "시간", "일정"]},
+      {"theme_id": "service", "label": "서비스", "keywords": ["서비스", "친절", "응대"]},
+      {"theme_id": "cleanliness", "label": "청결", "keywords": ["청결", "깨끗", "위생"]},
+      {"theme_id": "refund", "label": "환불", "keywords": ["환불", "취소", "변경"]}
+    ],
+    "출산/육아": [
+      {"theme_id": "safety", "label": "안전성", "keywords": ["안전", "위험", "인증"]},
+      {"theme_id": "age_fit", "label": "연령 적합성", "keywords": ["개월", "연령", "나이", "아이"]},
+      {"theme_id": "material", "label": "소재", "keywords": ["소재", "성분", "재질"]},
+      {"theme_id": "cleaning", "label": "세척", "keywords": ["세척", "세탁", "소독"]},
+      {"theme_id": "durability", "label": "내구성", "keywords": ["내구", "튼튼", "파손"]}
+    ],
+    "화장품/미용": [
+      {"theme_id": "application", "label": "발림성", "keywords": ["발림", "흡수", "밀림"]},
+      {"theme_id": "longevity", "label": "지속력", "keywords": ["지속", "유지", "번짐"]},
+      {"theme_id": "color", "label": "색상", "keywords": ["색상", "발색", "컬러"]},
+      {"theme_id": "skin_fit", "label": "피부 적합성", "keywords": ["피부", "트러블", "건성", "지성"]},
+      {"theme_id": "scent", "label": "향", "keywords": ["향", "냄새", "무향"]},
+      {"theme_id": "irritation", "label": "자극", "keywords": ["자극", "따갑", "가려"]}
+    ]
+  },
+  "cat2": {},
+  "leaf": {}
+}

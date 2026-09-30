@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "palda-service-runtime"
+version = "0.1.0"
+description = "PALDA encoder aggregation, grounded decoder, and backend API runtime"
+requires-python = ">=3.10"
+dependencies = ["fastapi>=0.115", "pydantic>=2.9", "redis>=5.2", "uvicorn>=0.30"]
+
+[project.optional-dependencies]
+models = [
+  "accelerate>=1.2",
+  "bitsandbytes>=0.45; platform_system == 'Linux'",
+  "huggingface-hub>=0.27",
+  "peft>=0.14",
+  "torch>=2.2",
+  "transformers>=4.57,<5",
+]
+dev = ["httpx>=0.27", "pytest>=8.0"]
+
+[project.scripts]
+palda-api = "palda_runtime.api:main"
+palda-benchmark-models = "palda_runtime.benchmark:main"
+palda-download-models = "palda_runtime.artifacts:main"
+palda-smoke-models = "palda_runtime.smoke:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

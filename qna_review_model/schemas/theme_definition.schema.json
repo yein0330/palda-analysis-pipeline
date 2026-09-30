@@ -1,0 +1,37 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "theme_id": {
+      "title": "Theme Id",
+      "type": "string"
+    },
+    "label": {
+      "title": "Label",
+      "type": "string"
+    },
+    "keywords": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Keywords",
+      "type": "array"
+    },
+    "source_level": {
+      "default": "cat1",
+      "enum": [
+        "global",
+        "cat1",
+        "cat2",
+        "leaf"
+      ],
+      "title": "Source Level",
+      "type": "string"
+    }
+  },
+  "required": [
+    "theme_id",
+    "label"
+  ],
+  "title": "ThemeDefinition",
+  "type": "object"
+}

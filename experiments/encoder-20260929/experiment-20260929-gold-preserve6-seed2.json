@@ -1,0 +1,274 @@
+{
+  "schemaVersion": "palda-transformer-encoder-experiment-v1",
+  "model": "/path/to/workspace/.cache/huggingface/hub/models--beomi--KcELECTRA-base/snapshots/681201a097b8120e6dd2a2e63a3e13d338736f88",
+  "labelSpace": "canonical",
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "records": {
+    "train": 10765,
+    "validation": 749,
+    "test": 0
+  },
+  "themeCount": 51,
+  "bestEpoch": 6,
+  "thresholds": {
+    "review": 0.45,
+    "secondary": 0.25
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "seconds": 34.77,
+      "trainLoss": 2.6583,
+      "thresholds": {
+        "review": 0.35,
+        "secondary": 0.3
+      },
+      "validation": {
+        "reviewThemeSentiment": {
+          "microPrecision": 0.225,
+          "microRecall": 0.4925,
+          "microF1": 0.3089,
+          "macroF1": 0.0405,
+          "exactMatch": 0.012
+        },
+        "qnaPrimary": {
+          "accuracy": 0.4737,
+          "macroF1": 0.1407
+        },
+        "qnaSecondary": {
+          "microPrecision": 0.3469,
+          "microRecall": 0.191,
+          "microF1": 0.2464,
+          "macroF1": 0.0547,
+          "exactMatch": 0.6883
+        },
+        "usable": {
+          "accuracy": 1.0,
+          "macroF1": 1.0,
+          "classCounts": {
+            "True": 247
+          }
+        }
+      },
+      "selectionScore": 1.029
+    },
+    {
+      "epoch": 2,
+      "seconds": 33.89,
+      "trainLoss": 1.7849,
+      "thresholds": {
+        "review": 0.5,
+        "secondary": 0.2
+      },
+      "validation": {
+        "reviewThemeSentiment": {
+          "microPrecision": 0.323,
+          "microRecall": 0.3864,
+          "microF1": 0.3519,
+          "macroF1": 0.035,
+          "exactMatch": 0.0498
+        },
+        "qnaPrimary": {
+          "accuracy": 0.502,
+          "macroF1": 0.196
+        },
+        "qnaSecondary": {
+          "microPrecision": 0.2105,
+          "microRecall": 0.2697,
+          "microF1": 0.2365,
+          "macroF1": 0.0527,
+          "exactMatch": 0.6478
+        },
+        "usable": {
+          "accuracy": 1.0,
+          "macroF1": 1.0,
+          "classCounts": {
+            "True": 247
+          }
+        }
+      },
+      "selectionScore": 1.0904
+    },
+    {
+      "epoch": 3,
+      "seconds": 34.35,
+      "trainLoss": 1.4873,
+      "thresholds": {
+        "review": 0.45,
+        "secondary": 0.25
+      },
+      "validation": {
+        "reviewThemeSentiment": {
+          "microPrecision": 0.3333,
+          "microRecall": 0.4556,
+          "microF1": 0.385,
+          "macroF1": 0.0599,
+          "exactMatch": 0.0538
+        },
+        "qnaPrimary": {
+          "accuracy": 0.498,
+          "macroF1": 0.2177
+        },
+        "qnaSecondary": {
+          "microPrecision": 0.2838,
+          "microRecall": 0.236,
+          "microF1": 0.2577,
+          "macroF1": 0.0766,
+          "exactMatch": 0.6842
+        },
+        "usable": {
+          "accuracy": 1.0,
+          "macroF1": 1.0,
+          "classCounts": {
+            "True": 247
+          }
+        }
+      },
+      "selectionScore": 1.1407
+    },
+    {
+      "epoch": 4,
+      "seconds": 34.04,
+      "trainLoss": 1.2482,
+      "thresholds": {
+        "review": 0.5,
+        "secondary": 0.25
+      },
+      "validation": {
+        "reviewThemeSentiment": {
+          "microPrecision": 0.3909,
+          "microRecall": 0.4337,
+          "microF1": 0.4112,
+          "macroF1": 0.0656,
+          "exactMatch": 0.0976
+        },
+        "qnaPrimary": {
+          "accuracy": 0.4615,
+          "macroF1": 0.2348
+        },
+        "qnaSecondary": {
+          "microPrecision": 0.2817,
+          "microRecall": 0.2247,
+          "microF1": 0.25,
+          "macroF1": 0.0752,
+          "exactMatch": 0.6761
+        },
+        "usable": {
+          "accuracy": 1.0,
+          "macroF1": 1.0,
+          "classCounts": {
+            "True": 247
+          }
+        }
+      },
+      "selectionScore": 1.1227
+    },
+    {
+      "epoch": 5,
+      "seconds": 33.13,
+      "trainLoss": 1.0945,
+      "thresholds": {
+        "review": 0.45,
+        "secondary": 0.2
+      },
+      "validation": {
+        "reviewThemeSentiment": {
+          "microPrecision": 0.3933,
+          "microRecall": 0.4764,
+          "microF1": 0.4309,
+          "macroF1": 0.0993,
+          "exactMatch": 0.0976
+        },
+        "qnaPrimary": {
+          "accuracy": 0.4737,
+          "macroF1": 0.2222
+        },
+        "qnaSecondary": {
+          "microPrecision": 0.1685,
+          "microRecall": 0.3371,
+          "microF1": 0.2247,
+          "macroF1": 0.0889,
+          "exactMatch": 0.587
+        },
+        "usable": {
+          "accuracy": 1.0,
+          "macroF1": 1.0,
+          "classCounts": {
+            "True": 247
+          }
+        }
+      },
+      "selectionScore": 1.1293
+    },
+    {
+      "epoch": 6,
+      "seconds": 34.32,
+      "trainLoss": 0.9721,
+      "thresholds": {
+        "review": 0.45,
+        "secondary": 0.25
+      },
+      "validation": {
+        "reviewThemeSentiment": {
+          "microPrecision": 0.4039,
+          "microRecall": 0.4821,
+          "microF1": 0.4395,
+          "macroF1": 0.1014,
+          "exactMatch": 0.1036
+        },
+        "qnaPrimary": {
+          "accuracy": 0.4818,
+          "macroF1": 0.2326
+        },
+        "qnaSecondary": {
+          "microPrecision": 0.2414,
+          "microRecall": 0.236,
+          "microF1": 0.2386,
+          "macroF1": 0.0739,
+          "exactMatch": 0.6518
+        },
+        "usable": {
+          "accuracy": 1.0,
+          "macroF1": 1.0,
+          "classCounts": {
+            "True": 247
+          }
+        }
+      },
+      "selectionScore": 1.1599
+    }
+  ],
+  "test": null,
+  "elapsedSeconds": 205.85,
+  "warning": "Development run: Test not loaded or evaluated.",
+  "testSkipped": true,
+  "weightsSaved": false,
+  "bestValidation": {
+    "reviewThemeSentiment": {
+      "microPrecision": 0.4039,
+      "microRecall": 0.4821,
+      "microF1": 0.4395,
+      "macroF1": 0.1014,
+      "exactMatch": 0.1036
+    },
+    "qnaPrimary": {
+      "accuracy": 0.4818,
+      "macroF1": 0.2326
+    },
+    "qnaSecondary": {
+      "microPrecision": 0.2414,
+      "microRecall": 0.236,
+      "microF1": 0.2386,
+      "macroF1": 0.0739,
+      "exactMatch": 0.6518
+    },
+    "usable": {
+      "accuracy": 1.0,
+      "macroF1": 1.0,
+      "classCounts": {
+        "True": 247
+      }
+    }
+  }
+}

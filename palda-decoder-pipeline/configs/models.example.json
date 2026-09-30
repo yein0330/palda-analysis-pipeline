@@ -1,0 +1,32 @@
+{
+  "models": [
+    {
+      "id": "kanana",
+      "model": "kakaocorp/kanana-1.5-8b-instruct-2505",
+      "base_url": "http://127.0.0.1:8011/v1",
+      "gpu": 0,
+      "dtype": "bfloat16",
+      "trust_remote_code": true,
+      "workers": 2,
+      "roles": ["generator", "judge"]
+    },
+    {
+      "id": "llama",
+      "model": "NousResearch/Meta-Llama-3-8B-Instruct",
+      "base_url": "http://127.0.0.1:8012/v1",
+      "gpu": 1,
+      "dtype": "bfloat16",
+      "workers": 2,
+      "roles": ["generator", "judge"]
+    },
+    {
+      "id": "qwen",
+      "model": "Qwen/Qwen3-8B",
+      "base_url": "http://127.0.0.1:8013/v1",
+      "gpu": 2,
+      "dtype": "bfloat16",
+      "workers": 3,
+      "roles": ["generator", "judge"]
+    }
+  ]
+}

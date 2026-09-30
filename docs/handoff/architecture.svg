@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1000" viewBox="0 0 1280 1000" role="img" aria-labelledby="title desc">
+<title id="title">PALDA 실제 모델 계열과 최초 요구 구조</title>
+<desc id="desc">KcELECTRA 51테마 연구 모델과 ko-sroberta 334테마 서비스 후보를 구분한다. 서비스 후보는 코드 집계 후 Qwen 공유 LoRA로 요약한다. 최초 요구한 두 adapter 구조는 별도 미완료 요구다.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#526577"/></marker></defs>
+<style>text{font-family:'Noto Sans CJK KR','Noto Sans KR',sans-serif;fill:#172b3a} .title{font-size:26px;font-weight:700}.head{font-size:20px;font-weight:700}.body{font-size:17px}.small{font-size:15px}.box{fill:#fff;stroke:#a8bac8;stroke-width:1.5}.arrow{fill:none;stroke:#526577;stroke-width:2;marker-end:url(#arrow)}</style>
+<rect width="1280" height="1000" fill="#f5f8fb"/>
+<text x="40" y="46" class="title">PALDA 인수인계 · 실제 구조와 요구 구조를 구분</text>
+<text x="40" y="76" class="small">2026-09-30 · 로컬 artifact 기준 · 배포 확인 아님 · 자동 개선 일시 중지</text>
+<rect x="300" y="101" width="680" height="78" rx="12" class="box"/>
+<text x="640" y="131" text-anchor="middle" class="head">한국어 상품정보 · Review · Q&amp;A</text>
+<text x="640" y="158" text-anchor="middle" class="body">정규화 / 상품·중복 분할 / Gold와 Silver 구분</text>
+<path d="M640 179 V197 H330 V219 M640 197 H950 V219" class="arrow"/>
+<rect x="40" y="222" width="570" height="398" rx="15" fill="#e9f1fb" stroke="#8eacd0"/>
+<rect x="650" y="222" width="590" height="398" rx="15" fill="#e7f4ef" stroke="#88bda7"/>
+<text x="66" y="254" class="head">A · 개발 실험 (qna_review_model)</text>
+<text x="676" y="254" class="head">B · 서비스 연결 후보 (별도 pipeline)</text>
+<text x="66" y="283" class="body">KcELECTRA-base · 51 themes · Val 749</text>
+<text x="676" y="283" class="body">ko-sroberta · 334 themes · Val 707</text>
+<rect x="66" y="307" width="518" height="95" rx="9" class="box"/>
+<text x="86" y="335" class="head">CLS → 공유 표현 → 4개 head</text>
+<text x="86" y="363" class="body">Review 153 / Primary 51 / Secondary 51</text>
+<text x="86" y="388" class="body">Usable 1 · Review 감성별 독립 sigmoid</text>
+<rect x="676" y="307" width="538" height="95" rx="9" class="box"/>
+<text x="696" y="335" class="head">CLS → 공유 표현 → 4개 head</text>
+<text x="696" y="363" class="body">Review 1002 / Primary 334 / Secondary 334</text>
+<text x="696" y="388" class="body">Usable 1 · Review 테마별 감성 하나 선택</text>
+<path d="M325 404 V428 M945 404 V428" class="arrow"/>
+<rect x="66" y="431" width="518" height="94" rx="9" class="box"/>
+<text x="86" y="460" class="head">Review만 문자 분류기와 결합</text>
+<text x="86" y="488" class="body">TF-IDF + SGD / 50:50 / threshold 0.55</text>
+<text x="86" y="513" class="small">Q&amp;A는 신경망 그대로 · 서비스 적용 안 함</text>
+<rect x="676" y="431" width="538" height="94" rx="9" class="box"/>
+<text x="696" y="460" class="head">Cat2 mask → 코드 집계·근거 선택</text>
+<text x="696" y="488" class="body">210 Cat2 / count·share / evidence ID·quote</text>
+<text x="696" y="513" class="small">리프별 독립 테마 모델 아님 · 수치는 코드가 계산</text>
+<text x="66" y="561" class="head">재추론 후보 Review micro-F1 0.5009</text>
+<text x="66" y="588" class="small">0.5144 연구 후보는 신경망 weights 없음</text>
+<text x="676" y="561" class="head">Qwen2.5-7B-Instruct + 공유 LoRA r16</text>
+<text x="676" y="588" class="small">checkpoint-221 → 근거 검증 → report-output-v1</text>
+<text x="40" y="657" class="head">A와 B는 데이터·head·지표가 다름: 점수를 직접 비교하거나 가중치를 바꿔 끼우지 않음</text>
+<rect x="40" y="685" width="1200" height="210" rx="15" fill="#fff7e8" stroke="#d4b77c" stroke-dasharray="7 5"/>
+<text x="65" y="720" class="head">최초 확정 요구 — 위 공유 인코더/공유 decoder 구현과 동일하지 않음</text>
+<rect x="66" y="743" width="245" height="64" rx="8" class="box"/><text x="188" y="782" text-anchor="middle" class="head">공통 Base LLM</text>
+<path d="M314 775 H366 M622 775 H677" class="arrow"/>
+<rect x="370" y="738" width="250" height="76" rx="8" class="box"/>
+<text x="495" y="767" text-anchor="middle" class="body">Review LoRA / Q&amp;A LoRA</text>
+<text x="495" y="794" text-anchor="middle" class="small">학습 JSONL·adapter 각각 분리</text>
+<rect x="681" y="738" width="531" height="76" rx="8" class="box"/>
+<text x="946" y="768" text-anchor="middle" class="body">Evidence → Insight → Recommended Action</text>
+<text x="946" y="795" text-anchor="middle" class="body">→ Summary</text>
+<text x="66" y="861" class="body">현재 두 전용 adapter 완료로 보고하지 않음 · Q&amp;A 발생 원인 8분류와 mixed도 현 encoder 출력 아님</text>
+<text x="40" y="940" class="body">미완료: 의미 단위·부정/미사용 구분 · 독립 평가 · 운영 승격 · T1~T10 공통 테마는 검토안</text>
+<text x="40" y="972" class="small">목적은 셀러용 분석 리포트이며 개별 구매자 답변 생성이 아님. 상세 출처/성능 한계는 인수인계 문서 참조.</text>
+</svg>

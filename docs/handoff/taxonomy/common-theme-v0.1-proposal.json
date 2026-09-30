@@ -1,0 +1,25 @@
+{
+  "schema": "palda-handoff-taxonomy-proposal-v1",
+  "version": "common-theme-v0.1",
+  "status": "proposal_not_trained_not_deployed",
+  "source": "/path/to/workspace/PALDA/palda-encoder-pipeline/docs/experiments/common-theme-taxonomy-audit-2026-09-28.md",
+  "provenance": "인계용 문서 요약. 기존 334테마의 확정 crosswalk나 학습 정답이 아님.",
+  "category_policy": "카테고리는 해석 문맥; 상위 테마를 카테고리별로 강제 차단하지 않는 제안",
+  "themes": [
+    {"id":"T1","label":"기능·효과·성능","boundary":"목적 달성/기능 작동. 명시적 고장·결함은 T2. 질문을 성능 사실로 바꾸지 않음."},
+    {"id":"T2","label":"소재·품질·내구성·안전","boundary":"소재/성분, 제조/마감, 내구/고장, 안전 신호, 보존/유통기한을 세부 그룹으로 구분. 객관적 위해성 단정 금지."},
+    {"id":"T3","label":"외관·디자인","boundary":"시각적 외관 평가. 색상 옵션 선택은 T4, 색상 재입고는 T8."},
+    {"id":"T4","label":"규격·구성·적합성","boundary":"수치/구성/옵션/호환/대상 적합성, 서비스 유효 기간. 작거나 가볍다는 이유만으로 T5를 추가하지 않음."},
+    {"id":"T5","label":"사용·설치·관리 편의","boundary":"조작/설치/조립/휴대/보관/세척/관리 방법과 용이성. 설치 포함 구성은 T4."},
+    {"id":"T6","label":"감각·사용감","boundary":"감각/착용감/편안함. 기능 목적 달성과 구분; 명시적 통증은 T2 신호도 보존."},
+    {"id":"T7","label":"가격·경제적 가치","boundary":"가격/할인/추가비/유지비/가치. 저렴함을 성능 근거로 사용하지 않음."},
+    {"id":"T8","label":"구매·배송·포장","boundary":"거래/재고/결제/배송/포장/수령. 수령 파손을 배송 원인으로 단정하지 않음."},
+    {"id":"T9","label":"판매자·브랜드·고객지원","boundary":"브랜드/정품 신뢰, 응대, 보증/교환/반품/환불/수리. 절차 질문은 자동 부정 감성이 아님."},
+    {"id":"T10","label":"기타·미분류","boundary":"총평/구매 맥락/인사/경험 부재/정보 부족/체계 밖. 세부 주제와 사유를 보존하고 시스템 실패와 분리."}
+  ],
+  "sentiment_proposal": ["긍정","부정","혼합","중립","해당 없음","판단 불가"],
+  "mixed_rule": "같은 대상·같은 속성의 불가분한 긍정/부정 공존에 한함; 분리 가능한 조건별 주장은 먼저 분리",
+  "required_context_proposal": ["source_id","product_id","thread_id","parent_id","source_position","author_role","evidence.start","evidence.end","evidence.text","context_conditions","modality","experiencer","claim_status","referent","comparison_target","candidate_theme_ids","review_required","review_reason","other_reason","processing_status"],
+  "activation_axes": {"applicability":["applicable","not_applicable","unknown"],"mention":["mentioned","not_observed"]},
+  "audit_scope": {"records":40,"products":28,"cat2":25,"meaning_units":56,"theme_assignments":58,"ambiguous_units":14,"answer_annotations":0,"mixed_examples":0,"human_gold":false}
+}

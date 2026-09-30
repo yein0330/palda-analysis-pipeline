@@ -1,0 +1,5312 @@
+{
+  "version": 2,
+  "global": [
+    {
+      "theme_id": "value",
+      "label": "가격/가성비",
+      "keywords": [
+        "가격",
+        "비싸",
+        "저렴",
+        "가성비",
+        "할인"
+      ]
+    },
+    {
+      "theme_id": "delivery",
+      "label": "배송",
+      "keywords": [
+        "배송",
+        "도착",
+        "택배",
+        "출고"
+      ]
+    },
+    {
+      "theme_id": "quality",
+      "label": "품질",
+      "keywords": [
+        "품질",
+        "불량",
+        "마감",
+        "고장"
+      ]
+    },
+    {
+      "theme_id": "usability",
+      "label": "사용성",
+      "keywords": [
+        "사용",
+        "편리",
+        "간편",
+        "어려"
+      ]
+    }
+  ],
+  "cat1": {
+    "도서": [
+      {
+        "theme_id": "content_fit",
+        "label": "내용 적합성",
+        "keywords": [
+          "내용",
+          "주제",
+          "설명"
+        ]
+      },
+      {
+        "theme_id": "difficulty",
+        "label": "난이도",
+        "keywords": [
+          "난이도",
+          "어렵",
+          "쉽"
+        ]
+      },
+      {
+        "theme_id": "readability",
+        "label": "가독성",
+        "keywords": [
+          "가독성",
+          "읽기",
+          "글씨"
+        ]
+      },
+      {
+        "theme_id": "binding",
+        "label": "제본/인쇄",
+        "keywords": [
+          "제본",
+          "인쇄",
+          "페이지"
+        ]
+      }
+    ],
+    "식품": [
+      {
+        "theme_id": "taste",
+        "label": "맛",
+        "keywords": [
+          "맛",
+          "달",
+          "짜",
+          "맵",
+          "향"
+        ]
+      },
+      {
+        "theme_id": "freshness",
+        "label": "신선도",
+        "keywords": [
+          "신선",
+          "상했",
+          "싱싱"
+        ]
+      },
+      {
+        "theme_id": "quantity",
+        "label": "양/용량",
+        "keywords": [
+          "용량",
+          "양",
+          "크기"
+        ]
+      },
+      {
+        "theme_id": "ingredients",
+        "label": "원재료",
+        "keywords": [
+          "원재료",
+          "성분",
+          "첨가물"
+        ]
+      },
+      {
+        "theme_id": "expiry",
+        "label": "유통기한",
+        "keywords": [
+          "유통기한",
+          "소비기한",
+          "보관"
+        ]
+      }
+    ],
+    "패션의류": [
+      {
+        "theme_id": "size",
+        "label": "사이즈",
+        "keywords": [
+          "사이즈",
+          "치수",
+          "크게",
+          "작게"
+        ]
+      },
+      {
+        "theme_id": "fit",
+        "label": "핏",
+        "keywords": [
+          "핏",
+          "기장",
+          "품",
+          "허리"
+        ]
+      },
+      {
+        "theme_id": "material",
+        "label": "소재",
+        "keywords": [
+          "소재",
+          "원단",
+          "재질"
+        ]
+      },
+      {
+        "theme_id": "color",
+        "label": "색상",
+        "keywords": [
+          "색상",
+          "색깔",
+          "컬러"
+        ]
+      },
+      {
+        "theme_id": "comfort",
+        "label": "착용감",
+        "keywords": [
+          "착용감",
+          "편안",
+          "불편"
+        ]
+      },
+      {
+        "theme_id": "durability",
+        "label": "내구성",
+        "keywords": [
+          "내구",
+          "보풀",
+          "늘어",
+          "찢"
+        ]
+      }
+    ],
+    "패션잡화": [
+      {
+        "theme_id": "size",
+        "label": "크기",
+        "keywords": [
+          "크기",
+          "사이즈",
+          "치수"
+        ]
+      },
+      {
+        "theme_id": "storage",
+        "label": "수납",
+        "keywords": [
+          "수납",
+          "공간",
+          "들어가"
+        ]
+      },
+      {
+        "theme_id": "material",
+        "label": "소재",
+        "keywords": [
+          "소재",
+          "재질",
+          "가죽"
+        ]
+      },
+      {
+        "theme_id": "comfort",
+        "label": "착용감",
+        "keywords": [
+          "착용",
+          "편안",
+          "불편"
+        ]
+      },
+      {
+        "theme_id": "design",
+        "label": "디자인",
+        "keywords": [
+          "디자인",
+          "예쁘",
+          "모양"
+        ]
+      }
+    ],
+    "가구/인테리어": [
+      {
+        "theme_id": "dimensions",
+        "label": "크기",
+        "keywords": [
+          "크기",
+          "사이즈",
+          "높이",
+          "폭"
+        ]
+      },
+      {
+        "theme_id": "assembly",
+        "label": "조립/설치",
+        "keywords": [
+          "조립",
+          "설치",
+          "기사"
+        ]
+      },
+      {
+        "theme_id": "durability",
+        "label": "내구성",
+        "keywords": [
+          "내구",
+          "튼튼",
+          "흔들",
+          "꺼짐"
+        ]
+      },
+      {
+        "theme_id": "space",
+        "label": "공간 활용",
+        "keywords": [
+          "공간",
+          "수납",
+          "배치"
+        ]
+      },
+      {
+        "theme_id": "design",
+        "label": "디자인",
+        "keywords": [
+          "디자인",
+          "색상",
+          "인테리어"
+        ]
+      }
+    ],
+    "디지털/가전": [
+      {
+        "theme_id": "performance",
+        "label": "성능",
+        "keywords": [
+          "성능",
+          "속도",
+          "화질",
+          "음질"
+        ]
+      },
+      {
+        "theme_id": "compatibility",
+        "label": "호환성",
+        "keywords": [
+          "호환",
+          "연결",
+          "지원",
+          "기종"
+        ]
+      },
+      {
+        "theme_id": "battery",
+        "label": "배터리",
+        "keywords": [
+          "배터리",
+          "충전",
+          "사용시간"
+        ]
+      },
+      {
+        "theme_id": "heat",
+        "label": "발열",
+        "keywords": [
+          "발열",
+          "뜨거",
+          "열"
+        ]
+      },
+      {
+        "theme_id": "noise",
+        "label": "소음",
+        "keywords": [
+          "소음",
+          "시끄",
+          "조용"
+        ]
+      },
+      {
+        "theme_id": "installation",
+        "label": "설치",
+        "keywords": [
+          "설치",
+          "세팅",
+          "연결"
+        ]
+      }
+    ],
+    "생활/건강": [
+      {
+        "theme_id": "effect",
+        "label": "기능/효과",
+        "keywords": [
+          "효과",
+          "기능",
+          "성능"
+        ]
+      },
+      {
+        "theme_id": "safety",
+        "label": "안전성",
+        "keywords": [
+          "안전",
+          "위험",
+          "인증"
+        ]
+      },
+      {
+        "theme_id": "capacity",
+        "label": "용량",
+        "keywords": [
+          "용량",
+          "크기",
+          "양"
+        ]
+      },
+      {
+        "theme_id": "hygiene",
+        "label": "위생",
+        "keywords": [
+          "위생",
+          "세척",
+          "소독"
+        ]
+      },
+      {
+        "theme_id": "durability",
+        "label": "내구성",
+        "keywords": [
+          "내구",
+          "고장",
+          "튼튼"
+        ]
+      }
+    ],
+    "스포츠/레저": [
+      {
+        "theme_id": "comfort",
+        "label": "착용감",
+        "keywords": [
+          "착용",
+          "편안",
+          "불편"
+        ]
+      },
+      {
+        "theme_id": "weight",
+        "label": "무게",
+        "keywords": [
+          "무게",
+          "가벼",
+          "무거"
+        ]
+      },
+      {
+        "theme_id": "functionality",
+        "label": "기능성",
+        "keywords": [
+          "기능",
+          "방수",
+          "통기"
+        ]
+      },
+      {
+        "theme_id": "safety",
+        "label": "안전성",
+        "keywords": [
+          "안전",
+          "보호",
+          "미끄"
+        ]
+      },
+      {
+        "theme_id": "portability",
+        "label": "휴대성",
+        "keywords": [
+          "휴대",
+          "보관",
+          "접이"
+        ]
+      }
+    ],
+    "여가/생활편의": [
+      {
+        "theme_id": "convenience",
+        "label": "이용 편의",
+        "keywords": [
+          "이용",
+          "편의",
+          "사용"
+        ]
+      },
+      {
+        "theme_id": "location",
+        "label": "위치",
+        "keywords": [
+          "위치",
+          "거리",
+          "주차"
+        ]
+      },
+      {
+        "theme_id": "reservation",
+        "label": "예약",
+        "keywords": [
+          "예약",
+          "시간",
+          "일정"
+        ]
+      },
+      {
+        "theme_id": "service",
+        "label": "서비스",
+        "keywords": [
+          "서비스",
+          "친절",
+          "응대"
+        ]
+      },
+      {
+        "theme_id": "cleanliness",
+        "label": "청결",
+        "keywords": [
+          "청결",
+          "깨끗",
+          "위생"
+        ]
+      },
+      {
+        "theme_id": "refund",
+        "label": "환불",
+        "keywords": [
+          "환불",
+          "취소",
+          "변경"
+        ]
+      }
+    ],
+    "출산/육아": [
+      {
+        "theme_id": "safety",
+        "label": "안전성",
+        "keywords": [
+          "안전",
+          "위험",
+          "인증"
+        ]
+      },
+      {
+        "theme_id": "age_fit",
+        "label": "연령 적합성",
+        "keywords": [
+          "개월",
+          "연령",
+          "나이",
+          "아이"
+        ]
+      },
+      {
+        "theme_id": "material",
+        "label": "소재",
+        "keywords": [
+          "소재",
+          "성분",
+          "재질"
+        ]
+      },
+      {
+        "theme_id": "cleaning",
+        "label": "세척",
+        "keywords": [
+          "세척",
+          "세탁",
+          "소독"
+        ]
+      },
+      {
+        "theme_id": "durability",
+        "label": "내구성",
+        "keywords": [
+          "내구",
+          "튼튼",
+          "파손"
+        ]
+      }
+    ],
+    "화장품/미용": [
+      {
+        "theme_id": "application",
+        "label": "발림성",
+        "keywords": [
+          "발림",
+          "흡수",
+          "밀림"
+        ]
+      },
+      {
+        "theme_id": "longevity",
+        "label": "지속력",
+        "keywords": [
+          "지속",
+          "유지",
+          "번짐"
+        ]
+      },
+      {
+        "theme_id": "color",
+        "label": "색상",
+        "keywords": [
+          "색상",
+          "발색",
+          "컬러"
+        ]
+      },
+      {
+        "theme_id": "skin_fit",
+        "label": "피부 적합성",
+        "keywords": [
+          "피부",
+          "트러블",
+          "건성",
+          "지성"
+        ]
+      },
+      {
+        "theme_id": "scent",
+        "label": "향",
+        "keywords": [
+          "향",
+          "냄새",
+          "무향"
+        ]
+      },
+      {
+        "theme_id": "irritation",
+        "label": "자극",
+        "keywords": [
+          "자극",
+          "따갑",
+          "가려"
+        ]
+      }
+    ]
+  },
+  "cat2": {
+    "가구/인테리어 > DIY자재/용품": [
+      {
+        "theme_id": "material_composition",
+        "label": "재질 구성",
+        "keywords": [
+          "재질",
+          "용접",
+          "스텐",
+          "304",
+          "200계열"
+        ]
+      },
+      {
+        "theme_id": "product_integrity",
+        "label": "제품 무결성",
+        "keywords": [
+          "누락",
+          "제품 없음",
+          "재고 부족",
+          "품절",
+          "재입고"
+        ]
+      }
+    ],
+    "가구/인테리어 > 거실가구": [
+      {
+        "theme_id": "storage_capacity",
+        "label": "수납력",
+        "keywords": [
+          "수납",
+          "공간",
+          "넣다",
+          "부족",
+          "넣을"
+        ]
+      },
+      {
+        "theme_id": "comfort_level",
+        "label": "편안함",
+        "keywords": [
+          "편안",
+          "단단",
+          "부드러",
+          "눌러",
+          "등받이"
+        ]
+      }
+    ],
+    "가구/인테리어 > 베개": [
+      {
+        "theme_id": "support_neck",
+        "label": "목지지",
+        "keywords": [
+          "목",
+          "지지",
+          "받침",
+          "C자",
+          "탄탄"
+        ]
+      },
+      {
+        "theme_id": "cover_material",
+        "label": "커버 소재",
+        "keywords": [
+          "커버",
+          "소재",
+          "텐셀",
+          "통기성",
+          "부드러움"
+        ]
+      }
+    ],
+    "가구/인테리어 > 서재/사무용가구": [
+      {
+        "theme_id": "storage_capacity",
+        "label": "수납 용량",
+        "keywords": [
+          "수납",
+          "공간",
+          "용량",
+          "정리"
+        ]
+      },
+      {
+        "theme_id": "child_safety",
+        "label": "아동 안전",
+        "keywords": [
+          "안전",
+          "모서리",
+          "보호",
+          "라운딩"
+        ]
+      }
+    ],
+    "가구/인테리어 > 솜류": [
+      {
+        "theme_id": "softness",
+        "label": "부드러움",
+        "keywords": [
+          "부드럽",
+          "푸신",
+          "부드러",
+          "편안"
+        ]
+      },
+      {
+        "theme_id": "fill_volume",
+        "label": "채움량",
+        "keywords": [
+          "양",
+          "무게",
+          "용량",
+          "충전"
+        ]
+      }
+    ],
+    "가구/인테리어 > 수납가구": [
+      {
+        "theme_id": "customization",
+        "label": "커스터마이징",
+        "keywords": [
+          "사이즈",
+          "맞춤",
+          "구성",
+          "추가",
+          "단수"
+        ]
+      },
+      {
+        "theme_id": "adjustability",
+        "label": "조절성",
+        "keywords": [
+          "높이",
+          "간격",
+          "조절",
+          "단간격",
+          "칸막이"
+        ]
+      }
+    ],
+    "가구/인테리어 > 수예": [
+      {
+        "theme_id": "color_variety",
+        "label": "색상 다양성",
+        "keywords": [
+          "색상",
+          "알록달록",
+          "다양",
+          "예뻐"
+        ]
+      },
+      {
+        "theme_id": "storage_compatibility",
+        "label": "보관 용이성",
+        "keywords": [
+          "보관",
+          "구멍",
+          "샘플",
+          "정리"
+        ]
+      }
+    ],
+    "가구/인테리어 > 아동/주니어가구": [
+      {
+        "theme_id": "storage_capacity",
+        "label": "수납력",
+        "keywords": [
+          "수납",
+          "넣다",
+          "많이 들어가",
+          "공간"
+        ]
+      },
+      {
+        "theme_id": "child_safety",
+        "label": "아동 안전성",
+        "keywords": [
+          "안전",
+          "부딪힘",
+          "자국",
+          "깨지"
+        ]
+      }
+    ],
+    "가구/인테리어 > 아웃도어가구": [
+      {
+        "theme_id": "weather_resistance",
+        "label": "방수성",
+        "keywords": [
+          "비",
+          "물",
+          "방수",
+          "실리콘",
+          "틈"
+        ]
+      },
+      {
+        "theme_id": "installation_tips",
+        "label": "설치 팁",
+        "keywords": [
+          "팁",
+          "공유",
+          "방법",
+          "설치",
+          "가이드"
+        ]
+      }
+    ],
+    "가구/인테리어 > 인테리어소품": [
+      {
+        "theme_id": "photo_quality",
+        "label": "사진 품질",
+        "keywords": [
+          "화질",
+          "선명",
+          "색감",
+          "보정",
+          "인화"
+        ]
+      },
+      {
+        "theme_id": "personalization",
+        "label": "개인화",
+        "keywords": [
+          "사진",
+          "추억",
+          "선물",
+          "맞춤",
+          "제작"
+        ]
+      }
+    ],
+    "가구/인테리어 > 주방가구": [
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "편한",
+          "편안",
+          "앉아",
+          "등받이",
+          "엉덩이"
+        ]
+      },
+      {
+        "theme_id": "stain_resistance",
+        "label": "오염 저항성",
+        "keywords": [
+          "오염",
+          "얼룩",
+          "지워",
+          "가죽",
+          "시원"
+        ]
+      }
+    ],
+    "가구/인테리어 > 침구단품": [
+      {
+        "theme_id": "thickness",
+        "label": "두께",
+        "keywords": [
+          "두꺼",
+          "두께",
+          "가볍",
+          "도톰",
+          "부드러"
+        ]
+      },
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "편한",
+          "편안",
+          "부드러",
+          "가볍",
+          "누웠을때"
+        ]
+      }
+    ],
+    "가구/인테리어 > 침구세트": [
+      {
+        "theme_id": "cooling_effect",
+        "label": "냉감 효과",
+        "keywords": [
+          "시원",
+          "냉감",
+          "시원한",
+          "냉감이",
+          "시원하게"
+        ]
+      },
+      {
+        "theme_id": "fabric_texture",
+        "label": "원단 텍스처",
+        "keywords": [
+          "부드럽",
+          "보들보들",
+          "부드러",
+          "보드라",
+          "찰찰"
+        ]
+      }
+    ],
+    "가구/인테리어 > 침실가구": [
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "편안",
+          "편하게",
+          "자세",
+          "허리",
+          "다리"
+        ]
+      },
+      {
+        "theme_id": "safety",
+        "label": "안전성",
+        "keywords": [
+          "안전",
+          "낙상",
+          "바",
+          "고정",
+          "안정"
+        ]
+      }
+    ],
+    "가구/인테리어 > 카페트/러그": [
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "가볍고",
+          "시원",
+          "밀리지 않",
+          "부드럽"
+        ]
+      },
+      {
+        "theme_id": "slip_resistance",
+        "label": "미끄럼 방지",
+        "keywords": [
+          "미끄럼방지",
+          "밀리지 않",
+          "정전기"
+        ]
+      }
+    ],
+    "가구/인테리어 > 커튼/블라인드": [
+      {
+        "theme_id": "light_blockage",
+        "label": "빛 차단 효과",
+        "keywords": [
+          "빛 차단",
+          "해가 잘 가려짐",
+          "빛이 새",
+          "차단"
+        ]
+      },
+      {
+        "theme_id": "installation_stability",
+        "label": "고정력",
+        "keywords": [
+          "고정",
+          "고정이 잘 안됨",
+          "떨어짐",
+          "고정압"
+        ]
+      }
+    ],
+    "가구/인테리어 > 홈데코": [
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "시원",
+          "까슬",
+          "밀도",
+          "부드러움"
+        ]
+      },
+      {
+        "theme_id": "fit",
+        "label": "핏/맞춤도",
+        "keywords": [
+          "핏",
+          "맞춤",
+          "크기",
+          "적절"
+        ]
+      }
+    ],
+    "디지털/가전 > PC": [
+      {
+        "theme_id": "design_aesthetics",
+        "label": "디자인/시각적 매력",
+        "keywords": [
+          "디자인",
+          "예쁘",
+          "인테리어",
+          "조명",
+          "화려"
+        ]
+      },
+      {
+        "theme_id": "game_performance",
+        "label": "게임 성능",
+        "keywords": [
+          "게임",
+          "작동",
+          "빠르",
+          "부드럽",
+          "스트리밍"
+        ]
+      }
+    ],
+    "디지털/가전 > PC부품": [
+      {
+        "theme_id": "size_compatibility",
+        "label": "크기 호환성",
+        "keywords": [
+          "작아서",
+          "크기",
+          "손바닥",
+          "반의 반"
+        ]
+      },
+      {
+        "theme_id": "connector_type",
+        "label": "커넥터 유형",
+        "keywords": [
+          "c타입",
+          "헤더",
+          "연결"
+        ]
+      }
+    ],
+    "디지털/가전 > PC액세서리": [
+      {
+        "theme_id": "switch_feedback",
+        "label": "스위치 피드백",
+        "keywords": [
+          "타건감",
+          "소리",
+          "터치감",
+          "타건시"
+        ]
+      },
+      {
+        "theme_id": "key_weight",
+        "label": "키 무게",
+        "keywords": [
+          "키압",
+          "무게",
+          "가벼",
+          "무겁"
+        ]
+      }
+    ],
+    "디지털/가전 > 게임기/타이틀": [
+      {
+        "theme_id": "case_design",
+        "label": "케이스 디자인",
+        "keywords": [
+          "디자인",
+          "귀여",
+          "예쁘",
+          "피카츄",
+          "마리오"
+        ]
+      },
+      {
+        "theme_id": "case_functionality",
+        "label": "케이스 기능",
+        "keywords": [
+          "스탠드",
+          "세우",
+          "끼우",
+          "접착",
+          "고정"
+        ]
+      }
+    ],
+    "디지털/가전 > 계절가전": [
+      {
+        "theme_id": "capacity",
+        "label": "용량",
+        "keywords": [
+          "용량",
+          "크기",
+          "용량이",
+          "용량이크"
+        ]
+      },
+      {
+        "theme_id": "easy_cleaning",
+        "label": "관리성",
+        "keywords": [
+          "세척",
+          "관리",
+          "세척이",
+          "관리가"
+        ]
+      }
+    ],
+    "디지털/가전 > 광학기기/용품": [
+      {
+        "theme_id": "zoom_range",
+        "label": "확대 범위",
+        "keywords": [
+          "확대",
+          "배율",
+          "멀리",
+          "멀리보기",
+          "멀리 있는"
+        ]
+      },
+      {
+        "theme_id": "image_clarity",
+        "label": "화질 명확도",
+        "keywords": [
+          "명확",
+          "선명",
+          "흐릿",
+          "불분명",
+          "시야"
+        ]
+      }
+    ],
+    "디지털/가전 > 네트워크장비": [
+      {
+        "theme_id": "network_stability",
+        "label": "네트워크 안정성",
+        "keywords": [
+          "인터넷",
+          "연결",
+          "끊김",
+          "타임",
+          "IP"
+        ]
+      },
+      {
+        "theme_id": "port_compatibility",
+        "label": "포트 호환성",
+        "keywords": [
+          "포트",
+          "랜선",
+          "연결",
+          "공유기",
+          "기종"
+        ]
+      }
+    ],
+    "디지털/가전 > 노트북": [
+      {
+        "theme_id": "keyboard",
+        "label": "키보드",
+        "keywords": [
+          "키보드",
+          "타건",
+          "타이핑",
+          "타건감"
+        ]
+      },
+      {
+        "theme_id": "portability",
+        "label": "휴대성",
+        "keywords": [
+          "휴대",
+          "가벼",
+          "무게",
+          "두께",
+          "가방"
+        ]
+      },
+      {
+        "theme_id": "display",
+        "label": "디스플레이",
+        "keywords": [
+          "디스플레이",
+          "화면",
+          "해상도",
+          "광시야각",
+          "반사"
+        ]
+      }
+    ],
+    "디지털/가전 > 노트북액세서리": [
+      {
+        "theme_id": "design",
+        "label": "디자인",
+        "keywords": [
+          "디자인",
+          "예쁘",
+          "귀여",
+          "모델",
+          "프린트"
+        ]
+      },
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "편한",
+          "부드러",
+          "가벼",
+          "무게",
+          "패드"
+        ]
+      }
+    ],
+    "디지털/가전 > 멀티미디어장비": [
+      {
+        "theme_id": "microphone_compatibility",
+        "label": "마이크 호환성",
+        "keywords": [
+          "마이크",
+          "호환",
+          "연결",
+          "지원"
+        ]
+      },
+      {
+        "theme_id": "recording_quality",
+        "label": "녹음 품질",
+        "keywords": [
+          "녹음",
+          "음질",
+          "소리",
+          "화질"
+        ]
+      }
+    ],
+    "디지털/가전 > 모니터": [
+      {
+        "theme_id": "smart_function",
+        "label": "스마트 기능",
+        "keywords": [
+          "OTT",
+          "내장",
+          "앱",
+          "연결",
+          "TV",
+          "방송"
+        ]
+      },
+      {
+        "theme_id": "screen_size",
+        "label": "화면 크기",
+        "keywords": [
+          "크기",
+          "인치",
+          "크다",
+          "작다",
+          "사이즈"
+        ]
+      },
+      {
+        "theme_id": "design",
+        "label": "디자인",
+        "keywords": [
+          "디자인",
+          "컬러",
+          "색상",
+          "화이트",
+          "스탠드",
+          "모서리"
+        ]
+      }
+    ],
+    "디지털/가전 > 모니터주변기기": [
+      {
+        "theme_id": "screen_protection",
+        "label": "화면보호",
+        "keywords": [
+          "필름",
+          "블루라이트",
+          "보호",
+          "차단"
+        ]
+      },
+      {
+        "theme_id": "size_compatibility",
+        "label": "사이즈 호환",
+        "keywords": [
+          "사이즈",
+          "맞는",
+          "크기",
+          "적합"
+        ]
+      }
+    ],
+    "디지털/가전 > 생활가전": [
+      {
+        "theme_id": "child_friendly_design",
+        "label": "아이 친화적 디자인",
+        "keywords": [
+          "디자인",
+          "작동법",
+          "간단",
+          "사용법"
+        ]
+      },
+      {
+        "theme_id": "mode_selection",
+        "label": "모드 선택",
+        "keywords": [
+          "모드",
+          "세기",
+          "단계",
+          "조절"
+        ]
+      }
+    ],
+    "디지털/가전 > 소프트웨어": [
+      {
+        "theme_id": "license_duration",
+        "label": "라이선스 기간",
+        "keywords": [
+          "영구",
+          "라이선스",
+          "구독료",
+          "기간"
+        ]
+      }
+    ],
+    "디지털/가전 > 영상가전": [
+      {
+        "theme_id": "remote_control",
+        "label": "리모컨",
+        "keywords": [
+          "리모컨",
+          "제어",
+          "버튼",
+          "작동"
+        ]
+      },
+      {
+        "theme_id": "model_compatibility",
+        "label": "모델 호환",
+        "keywords": [
+          "호환",
+          "모델",
+          "제어",
+          "지원"
+        ]
+      }
+    ],
+    "디지털/가전 > 음향가전": [
+      {
+        "theme_id": "noise_cancellation",
+        "label": "소음제거",
+        "keywords": [
+          "소음",
+          "잡음",
+          "노이즈",
+          "청해지"
+        ]
+      },
+      {
+        "theme_id": "auto_recording",
+        "label": "자동녹음",
+        "keywords": [
+          "자동",
+          "감지",
+          "필요",
+          "소리"
+        ]
+      }
+    ],
+    "디지털/가전 > 이미용가전": [
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "시원",
+          "부드럽",
+          "마사지",
+          "편리"
+        ]
+      },
+      {
+        "theme_id": "skin_effect",
+        "label": "피부 효과",
+        "keywords": [
+          "두피",
+          "피로",
+          "마사지",
+          "향",
+          "시원"
+        ]
+      }
+    ],
+    "디지털/가전 > 자동차기기": [
+      {
+        "theme_id": "os_compatibility",
+        "label": "OS 호환성",
+        "keywords": [
+          "OS",
+          "구동",
+          "로딩",
+          "제한",
+          "기본런처"
+        ]
+      },
+      {
+        "theme_id": "screen_integration",
+        "label": "화면 통합",
+        "keywords": [
+          "화면",
+          "분할",
+          "상단",
+          "상태표시줄",
+          "전체화면"
+        ]
+      }
+    ],
+    "디지털/가전 > 저장장치": [
+      {
+        "theme_id": "memory_preservation",
+        "label": "추억 보존",
+        "keywords": [
+          "추억",
+          "영상",
+          "보존",
+          "감동",
+          "생생"
+        ]
+      },
+      {
+        "theme_id": "tape_condition",
+        "label": "테이프 상태",
+        "keywords": [
+          "곰팡이",
+          "마감",
+          "부식",
+          "손상",
+          "테이프"
+        ]
+      }
+    ],
+    "디지털/가전 > 주방가전": [
+      {
+        "theme_id": "inner_pot_condition",
+        "label": "내솥 상태",
+        "keywords": [
+          "내솥",
+          "코팅",
+          "깨짐",
+          "누수",
+          "깨끗"
+        ]
+      },
+      {
+        "theme_id": "replacement_frequency",
+        "label": "교체 주기",
+        "keywords": [
+          "교체",
+          "주기",
+          "1년",
+          "3개월",
+          "4만원"
+        ]
+      }
+    ],
+    "디지털/가전 > 주변기기": [
+      {
+        "theme_id": "ergonomics",
+        "label": "인체공학",
+        "keywords": [
+          "손에 딱",
+          "착 감기",
+          "불편",
+          "약간 작"
+        ]
+      },
+      {
+        "theme_id": "design",
+        "label": "디자인",
+        "keywords": [
+          "색깔",
+          "이쁘",
+          "그립감",
+          "불빛",
+          "은근한 멋"
+        ]
+      }
+    ],
+    "디지털/가전 > 청소기": [
+      {
+        "theme_id": "dust_capacity",
+        "label": "진공력",
+        "keywords": [
+          "흡입력",
+          "흡입"
+        ]
+      }
+    ],
+    "디지털/가전 > 카메라/캠코더용품": [
+      {
+        "theme_id": "filter_compatibility",
+        "label": "필터 호환성",
+        "keywords": [
+          "필터",
+          "호환",
+          "장착",
+          "맞춤"
+        ]
+      },
+      {
+        "theme_id": "attachment_stability",
+        "label": "부품 고정력",
+        "keywords": [
+          "고정",
+          "불량",
+          "마모",
+          "안정"
+        ]
+      }
+    ],
+    "디지털/가전 > 태블릿PC": [
+      {
+        "theme_id": "screen_size",
+        "label": "화면크기",
+        "keywords": [
+          "크기",
+          "화면",
+          "크게",
+          "작게"
+        ]
+      },
+      {
+        "theme_id": "pen_performance",
+        "label": "펜성능",
+        "keywords": [
+          "펜",
+          "필기",
+          "필기감",
+          "스티치"
+        ]
+      },
+      {
+        "theme_id": "multi_task",
+        "label": "멀티태스킹",
+        "keywords": [
+          "멀티",
+          "분할",
+          "윈도우",
+          "작업"
+        ]
+      }
+    ],
+    "디지털/가전 > 태블릿PC액세서리": [
+      {
+        "theme_id": "stability",
+        "label": "안정성",
+        "keywords": [
+          "안정",
+          "안정감",
+          "넘어지지 않",
+          "직립"
+        ]
+      },
+      {
+        "theme_id": "rotation_range",
+        "label": "회전 범위",
+        "keywords": [
+          "360도",
+          "회전",
+          "돌아가",
+          "회전기능"
+        ]
+      }
+    ],
+    "디지털/가전 > 학습기기": [
+      {
+        "theme_id": "language_recognition",
+        "label": "언어 인식",
+        "keywords": [
+          "인식",
+          "스캔",
+          "단어",
+          "문장"
+        ]
+      },
+      {
+        "theme_id": "gpt_integration",
+        "label": "GPT 연동",
+        "keywords": [
+          "GPT",
+          "교정",
+          "예문",
+          "문법"
+        ]
+      }
+    ],
+    "디지털/가전 > 휴대폰": [
+      {
+        "theme_id": "setup_guidance",
+        "label": "설정 가이드",
+        "keywords": [
+          "설정",
+          "설명서",
+          "설명",
+          "팁",
+          "설정법"
+        ]
+      },
+      {
+        "theme_id": "backup_tool",
+        "label": "백업 도구",
+        "keywords": [
+          "백업",
+          "키트",
+          "복구",
+          "저장",
+          "이동"
+        ]
+      }
+    ],
+    "디지털/가전 > 휴대폰액세서리": [
+      {
+        "theme_id": "retro_design",
+        "label": "레트로 디자인",
+        "keywords": [
+          "레트로",
+          "감성",
+          "옛날"
+        ]
+      },
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "그립감",
+          "무게감",
+          "편한",
+          "편리"
+        ]
+      }
+    ],
+    "생활/건강 > DVD": [
+      {
+        "theme_id": "content",
+        "label": "콘텐츠",
+        "keywords": [
+          "시그",
+          "태민",
+          "태미미",
+          "다이어리",
+          "달력",
+          "내용"
+        ]
+      },
+      {
+        "theme_id": "design",
+        "label": "디자인",
+        "keywords": [
+          "예쁘",
+          "아름다워",
+          "이쁘",
+          "디자인",
+          "외관"
+        ]
+      }
+    ],
+    "생활/건강 > 건강관리용품": [
+      {
+        "theme_id": "nicotine_content",
+        "label": "니코틴 함량",
+        "keywords": [
+          "니코틴",
+          "중독",
+          "흡입",
+          "중독성"
+        ]
+      },
+      {
+        "theme_id": "user_experience",
+        "label": "사용 경험",
+        "keywords": [
+          "사용",
+          "습관",
+          "습관 고치",
+          "습관 지우"
+        ]
+      }
+    ],
+    "생활/건강 > 건강측정용품": [
+      {
+        "theme_id": "measurement_accuracy",
+        "label": "측정 정확도",
+        "keywords": [
+          "정확도",
+          "오차",
+          "오치기",
+          "정확하게"
+        ]
+      },
+      {
+        "theme_id": "user_compliance",
+        "label": "사용자 협조",
+        "keywords": [
+          "협조",
+          "협조만",
+          "애들이 협조"
+        ]
+      }
+    ],
+    "생활/건강 > 공구": [
+      {
+        "theme_id": "model_compatibility",
+        "label": "모델 호환성",
+        "keywords": [
+          "모델",
+          "호환",
+          "적합",
+          "사용"
+        ]
+      },
+      {
+        "theme_id": "work_duration",
+        "label": "작업 기간",
+        "keywords": [
+          "기간",
+          "일수",
+          "대여",
+          "연장"
+        ]
+      }
+    ],
+    "생활/건강 > 관상어용품": [
+      {
+        "theme_id": "carbon_output",
+        "label": "이산화탄소 발생량",
+        "keywords": [
+          "버블",
+          "방울",
+          "이산화탄소",
+          "가스"
+        ]
+      },
+      {
+        "theme_id": "installation_guide",
+        "label": "설치 가이드",
+        "keywords": [
+          "설명서",
+          "설치",
+          "조립",
+          "방법"
+        ]
+      }
+    ],
+    "생활/건강 > 구강위생용품": [
+      {
+        "theme_id": "target_area",
+        "label": "대상 부위",
+        "keywords": [
+          "치아",
+          "아랫니",
+          "윗니",
+          "치간",
+          "잇몸"
+        ]
+      },
+      {
+        "theme_id": "usage_tips",
+        "label": "사용 팁",
+        "keywords": [
+          "사용",
+          "요령",
+          "연습",
+          "방법"
+        ]
+      }
+    ],
+    "생활/건강 > 냉온/찜질용품": [
+      {
+        "theme_id": "heat_distribution",
+        "label": "열 분포",
+        "keywords": [
+          "열감",
+          "온도",
+          "분포",
+          "따뜻",
+          "금방"
+        ]
+      },
+      {
+        "theme_id": "temperature_control",
+        "label": "온도 조절",
+        "keywords": [
+          "온도",
+          "조절",
+          "타이머",
+          "설정",
+          "고",
+          "중",
+          "강"
+        ]
+      }
+    ],
+    "생활/건강 > 눈건강용품": [
+      {
+        "theme_id": "product_compatibility",
+        "label": "호환성",
+        "keywords": [
+          "호환",
+          "크기",
+          "내경",
+          "11.5mm",
+          "12.7mm"
+        ]
+      },
+      {
+        "theme_id": "product_safety",
+        "label": "제품 안정성",
+        "keywords": [
+          "깨짐",
+          "깨끗",
+          "단백질",
+          "제거"
+        ]
+      }
+    ],
+    "생활/건강 > 당뇨관리용품": [
+      {
+        "theme_id": "needle_thickness",
+        "label": "바늘 두께",
+        "keywords": [
+          "바늘",
+          "두께",
+          "0.25mm",
+          "31G"
+        ]
+      },
+      {
+        "theme_id": "insulin_compatibility",
+        "label": "인슐린 호환성",
+        "keywords": [
+          "인슐린",
+          "호환",
+          "제품번호",
+          "소모성"
+        ]
+      }
+    ],
+    "생활/건강 > 문구/사무용품": [
+      {
+        "theme_id": "size_compatibility",
+        "label": "크기 호환성",
+        "keywords": [
+          "크기",
+          "사이즈",
+          "맞춤",
+          "적절"
+        ]
+      },
+      {
+        "theme_id": "color_accuracy",
+        "label": "색상 정확도",
+        "keywords": [
+          "색상",
+          "색",
+          "색상 차이",
+          "색상 불일치"
+        ]
+      }
+    ],
+    "생활/건강 > 물리치료/저주파용품": [
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "따뜻",
+          "부드럽",
+          "편안",
+          "가벼"
+        ]
+      },
+      {
+        "theme_id": "portability",
+        "label": "휴대성",
+        "keywords": [
+          "가볍",
+          "이동",
+          "크기",
+          "부담"
+        ]
+      }
+    ],
+    "생활/건강 > 반려동물": [
+      {
+        "theme_id": "chew_resistance",
+        "label": "구강 보호",
+        "keywords": [
+          "부서짐",
+          "잘부서짐",
+          "이빨",
+          "이가"
+        ]
+      },
+      {
+        "theme_id": "allergy_free",
+        "label": "알러지 안됨",
+        "keywords": [
+          "알러지",
+          "알러지 없음",
+          "알레르기"
+        ]
+      }
+    ],
+    "생활/건강 > 발건강용품": [
+      {
+        "theme_id": "pressure_distribution",
+        "label": "지압 분포",
+        "keywords": [
+          "지압",
+          "분포",
+          "균일",
+          "부담"
+        ]
+      },
+      {
+        "theme_id": "adjustability",
+        "label": "조절성",
+        "keywords": [
+          "조절",
+          "맞춤",
+          "발볼",
+          "높이"
+        ]
+      }
+    ],
+    "생활/건강 > 블루레이": [
+      {
+        "theme_id": "cover_design",
+        "label": "표지 디자인",
+        "keywords": [
+          "표지",
+          "색감",
+          "진열",
+          "분위기"
+        ]
+      },
+      {
+        "theme_id": "dubbing_subtitles",
+        "label": "자막/더빙",
+        "keywords": [
+          "더빙",
+          "자막",
+          "한글자막"
+        ]
+      }
+    ],
+    "생활/건강 > 생활용품": [
+      {
+        "theme_id": "installation",
+        "label": "설치",
+        "keywords": [
+          "설치",
+          "설치방법",
+          "설치가능",
+          "설치하기"
+        ]
+      },
+      {
+        "theme_id": "compatibility",
+        "label": "호환성",
+        "keywords": [
+          "호환",
+          "문닫",
+          "문단차",
+          "맞게닫"
+        ]
+      }
+    ],
+    "생활/건강 > 세탁용품": [
+      {
+        "theme_id": "steam_function",
+        "label": "스팀 기능",
+        "keywords": [
+          "스텐",
+          "스팀",
+          "소독",
+          "위생"
+        ]
+      },
+      {
+        "theme_id": "size_comfort",
+        "label": "크기 적정성",
+        "keywords": [
+          "크기",
+          "작다",
+          "크다",
+          "적당"
+        ]
+      }
+    ],
+    "생활/건강 > 수납/정리용품": [
+      {
+        "theme_id": "hook_design",
+        "label": "집게 디자인",
+        "keywords": [
+          "집게",
+          "스프링",
+          "고무",
+          "자국"
+        ]
+      },
+      {
+        "theme_id": "adjustable_width",
+        "label": "가변 너비",
+        "keywords": [
+          "너비",
+          "조절",
+          "가능",
+          "좁혀"
+        ]
+      }
+    ],
+    "생활/건강 > 수집품": [
+      {
+        "theme_id": "collectibility",
+        "label": "수집가치",
+        "keywords": [
+          "추억",
+          "템",
+          "드득",
+          "재미",
+          "재구매"
+        ]
+      },
+      {
+        "theme_id": "design",
+        "label": "디자인",
+        "keywords": [
+          "컬러",
+          "세련",
+          "귀여",
+          "디자인",
+          "패키지"
+        ]
+      }
+    ],
+    "생활/건강 > 실버용품": [
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "편한",
+          "안정적",
+          "미끄러지지 않다"
+        ]
+      },
+      {
+        "theme_id": "adjustability",
+        "label": "조절성",
+        "keywords": [
+          "높낮이",
+          "조정",
+          "접이식",
+          "접는 방식"
+        ]
+      }
+    ],
+    "생활/건강 > 악기": [
+      {
+        "theme_id": "learning_curve",
+        "label": "학습곡선",
+        "keywords": [
+          "처음",
+          "어려",
+          "혼자",
+          "배우",
+          "연습"
+        ]
+      },
+      {
+        "theme_id": "sound_quality",
+        "label": "음질",
+        "keywords": [
+          "소리",
+          "소리좋",
+          "소리안",
+          "소리짱"
+        ]
+      }
+    ],
+    "생활/건강 > 안마용품": [
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "시원",
+          "부드럽",
+          "아프지 않",
+          "적당한 강도"
+        ]
+      },
+      {
+        "theme_id": "design",
+        "label": "디자인",
+        "keywords": [
+          "모양",
+          "귀여운",
+          "작고",
+          "동글동글"
+        ]
+      }
+    ],
+    "생활/건강 > 욕실용품": [
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "불편",
+          "편리",
+          "편한",
+          "불편한"
+        ]
+      },
+      {
+        "theme_id": "portability",
+        "label": "휴대성",
+        "keywords": [
+          "휴대",
+          "가방",
+          "소지",
+          "작은"
+        ]
+      }
+    ],
+    "생활/건강 > 원예/식물": [
+      {
+        "theme_id": "plant_type",
+        "label": "식물종류",
+        "keywords": [
+          "이오난사",
+          "꽃",
+          "잎",
+          "식물"
+        ]
+      },
+      {
+        "theme_id": "growth_condition",
+        "label": "생장환경",
+        "keywords": [
+          "빛",
+          "온도",
+          "습도",
+          "관리"
+        ]
+      }
+    ],
+    "생활/건강 > 음반": [
+      {
+        "theme_id": "artist_similarity",
+        "label": "아티스트 유사도",
+        "keywords": [
+          "최애",
+          "좋아",
+          "재현",
+          "운학"
+        ]
+      },
+      {
+        "theme_id": "random_album",
+        "label": "랜덤 앨범",
+        "keywords": [
+          "랜덤",
+          "랜덤포카",
+          "랜덤앨범",
+          "운학"
+        ]
+      }
+    ],
+    "생활/건강 > 의료용품": [
+      {
+        "theme_id": "particle_size",
+        "label": "입자 크기",
+        "keywords": [
+          "입자",
+          "미세",
+          "입자크기",
+          "분무입자"
+        ]
+      },
+      {
+        "theme_id": "user_friendly_design",
+        "label": "사용자 친화적 디자인",
+        "keywords": [
+          "디자인",
+          "작동",
+          "편리",
+          "사용"
+        ]
+      }
+    ],
+    "생활/건강 > 자동차용품": [
+      {
+        "theme_id": "scent_character",
+        "label": "향 특징",
+        "keywords": [
+          "향",
+          "특징",
+          "감성",
+          "은은",
+          "상쾌"
+        ]
+      },
+      {
+        "theme_id": "deodorization_effect",
+        "label": "탈취 효과",
+        "keywords": [
+          "탈취",
+          "냄새",
+          "제거",
+          "사라지",
+          "줄어"
+        ]
+      }
+    ],
+    "생활/건강 > 재활운동용품": [
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "편안",
+          "부담",
+          "답답",
+          "가벼",
+          "통기"
+        ]
+      },
+      {
+        "theme_id": "adjustability",
+        "label": "조절성",
+        "keywords": [
+          "조절",
+          "벨크로",
+          "길이",
+          "압박",
+          "맞춤"
+        ]
+      }
+    ],
+    "생활/건강 > 정원/원예용품": [
+      {
+        "theme_id": "size_recommendation",
+        "label": "사이즈 추천",
+        "keywords": [
+          "사이즈",
+          "추천",
+          "적당",
+          "크기"
+        ]
+      },
+      {
+        "theme_id": "drainage",
+        "label": "배수 성능",
+        "keywords": [
+          "배수",
+          "부식",
+          "배수가"
+        ]
+      }
+    ],
+    "생활/건강 > 종교": [
+      {
+        "theme_id": "spiritual_effect",
+        "label": "정신적 효과",
+        "keywords": [
+          "효과",
+          "기운",
+          "기분",
+          "편안",
+          "안정"
+        ]
+      },
+      {
+        "theme_id": "ritual_procedure",
+        "label": "예식 절차",
+        "keywords": [
+          "봉안",
+          "기도",
+          "접시",
+          "접시법",
+          "봉인"
+        ]
+      }
+    ],
+    "생활/건강 > 좌욕/좌훈용품": [
+      {
+        "theme_id": "material_safety",
+        "label": "재질 안전성",
+        "keywords": [
+          "무독성",
+          "환경호르몬",
+          "인증",
+          "LDPE"
+        ]
+      },
+      {
+        "theme_id": "comfort_fit",
+        "label": "편안함/맞춤형",
+        "keywords": [
+          "착용감",
+          "편안",
+          "맞춤",
+          "디자인"
+        ]
+      }
+    ],
+    "생활/건강 > 주방용품": [
+      {
+        "theme_id": "storage_capacity",
+        "label": "보관용량",
+        "keywords": [
+          "용량",
+          "크기",
+          "11파이",
+          "15파이"
+        ]
+      },
+      {
+        "theme_id": "material_strength",
+        "label": "재질강도",
+        "keywords": [
+          "튼튼",
+          "고장",
+          "내구",
+          "파우치"
+        ]
+      }
+    ],
+    "생활/건강 > 청소용품": [
+      {
+        "theme_id": "absorbency",
+        "label": "흡수력",
+        "keywords": [
+          "흡수",
+          "흡수력",
+          "물 흡수"
+        ]
+      },
+      {
+        "theme_id": "cleaning_performance",
+        "label": "청소 효과",
+        "keywords": [
+          "청소",
+          "달라붙",
+          "먼지",
+          "오염"
+        ]
+      }
+    ],
+    "생활/건강 > 화방용품": [
+      {
+        "theme_id": "size_customization",
+        "label": "크기 맞춤",
+        "keywords": [
+          "크기",
+          "맞춤",
+          "주문",
+          "제작"
+        ]
+      },
+      {
+        "theme_id": "material_type",
+        "label": "재질 종류",
+        "keywords": [
+          "재질",
+          "아크릴",
+          "포맥스",
+          "물에 강한"
+        ]
+      }
+    ],
+    "스포츠/레저 > 검도": [
+      {
+        "theme_id": "balance",
+        "label": "밸런스",
+        "keywords": [
+          "밸런스",
+          "중심",
+          "무게",
+          "균형"
+        ]
+      },
+      {
+        "theme_id": "durability",
+        "label": "내구성",
+        "keywords": [
+          "내구성",
+          "탄탄",
+          "견고",
+          "내구"
+        ]
+      }
+    ],
+    "스포츠/레저 > 골프": [
+      {
+        "theme_id": "trajectory_control",
+        "label": "트랙스터리 제어",
+        "keywords": [
+          "공 방향",
+          "공 휘어짐",
+          "공 이동",
+          "공 굴러"
+        ]
+      },
+      {
+        "theme_id": "practice_effectiveness",
+        "label": "연습 효과",
+        "keywords": [
+          "실력 늘어",
+          "타수 줄",
+          "퍼터 신",
+          "연습 효과"
+        ]
+      }
+    ],
+    "스포츠/레저 > 권투": [
+      {
+        "theme_id": "grip_feel",
+        "label": "그립감",
+        "keywords": [
+          "그립",
+          "손에 착 감기",
+          "타격감"
+        ]
+      },
+      {
+        "theme_id": "wrist_protection",
+        "label": "손목 보호",
+        "keywords": [
+          "벨크로",
+          "보호",
+          "부상"
+        ]
+      }
+    ],
+    "스포츠/레저 > 기타스포츠용품": [
+      {
+        "theme_id": "volume_reduction",
+        "label": "부피감소",
+        "keywords": [
+          "부피",
+          "줄어들",
+          "공간",
+          "차지"
+        ]
+      }
+    ],
+    "스포츠/레저 > 낚시": [
+      {
+        "theme_id": "handle_design",
+        "label": "손잡이 디자인",
+        "keywords": [
+          "손잡이",
+          "그립",
+          "길이",
+          "정교"
+        ]
+      },
+      {
+        "theme_id": "durability",
+        "label": "내구성",
+        "keywords": [
+          "튼튼",
+          "마감",
+          "다듬",
+          "내구"
+        ]
+      }
+    ],
+    "스포츠/레저 > 농구": [
+      {
+        "theme_id": "storage_capacity",
+        "label": "수납용량",
+        "keywords": [
+          "공 들어가",
+          "공 들어",
+          "공 넣",
+          "공 수납"
+        ]
+      },
+      {
+        "theme_id": "adjustable_straps",
+        "label": "끈 조절",
+        "keywords": [
+          "길이 조절",
+          "끈 조절",
+          "끈 정리",
+          "끈 꼬여"
+        ]
+      }
+    ],
+    "스포츠/레저 > 당구용품": [
+      {
+        "theme_id": "tip_condition",
+        "label": "팁 상태",
+        "keywords": [
+          "팁",
+          "손질",
+          "손상",
+          "깨끗"
+        ]
+      },
+      {
+        "theme_id": "joint_quality",
+        "label": "조인트 품질",
+        "keywords": [
+          "조인트",
+          "분리",
+          "고무",
+          "본드"
+        ]
+      }
+    ],
+    "스포츠/레저 > 댄스": [
+      {
+        "theme_id": "fit_adjustment",
+        "label": "핏 조정",
+        "keywords": [
+          "조절",
+          "자르기",
+          "브이자",
+          "길이"
+        ]
+      },
+      {
+        "theme_id": "size_selection",
+        "label": "사이즈 선택",
+        "keywords": [
+          "사이즈",
+          "Free",
+          "크기",
+          "폭",
+          "길이"
+        ]
+      }
+    ],
+    "스포츠/레저 > 등산": [
+      {
+        "theme_id": "ventilation",
+        "label": "환기성",
+        "keywords": [
+          "바람",
+          "시원",
+          "통풍",
+          "구석구석"
+        ]
+      },
+      {
+        "theme_id": "ice_packs",
+        "label": "아이스팩",
+        "keywords": [
+          "아이스팩",
+          "냉기",
+          "보냉",
+          "냉각"
+        ]
+      }
+    ],
+    "스포츠/레저 > 러닝용품": [
+      {
+        "theme_id": "fabric_composition",
+        "label": "소재구성",
+        "keywords": [
+          "소재",
+          "구성",
+          "혼纺",
+          "면",
+          "폴리"
+        ]
+      },
+      {
+        "theme_id": "ventilation",
+        "label": "통기성",
+        "keywords": [
+          "통기",
+          "시원",
+          "방풍",
+          "쿨링"
+        ]
+      }
+    ],
+    "스포츠/레저 > 무술용품": [
+      {
+        "theme_id": "noise_level",
+        "label": "소음",
+        "keywords": [
+          "시끄",
+          "소음"
+        ]
+      },
+      {
+        "theme_id": "product_suitability",
+        "label": "적합성",
+        "keywords": [
+          "적합",
+          "사용",
+          "연습",
+          "크기"
+        ]
+      }
+    ],
+    "스포츠/레저 > 배구": [
+      {
+        "theme_id": "impact_softness",
+        "label": "충격 완화감",
+        "keywords": [
+          "말랑",
+          "푹신",
+          "아프지",
+          "질감"
+        ]
+      },
+      {
+        "theme_id": "shape_retention",
+        "label": "형태 유지력",
+        "keywords": [
+          "흐물흐물",
+          "겉피",
+          "내용물",
+          "늘어난"
+        ]
+      }
+    ],
+    "스포츠/레저 > 배드민턴": [
+      {
+        "theme_id": "storage_capacity",
+        "label": "보관력",
+        "keywords": [
+          "공간",
+          "작아",
+          "넓은",
+          "정리"
+        ]
+      },
+      {
+        "theme_id": "adjustability",
+        "label": "조절성",
+        "keywords": [
+          "높이",
+          "조절",
+          "길이",
+          "설치"
+        ]
+      }
+    ],
+    "스포츠/레저 > 보호용품": [
+      {
+        "theme_id": "adjustability",
+        "label": "조절성",
+        "keywords": [
+          "조절",
+          "고정",
+          "조여",
+          "약하게",
+          "적당"
+        ]
+      },
+      {
+        "theme_id": "support_effectiveness",
+        "label": "보호 효과",
+        "keywords": [
+          "보호",
+          "받쳐",
+          "받아주",
+          "부담",
+          "충격"
+        ]
+      }
+    ],
+    "스포츠/레저 > 볼링": [
+      {
+        "theme_id": "ball_weight",
+        "label": "공 무게",
+        "keywords": [
+          "공 무게",
+          "무게",
+          "가벼",
+          "무거"
+        ]
+      },
+      {
+        "theme_id": "insert_size",
+        "label": "인서트 사이즈",
+        "keywords": [
+          "인서트",
+          "사이즈",
+          "호수",
+          "49",
+          "47",
+          "21"
+        ]
+      }
+    ],
+    "스포츠/레저 > 수련용품": [
+      {
+        "theme_id": "difficulty_level",
+        "label": "난이도",
+        "keywords": [
+          "난이도",
+          "어려",
+          "쉽",
+          "버거",
+          "힘"
+        ]
+      },
+      {
+        "theme_id": "durability",
+        "label": "내구성",
+        "keywords": [
+          "내구",
+          "단단",
+          "부러",
+          "손상",
+          "내구성"
+        ]
+      }
+    ],
+    "스포츠/레저 > 수영": [
+      {
+        "theme_id": "fit_for_age",
+        "label": "연령 적합성",
+        "keywords": [
+          "초등",
+          "고등",
+          "남편",
+          "아이",
+          "아들"
+        ]
+      },
+      {
+        "theme_id": "set_inclusion",
+        "label": "세트 구성품",
+        "keywords": [
+          "세트",
+          "수영모",
+          "수경",
+          "가방"
+        ]
+      }
+    ],
+    "스포츠/레저 > 스케이트/보드/롤러": [
+      {
+        "theme_id": "handle_stability",
+        "label": "핸들 안정성",
+        "keywords": [
+          "핸들",
+          "흔들림",
+          "불안정"
+        ]
+      },
+      {
+        "theme_id": "wheel_design",
+        "label": "바퀴 디자인",
+        "keywords": [
+          "바퀴",
+          "스프링",
+          "바퀴불"
+        ]
+      }
+    ],
+    "스포츠/레저 > 스쿼시": [
+      {
+        "theme_id": "string_type",
+        "label": "그립타입",
+        "keywords": [
+          "그립",
+          "감아",
+          "감겨",
+          "타입"
+        ]
+      },
+      {
+        "theme_id": "string_condition",
+        "label": "스트링 조건",
+        "keywords": [
+          "스트링",
+          "작업",
+          "감아",
+          "설명"
+        ]
+      }
+    ],
+    "스포츠/레저 > 스키/보드": [
+      {
+        "theme_id": "impact_protection",
+        "label": "충격보호",
+        "keywords": [
+          "보호",
+          "보호대",
+          "안아프다",
+          "부딪힘"
+        ]
+      },
+      {
+        "theme_id": "padding_thickness",
+        "label": "패딩두께",
+        "keywords": [
+          "두툼",
+          "가볍",
+          "민망",
+          "두꺼"
+        ]
+      }
+    ],
+    "스포츠/레저 > 스킨스쿠버": [
+      {
+        "theme_id": "head_shape_compatibility",
+        "label": "머리형태 적합성",
+        "keywords": [
+          "크다",
+          "작다",
+          "소두",
+          "대두",
+          "맞다"
+        ]
+      },
+      {
+        "theme_id": "hair_flow_control",
+        "label": "머리카락 흐름 제어",
+        "keywords": [
+          "머리카락",
+          "흘러내리",
+          "앞머리",
+          "산발"
+        ]
+      }
+    ],
+    "스포츠/레저 > 스포츠액세서리": [
+      {
+        "theme_id": "sun_protection",
+        "label": "자외선 차단",
+        "keywords": [
+          "자외선",
+          "차단",
+          "빛",
+          "보호"
+        ]
+      },
+      {
+        "theme_id": "breathability",
+        "label": "호흡성",
+        "keywords": [
+          "숨쉬",
+          "호흡",
+          "통기"
+        ]
+      }
+    ],
+    "스포츠/레저 > 야구": [
+      {
+        "theme_id": "collectibility",
+        "label": "수집·사인 용도",
+        "keywords": [
+          "선수 싸인",
+          "사인 받",
+          "사인볼"
+        ]
+      },
+      {
+        "theme_id": "storage_case_inclusion",
+        "label": "보관 케이스 구성",
+        "keywords": [
+          "케이스",
+          "케이스 없",
+          "케이스 몇개"
+        ]
+      }
+    ],
+    "스포츠/레저 > 오토바이/스쿠터": [
+      {
+        "theme_id": "bolt_direction",
+        "label": "볼트 방향",
+        "keywords": [
+          "방향",
+          "정방향",
+          "역방향",
+          "볼트"
+        ]
+      },
+      {
+        "theme_id": "bolt_material",
+        "label": "볼트 재질",
+        "keywords": [
+          "재질",
+          "볼트",
+          "은색",
+          "검은",
+          "내부"
+        ]
+      }
+    ],
+    "스포츠/레저 > 요가/필라테스": [
+      {
+        "theme_id": "material_feel",
+        "label": "소재감",
+        "keywords": [
+          "촉감",
+          "재질",
+          "소재",
+          "마감"
+        ]
+      },
+      {
+        "theme_id": "adjustability",
+        "label": "조절성",
+        "keywords": [
+          "조절",
+          "길이",
+          "분량",
+          "적절"
+        ]
+      }
+    ],
+    "스포츠/레저 > 자전거": [
+      {
+        "theme_id": "frame_size",
+        "label": "프레임 사이즈",
+        "keywords": [
+          "인치",
+          "크기",
+          "작다",
+          "크다",
+          "적당"
+        ]
+      },
+      {
+        "theme_id": "assembly",
+        "label": "조립성",
+        "keywords": [
+          "조립",
+          "영상",
+          "부품",
+          "나사"
+        ]
+      }
+    ],
+    "스포츠/레저 > 족구": [
+      {
+        "theme_id": "stability",
+        "label": "안정성",
+        "keywords": [
+          "움직임",
+          "정도",
+          "고정"
+        ]
+      },
+      {
+        "theme_id": "adjustability",
+        "label": "조절성",
+        "keywords": [
+          "높이",
+          "연장",
+          "조절",
+          "높낮"
+        ]
+      }
+    ],
+    "스포츠/레저 > 축구": [
+      {
+        "theme_id": "storage_capacity",
+        "label": "수납력",
+        "keywords": [
+          "수납",
+          "공간",
+          "용량",
+          "넣다"
+        ]
+      },
+      {
+        "theme_id": "size_adaptability",
+        "label": "사이즈 적합성",
+        "keywords": [
+          "사이즈",
+          "적합",
+          "맞춤",
+          "크기"
+        ]
+      }
+    ],
+    "스포츠/레저 > 캠핑": [
+      {
+        "theme_id": "weather_resistance",
+        "label": "방수성",
+        "keywords": [
+          "방수",
+          "비",
+          "바람",
+          "누수"
+        ]
+      },
+      {
+        "theme_id": "durability",
+        "label": "내구성",
+        "keywords": [
+          "튼튼",
+          "단단",
+          "견고",
+          "갈라지"
+        ]
+      }
+    ],
+    "스포츠/레저 > 탁구": [
+      {
+        "theme_id": "net_length",
+        "label": "네트 길이",
+        "keywords": [
+          "네트",
+          "짧",
+          "길이"
+        ]
+      },
+      {
+        "theme_id": "scent",
+        "label": "냄새",
+        "keywords": [
+          "냄새",
+          "화학",
+          "악취"
+        ]
+      }
+    ],
+    "스포츠/레저 > 테니스": [
+      {
+        "theme_id": "grip_feel",
+        "label": "그립감",
+        "keywords": [
+          "그립",
+          "감",
+          "손에 감기는",
+          "끈적",
+          "끈적끈적"
+        ]
+      },
+      {
+        "theme_id": "color_preference",
+        "label": "색상 선호",
+        "keywords": [
+          "색",
+          "색감",
+          "형광색",
+          "민트색",
+          "이쁘"
+        ]
+      }
+    ],
+    "스포츠/레저 > 헬스": [
+      {
+        "theme_id": "stability",
+        "label": "안정성",
+        "keywords": [
+          "안정",
+          "흔들림",
+          "고정",
+          "버티"
+        ]
+      },
+      {
+        "theme_id": "ergonomics",
+        "label": "인체공학",
+        "keywords": [
+          "인체공학",
+          "편안",
+          "불편",
+          "손잡이",
+          "그립"
+        ]
+      }
+    ],
+    "식품 > 가루/분말류": [
+      {
+        "theme_id": "preparation_method",
+        "label": "조리방법",
+        "keywords": [
+          "타먹",
+          "끓여먹",
+          "우유",
+          "물",
+          "차"
+        ]
+      },
+      {
+        "theme_id": "texture",
+        "label": "질감",
+        "keywords": [
+          "딱딱",
+          "미끌거림",
+          "고소",
+          "입자가"
+        ]
+      }
+    ],
+    "식품 > 건강식품": [
+      {
+        "theme_id": "flavor_intensity",
+        "label": "맛 강도",
+        "keywords": [
+          "달",
+          "싱겁",
+          "적당히",
+          "매운",
+          "부드러"
+        ]
+      },
+      {
+        "theme_id": "convenience",
+        "label": "편리성",
+        "keywords": [
+          "편하게",
+          "한팩씩",
+          "간편",
+          "부담"
+        ]
+      }
+    ],
+    "식품 > 김치": [
+      {
+        "theme_id": "spice_level",
+        "label": "매운 정도",
+        "keywords": [
+          "매운",
+          "맵",
+          "달",
+          "간",
+          "향"
+        ]
+      },
+      {
+        "theme_id": "fermentation",
+        "label": "발효 상태",
+        "keywords": [
+          "발효",
+          "절여진",
+          "익은",
+          "신선"
+        ]
+      }
+    ],
+    "식품 > 냉동/간편조리식품": [
+      {
+        "theme_id": "spice_level",
+        "label": "매운 정도",
+        "keywords": [
+          "매운",
+          "맵",
+          "매운맛",
+          "보통맛",
+          "달달"
+        ]
+      },
+      {
+        "theme_id": "portion_size",
+        "label": "포션/양",
+        "keywords": [
+          "양",
+          "3+1",
+          "1세트",
+          "2세트"
+        ]
+      }
+    ],
+    "식품 > 농산물": [
+      {
+        "theme_id": "texture",
+        "label": "구성/구조",
+        "keywords": [
+          "껍질",
+          "속",
+          "껍질/속",
+          "껍질이",
+          "속이"
+        ]
+      },
+      {
+        "theme_id": "processing",
+        "label": "가공/처리",
+        "keywords": [
+          "건조",
+          "말린",
+          "반건시",
+          "건조도",
+          "건조한"
+        ]
+      }
+    ],
+    "식품 > 다이어트식품": [
+      {
+        "theme_id": "flavor_profile",
+        "label": "맛 프로필",
+        "keywords": [
+          "맛",
+          "향",
+          "맛있",
+          "부드러",
+          "달",
+          "진한",
+          "우유",
+          "커피"
+        ]
+      },
+      {
+        "theme_id": "texture",
+        "label": "질감",
+        "keywords": [
+          "점도",
+          "부드러",
+          "가볍",
+          "무거",
+          "걸쭉",
+          "입 안"
+        ]
+      },
+      {
+        "theme_id": "sugar_content",
+        "label": "당류 함량",
+        "keywords": [
+          "당류",
+          "당",
+          "당도",
+          "저당",
+          "로우 슈거",
+          "0.7g"
+        ]
+      }
+    ],
+    "식품 > 떡류": [
+      {
+        "theme_id": "design",
+        "label": "디자인",
+        "keywords": [
+          "디자인",
+          "예쁘",
+          "모습",
+          "외관"
+        ]
+      },
+      {
+        "theme_id": "portion_size",
+        "label": "분량",
+        "keywords": [
+          "분량",
+          "개당",
+          "한입",
+          "크기"
+        ]
+      }
+    ],
+    "식품 > 라면/면류": [
+      {
+        "theme_id": "texture",
+        "label": "식감",
+        "keywords": [
+          "탱글",
+          "서걱",
+          "쫄깃",
+          "부드러움"
+        ]
+      },
+      {
+        "theme_id": "preparation",
+        "label": "준비방법",
+        "keywords": [
+          "바로먹",
+          "따로 삶",
+          "고명",
+          "국물"
+        ]
+      }
+    ],
+    "식품 > 밀키트": [
+      {
+        "theme_id": "portion_size",
+        "label": "포션크기",
+        "keywords": [
+          "양",
+          "많",
+          "적",
+          "소량",
+          "크기"
+        ]
+      },
+      {
+        "theme_id": "preparation",
+        "label": "조리방법",
+        "keywords": [
+          "조리",
+          "해동",
+          "데치",
+          "조리시간",
+          "재료"
+        ]
+      }
+    ],
+    "식품 > 반찬": [
+      {
+        "theme_id": "spice_level",
+        "label": "매운 정도",
+        "keywords": [
+          "매운",
+          "맵",
+          "매콤",
+          "칼칼",
+          "적당"
+        ]
+      },
+      {
+        "theme_id": "usage_scenario",
+        "label": "사용 시나리오",
+        "keywords": [
+          "밥에",
+          "비벼먹",
+          "김밥",
+          "김치",
+          "고기",
+          "등산"
+        ]
+      }
+    ],
+    "식품 > 빵/베이커리": [
+      {
+        "theme_id": "freezing_method",
+        "label": "냉동방법",
+        "keywords": [
+          "냉동",
+          "해동",
+          "냉장",
+          "보관"
+        ]
+      },
+      {
+        "theme_id": "product_form",
+        "label": "제품 형태",
+        "keywords": [
+          "생지",
+          "시트",
+          "생지시트",
+          "패키지"
+        ]
+      }
+    ],
+    "식품 > 소스/드레싱": [
+      {
+        "theme_id": "health_concern",
+        "label": "건강 우려",
+        "keywords": [
+          "재료",
+          "건강",
+          "염증",
+          "당뇨",
+          "저탄"
+        ]
+      },
+      {
+        "theme_id": "product_usage",
+        "label": "제품 활용",
+        "keywords": [
+          "사용",
+          "요리",
+          "조합",
+          "혼합",
+          "섞"
+        ]
+      }
+    ],
+    "식품 > 수산물": [
+      {
+        "theme_id": "size_variation",
+        "label": "크기 차이",
+        "keywords": [
+          "크기",
+          "작아",
+          "커서",
+          "작아서",
+          "크기 차이"
+        ]
+      },
+      {
+        "theme_id": "usage_scenario",
+        "label": "사용 방법",
+        "keywords": [
+          "볶아",
+          "튀기",
+          "육수",
+          "국물",
+          "요리"
+        ]
+      }
+    ],
+    "식품 > 스낵/과자": [
+      {
+        "theme_id": "texture",
+        "label": "구성/구조",
+        "keywords": [
+          "바삭",
+          "고소",
+          "부드러움",
+          "바싹",
+          "크기"
+        ]
+      },
+      {
+        "theme_id": "portion",
+        "label": "포션/분량",
+        "keywords": [
+          "양",
+          "크기",
+          "한입",
+          "한봉"
+        ]
+      }
+    ],
+    "식품 > 식용유/오일": [
+      {
+        "theme_id": "handwritten_note",
+        "label": "손편지",
+        "keywords": [
+          "손편지",
+          "편지",
+          "정성",
+          "감동"
+        ]
+      },
+      {
+        "theme_id": "oil_type",
+        "label": "유형",
+        "keywords": [
+          "유형",
+          "압착",
+          "냉압착",
+          "정제"
+        ]
+      }
+    ],
+    "식품 > 아이스크림/빙수": [
+      {
+        "theme_id": "melting_issue",
+        "label": "녹기문제",
+        "keywords": [
+          "녹아서",
+          "녹기않게",
+          "녹음",
+          "녹음하지"
+        ]
+      }
+    ],
+    "식품 > 유가공품": [
+      {
+        "theme_id": "texture",
+        "label": "구성/구조",
+        "keywords": [
+          "꾸덕",
+          "부드러움",
+          "크래커",
+          "발라서"
+        ]
+      },
+      {
+        "theme_id": "usage_method",
+        "label": "사용방법",
+        "keywords": [
+          "샐러드에",
+          "빵에",
+          "찍어먹기",
+          "발라서"
+        ]
+      }
+    ],
+    "식품 > 음료": [
+      {
+        "theme_id": "flavor_profile",
+        "label": "향/맛 프로필",
+        "keywords": [
+          "향",
+          "달",
+          "맵",
+          "달달",
+          "진한"
+        ]
+      },
+      {
+        "theme_id": "customization",
+        "label": "개인화/조절",
+        "keywords": [
+          "조절",
+          "농도",
+          "선택",
+          "맛"
+        ]
+      }
+    ],
+    "식품 > 장류": [
+      {
+        "theme_id": "texture",
+        "label": "질감",
+        "keywords": [
+          "실",
+          "부드러움",
+          "가락",
+          "녹는 정도"
+        ]
+      },
+      {
+        "theme_id": "pairing",
+        "label": "조합",
+        "keywords": [
+          "동봉",
+          "야채절임",
+          "간장",
+          "소스",
+          "조합"
+        ]
+      }
+    ],
+    "식품 > 잼/시럽": [
+      {
+        "theme_id": "texture",
+        "label": "질감",
+        "keywords": [
+          "부드럽",
+          "크리미",
+          "고소",
+          "тверд",
+          "액체"
+        ]
+      },
+      {
+        "theme_id": "pairing",
+        "label": "조합",
+        "keywords": [
+          "조합",
+          "함께",
+          "동반",
+          "부드럽",
+          "고소"
+        ]
+      }
+    ],
+    "식품 > 전통과자": [
+      {
+        "theme_id": "texture",
+        "label": "구성/구조",
+        "keywords": [
+          "식감",
+          "마른거같은",
+          "껍질",
+          "껍질이",
+          "껍질이없"
+        ]
+      }
+    ],
+    "식품 > 제과/제빵재료": [
+      {
+        "theme_id": "cooking_time",
+        "label": "조리시간",
+        "keywords": [
+          "조리",
+          "시간",
+          "만들기",
+          "작업"
+        ]
+      },
+      {
+        "theme_id": "product_usage",
+        "label": "사용처",
+        "keywords": [
+          "사용",
+          "먹기",
+          "호떡",
+          "한끼",
+          "간식"
+        ]
+      }
+    ],
+    "식품 > 젤리/사탕/초콜릿": [
+      {
+        "theme_id": "challenges",
+        "label": "도전성",
+        "keywords": [
+          "도전",
+          "버티기",
+          "신맛",
+          "챌린지"
+        ]
+      },
+      {
+        "theme_id": "portion_control",
+        "label": "분량 조절",
+        "keywords": [
+          "단계",
+          "5단계",
+          "4단계",
+          "분량"
+        ]
+      }
+    ],
+    "식품 > 조미료": [
+      {
+        "theme_id": "customization",
+        "label": "커스터마이징",
+        "keywords": [
+          "스티커",
+          "디자인",
+          "제작",
+          "주문"
+        ]
+      }
+    ],
+    "식품 > 주류": [
+      {
+        "theme_id": "fermentation_process",
+        "label": "발효과정",
+        "keywords": [
+          "도수",
+          "발효",
+          "숙성",
+          "추출"
+        ]
+      },
+      {
+        "theme_id": "pairing",
+        "label": "페어링",
+        "keywords": [
+          "페어링",
+          "음식",
+          "조합",
+          "동반"
+        ]
+      }
+    ],
+    "식품 > 즉석밥/즉석국": [
+      {
+        "theme_id": "meal_time",
+        "label": "식사 시간",
+        "keywords": [
+          "아침",
+          "점심",
+          "저녁",
+          "식사"
+        ]
+      },
+      {
+        "theme_id": "portability",
+        "label": "포터블",
+        "keywords": [
+          "비상식량",
+          "휴가",
+          "갈 수 있는"
+        ]
+      }
+    ],
+    "식품 > 축산물": [
+      {
+        "theme_id": "cutting_quality",
+        "label": "절단 품질",
+        "keywords": [
+          "절단",
+          "잘라",
+          "핏물",
+          "잘빠져"
+        ]
+      },
+      {
+        "theme_id": "portion_size",
+        "label": "분량",
+        "keywords": [
+          "분량",
+          "한마리",
+          "반마리",
+          "7키로"
+        ]
+      }
+    ],
+    "식품 > 통조림/캔": [
+      {
+        "theme_id": "opening_ease",
+        "label": "오프닝 편리성",
+        "keywords": [
+          "오프너",
+          "따기",
+          "편리",
+          "디스펜서"
+        ]
+      }
+    ],
+    "여가/생활편의 > 국내렌터카": [
+      {
+        "theme_id": "vehicle_condition",
+        "label": "차량 상태",
+        "keywords": [
+          "깨끗",
+          "새것",
+          "컨디션",
+          "고장",
+          "트렁크"
+        ]
+      },
+      {
+        "theme_id": "vehicle_options",
+        "label": "차량 옵션",
+        "keywords": [
+          "블랙박스",
+          "추가요금",
+          "옵션",
+          "보험",
+          "특약자차"
+        ]
+      }
+    ],
+    "여가/생활편의 > 국내여행/체험": [
+      {
+        "theme_id": "actor_performance",
+        "label": "배우 연기력",
+        "keywords": [
+          "배우",
+          "연기",
+          "연기력",
+          "재치",
+          "애드리브"
+        ]
+      },
+      {
+        "theme_id": "audience_engagement",
+        "label": "관객 참여도",
+        "keywords": [
+          "관객",
+          "참여",
+          "공감",
+          "함께",
+          "반응"
+        ]
+      }
+    ],
+    "여가/생활편의 > 생활편의": [
+      {
+        "theme_id": "color_coordination",
+        "label": "색감 조화",
+        "keywords": [
+          "색감",
+          "톤",
+          "조화",
+          "색상"
+        ]
+      },
+      {
+        "theme_id": "flower_arrangement",
+        "label": "꽃 배치",
+        "keywords": [
+          "배치",
+          "구성",
+          "꽃",
+          "조합"
+        ]
+      }
+    ],
+    "여가/생활편의 > 예체능레슨": [
+      {
+        "theme_id": "lesson_level",
+        "label": "레슨 레벨",
+        "keywords": [
+          "레벨",
+          "등록",
+          "등급",
+          "수준"
+        ]
+      },
+      {
+        "theme_id": "lesson_equipment",
+        "label": "레슨 장비",
+        "keywords": [
+          "장비",
+          "이퀄",
+          "유튜브",
+          "영상"
+        ]
+      }
+    ],
+    "여가/생활편의 > 원데이클래스": [
+      {
+        "theme_id": "material_quality",
+        "label": "재질 품질",
+        "keywords": [
+          "가죽",
+          "재질",
+          "질감",
+          "에이징",
+          "탄탄"
+        ]
+      },
+      {
+        "theme_id": "color_satisfaction",
+        "label": "색상 만족도",
+        "keywords": [
+          "색",
+          "색감",
+          "색상",
+          "화사",
+          "노랗"
+        ]
+      }
+    ],
+    "여가/생활편의 > 자기계발/취미 레슨": [
+      {
+        "theme_id": "teacher_match",
+        "label": "선생님 적합성",
+        "keywords": [
+          "선생님",
+          "적합",
+          "맞는",
+          "아이",
+          "발음"
+        ]
+      },
+      {
+        "theme_id": "learning_style",
+        "label": "학습 스타일",
+        "keywords": [
+          "학습",
+          "습관",
+          "시간",
+          "복습",
+          "공부"
+        ]
+      }
+    ],
+    "여가/생활편의 > 장기 국내여행/체험": [
+      {
+        "theme_id": "attraction_coverage",
+        "label": "관광지 커버리지",
+        "keywords": [
+          "포함",
+          "제공",
+          "내용",
+          "구성"
+        ]
+      },
+      {
+        "theme_id": "child_friendly",
+        "label": "아이 친화성",
+        "keywords": [
+          "아이",
+          "키즈",
+          "어린이",
+          "놀거리"
+        ]
+      }
+    ],
+    "여가/생활편의 > 장기 해외여행": [
+      {
+        "theme_id": "infrastructure",
+        "label": "인프라",
+        "keywords": [
+          "인프라",
+          "시설",
+          "공간",
+          "전망"
+        ]
+      },
+      {
+        "theme_id": "child_friendly",
+        "label": "아이 친화적",
+        "keywords": [
+          "아이",
+          "동반",
+          "미끄럼틀",
+          "게임장"
+        ]
+      }
+    ],
+    "여가/생활편의 > 해외여행": [
+      {
+        "theme_id": "wifi_coverage",
+        "label": "와이파이 범위",
+        "keywords": [
+          "범위",
+          "거리",
+          "안됨",
+          "끊김",
+          "지하철"
+        ]
+      },
+      {
+        "theme_id": "device_battery",
+        "label": "기기 배터리",
+        "keywords": [
+          "배터리",
+          "충전",
+          "전원",
+          "절전"
+        ]
+      }
+    ],
+    "여가/생활편의 > 홈케어서비스": [
+      {
+        "theme_id": "aftercare_guidance",
+        "label": "사후관리 안내",
+        "keywords": [
+          "관리법",
+          "사후관리",
+          "이용법",
+          "주의사항"
+        ]
+      },
+      {
+        "theme_id": "cleaning_process",
+        "label": "청소 과정",
+        "keywords": [
+          "청소",
+          "세척",
+          "분해",
+          "세제",
+          "고압수"
+        ]
+      }
+    ],
+    "출산/육아 > 교구": [
+      {
+        "theme_id": "learning_outcome",
+        "label": "학습 효과",
+        "keywords": [
+          "성취감",
+          "재미",
+          "좋아",
+          "흥미",
+          "공부"
+        ]
+      },
+      {
+        "theme_id": "parent_child_interaction",
+        "label": "부모-아이 상호작용",
+        "keywords": [
+          "함께",
+          "공부",
+          "놀이",
+          "같이",
+          "아이"
+        ]
+      }
+    ],
+    "출산/육아 > 구강청결용품": [
+      {
+        "theme_id": "microplastic_concern",
+        "label": "미세플라스틱 걱정",
+        "keywords": [
+          "미세플라스틱",
+          "플라스틱",
+          "안심",
+          "소재"
+        ]
+      },
+      {
+        "theme_id": "child_safety_material",
+        "label": "아이 안전 소재",
+        "keywords": [
+          "대나무",
+          "나무",
+          "안전",
+          "재질"
+        ]
+      },
+      {
+        "theme_id": "child_usage_preference",
+        "label": "아이 사용 선호도",
+        "keywords": [
+          "거부",
+          "입에 넣다",
+          "입에 들어가다",
+          "사용"
+        ]
+      }
+    ],
+    "출산/육아 > 기저귀": [
+      {
+        "theme_id": "absorbency",
+        "label": "흡수력",
+        "keywords": [
+          "흡수",
+          "물기",
+          "흡수력",
+          "흡수 잘"
+        ]
+      },
+      {
+        "theme_id": "size_variants",
+        "label": "크기 다양성",
+        "keywords": [
+          "크기",
+          "특대",
+          "대형",
+          "작은"
+        ]
+      }
+    ],
+    "출산/육아 > 매트/안전용품": [
+      {
+        "theme_id": "color_combination",
+        "label": "색상 조합",
+        "keywords": [
+          "색상",
+          "조합",
+          "색감",
+          "혼합"
+        ]
+      },
+      {
+        "theme_id": "adjustable_design",
+        "label": "조절 가능 디자인",
+        "keywords": [
+          "접히다",
+          "접혀",
+          "뒤집다",
+          "접합"
+        ]
+      }
+    ],
+    "출산/육아 > 목욕용품": [
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "보들보들",
+          "부들부들",
+          "보송보송",
+          "따뜻"
+        ]
+      },
+      {
+        "theme_id": "size_fit",
+        "label": "사이즈 적합성",
+        "keywords": [
+          "사이즈",
+          "크기",
+          "적절",
+          "길이",
+          "짧"
+        ]
+      }
+    ],
+    "출산/육아 > 물티슈": [
+      {
+        "theme_id": "temperature_control",
+        "label": "온도 조절",
+        "keywords": [
+          "따뜻",
+          "차갑",
+          "온도",
+          "따뜻하게",
+          "냉각"
+        ]
+      },
+      {
+        "theme_id": "wireless_design",
+        "label": "무선 디자인",
+        "keywords": [
+          "무선",
+          "유선",
+          "충전",
+          "선",
+          "이동"
+        ]
+      }
+    ],
+    "출산/육아 > 분유": [
+      {
+        "theme_id": "digestion",
+        "label": "소화력",
+        "keywords": [
+          "소화",
+          "배앓이",
+          "게우",
+          "변비",
+          "배변"
+        ]
+      },
+      {
+        "theme_id": "consistency",
+        "label": "분유 농도",
+        "keywords": [
+          "농도",
+          "분유 타기",
+          "게거품",
+          "덩어리"
+        ]
+      }
+    ],
+    "출산/육아 > 소독/살균용품": [
+      {
+        "theme_id": "child_age_range",
+        "label": "아이 연령대",
+        "keywords": [
+          "신생아",
+          "아기",
+          "유아",
+          "어린이"
+        ]
+      },
+      {
+        "theme_id": "product_duration",
+        "label": "사용 기간",
+        "keywords": [
+          "년",
+          "지난",
+          "8년",
+          "7년"
+        ]
+      }
+    ],
+    "출산/육아 > 수영복/용품": [
+      {
+        "theme_id": "design_style",
+        "label": "디자인 스타일",
+        "keywords": [
+          "디자인",
+          "컬러",
+          "패턴",
+          "귀여",
+          "예뻐"
+        ]
+      },
+      {
+        "theme_id": "comfort_fit",
+        "label": "편안함/핏",
+        "keywords": [
+          "핏",
+          "적당",
+          "너무 크게",
+          "너무 작게",
+          "편한",
+          "불편"
+        ]
+      }
+    ],
+    "출산/육아 > 수유용품": [
+      {
+        "theme_id": "comfort_fit",
+        "label": "안정성",
+        "keywords": [
+          "안정",
+          "안정감",
+          "떨어짐",
+          "빠짐"
+        ]
+      },
+      {
+        "theme_id": "light_weight",
+        "label": "가벼움",
+        "keywords": [
+          "가볍",
+          "가벼운",
+          "무게"
+        ]
+      }
+    ],
+    "출산/육아 > 스킨/바디용품": [
+      {
+        "theme_id": "skin_condition",
+        "label": "피부 상태",
+        "keywords": [
+          "발진",
+          "침독",
+          "습진",
+          "트러블",
+          "태열"
+        ]
+      },
+      {
+        "theme_id": "application_feel",
+        "label": "바르는 느낌",
+        "keywords": [
+          "가벼운",
+          "부드러운",
+          "크림",
+          "흡수",
+          "백탁"
+        ]
+      }
+    ],
+    "출산/육아 > 신생아의류": [
+      {
+        "theme_id": "seasonal_suitability",
+        "label": "계절 적합성",
+        "keywords": [
+          "계절",
+          "두꺼",
+          "가을",
+          "겨울",
+          "여름"
+        ]
+      },
+      {
+        "theme_id": "design_style",
+        "label": "디자인 스타일",
+        "keywords": [
+          "디자인",
+          "패턴",
+          "귀여",
+          "클로버",
+          "포인트"
+        ]
+      }
+    ],
+    "출산/육아 > 아기간식": [
+      {
+        "theme_id": "flavor_preference",
+        "label": "맛 선호도",
+        "keywords": [
+          "맛",
+          "좋아",
+          "안먹",
+          "호불호",
+          "맛있"
+        ]
+      },
+      {
+        "theme_id": "nutritional_value",
+        "label": "영양성",
+        "keywords": [
+          "영양",
+          "칼슘",
+          "비타민",
+          "국산",
+          "재료"
+        ]
+      }
+    ],
+    "출산/육아 > 완구/인형": [
+      {
+        "theme_id": "assembly_complexity",
+        "label": "조립 난이도",
+        "keywords": [
+          "조립",
+          "어려",
+          "설명서",
+          "부품"
+        ]
+      },
+      {
+        "theme_id": "stability",
+        "label": "안정성",
+        "keywords": [
+          "고정",
+          "밀리",
+          "구겨짐",
+          "무너짐"
+        ]
+      }
+    ],
+    "출산/육아 > 외출용품": [
+      {
+        "theme_id": "hygiene_design",
+        "label": "위생 디자인",
+        "keywords": [
+          "소독",
+          "위생",
+          "안심",
+          "청소",
+          "부드러움"
+        ]
+      },
+      {
+        "theme_id": "portability",
+        "label": "휴대성",
+        "keywords": [
+          "가볍",
+          "부피",
+          "가방",
+          "작아",
+          "편해"
+        ]
+      }
+    ],
+    "출산/육아 > 위생/건강용품": [
+      {
+        "theme_id": "safety_guarantee",
+        "label": "안전 보장",
+        "keywords": [
+          "안전",
+          "보호",
+          "보호기능",
+          "안심"
+        ]
+      },
+      {
+        "theme_id": "age_range",
+        "label": "연령 범위",
+        "keywords": [
+          "개월",
+          "연령",
+          "사용가능",
+          "사용기준"
+        ]
+      },
+      {
+        "theme_id": "dust_control",
+        "label": "가루 방지",
+        "keywords": [
+          "가루",
+          "날림",
+          "방지",
+          "청결"
+        ]
+      }
+    ],
+    "출산/육아 > 유모차": [
+      {
+        "theme_id": "sun_protection",
+        "label": "햇빛 차단",
+        "keywords": [
+          "햇빛",
+          "차단",
+          "가리개",
+          "빛",
+          "외출"
+        ]
+      },
+      {
+        "theme_id": "mosquito_protection",
+        "label": "모기 차단",
+        "keywords": [
+          "모기",
+          "벌레",
+          "방충",
+          "방충망"
+        ]
+      }
+    ],
+    "출산/육아 > 유아가구/소품": [
+      {
+        "theme_id": "sound_options",
+        "label": "소리 옵션",
+        "keywords": [
+          "소리",
+          "백색소음",
+          "소음",
+          "타이머",
+          "시간"
+        ]
+      },
+      {
+        "theme_id": "design_style",
+        "label": "디자인 스타일",
+        "keywords": [
+          "디자인",
+          "모양",
+          "색상",
+          "스타일",
+          "예뻐"
+        ]
+      }
+    ],
+    "출산/육아 > 유아동 주얼리": [
+      {
+        "theme_id": "customization",
+        "label": "커스터마이징",
+        "keywords": [
+          "각인",
+          "글씨",
+          "이름",
+          "번호",
+          "생년월일"
+        ]
+      },
+      {
+        "theme_id": "pendant_design",
+        "label": "팬던트 디자인",
+        "keywords": [
+          "디자인",
+          "캐릭터",
+          "그림",
+          "모양",
+          "패턴"
+        ]
+      }
+    ],
+    "출산/육아 > 유아동언더웨어/잠옷": [
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "편안",
+          "부드럽",
+          "착용감",
+          "가벼",
+          "시원"
+        ]
+      },
+      {
+        "theme_id": "size_fit",
+        "label": "사이즈 적합성",
+        "keywords": [
+          "사이즈",
+          "작다",
+          "크다",
+          "적당",
+          "맞다"
+        ]
+      }
+    ],
+    "출산/육아 > 유아동의류": [
+      {
+        "theme_id": "style_design",
+        "label": "스타일/디자인",
+        "keywords": [
+          "스타일",
+          "디자인",
+          "포인트",
+          "공주",
+          "요정",
+          "날개"
+        ]
+      },
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "부드럽",
+          "까슬",
+          "까끌",
+          "아파"
+        ]
+      }
+    ],
+    "출산/육아 > 유아동잡화": [
+      {
+        "theme_id": "design",
+        "label": "디자인",
+        "keywords": [
+          "디자인",
+          "깔끔",
+          "단정"
+        ]
+      }
+    ],
+    "출산/육아 > 유아발육용품": [
+      {
+        "theme_id": "clean_condition",
+        "label": "청결 상태",
+        "keywords": [
+          "깨끗",
+          "세척",
+          "소독",
+          "새상품",
+          "새거"
+        ]
+      },
+      {
+        "theme_id": "rental_experience",
+        "label": "대여 경험",
+        "keywords": [
+          "대여",
+          "연장",
+          "반납",
+          "조기반납",
+          "사용 기간"
+        ]
+      }
+    ],
+    "출산/육아 > 유아세제": [
+      {
+        "theme_id": "fragrance_strength",
+        "label": "향력",
+        "keywords": [
+          "향",
+          "향력",
+          "향기",
+          "향이"
+        ]
+      },
+      {
+        "theme_id": "ingredient_safety",
+        "label": "성분 안전성",
+        "keywords": [
+          "성분",
+          "알러젠",
+          "무향",
+          "안전"
+        ]
+      }
+    ],
+    "출산/육아 > 유아침구": [
+      {
+        "theme_id": "design",
+        "label": "디자인",
+        "keywords": [
+          "디자인",
+          "그림",
+          "무늬",
+          "예쁘"
+        ]
+      }
+    ],
+    "출산/육아 > 이유식": [
+      {
+        "theme_id": "taste",
+        "label": "맛",
+        "keywords": [
+          "맛",
+          "달",
+          "새콤",
+          "상큼",
+          "맛있"
+        ]
+      },
+      {
+        "theme_id": "texture",
+        "label": "질감",
+        "keywords": [
+          "질감",
+          "잘 먹",
+          "입 벌리",
+          "입맛"
+        ]
+      }
+    ],
+    "출산/육아 > 이유식용품": [
+      {
+        "theme_id": "product_compatibility",
+        "label": "제품 호환성",
+        "keywords": [
+          "혼용",
+          "겸용",
+          "연동",
+          "동시"
+        ]
+      },
+      {
+        "theme_id": "design_aesthetics",
+        "label": "디자인/모습",
+        "keywords": [
+          "모양",
+          "귀여",
+          "예쁘",
+          "색상"
+        ]
+      }
+    ],
+    "출산/육아 > 임부복": [
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "편해요",
+          "편하게",
+          "부드럽",
+          "입기편해요"
+        ]
+      },
+      {
+        "theme_id": "size_adjustment",
+        "label": "사이즈 조절",
+        "keywords": [
+          "길이",
+          "작아",
+          "너무길",
+          "작게",
+          "사이즈업"
+        ]
+      }
+    ],
+    "출산/육아 > 임산부용품": [
+      {
+        "theme_id": "posture_support",
+        "label": "자세 지원",
+        "keywords": [
+          "자세",
+          "체중",
+          "허리",
+          "꼬리뼈",
+          "디스크"
+        ]
+      },
+      {
+        "theme_id": "comfort_level",
+        "label": "편안함",
+        "keywords": [
+          "편안",
+          "편한",
+          "부드러",
+          "폭신",
+          "가볍"
+        ]
+      }
+    ],
+    "출산/육아 > 출산/돌기념품": [
+      {
+        "theme_id": "design_aesthetics",
+        "label": "디자인/예쁨",
+        "keywords": [
+          "귀여움",
+          "예뻐",
+          "이뻐",
+          "귀여운",
+          "예쁜"
+        ]
+      }
+    ],
+    "출산/육아 > 카시트": [
+      {
+        "theme_id": "comfort",
+        "label": "편안함",
+        "keywords": [
+          "편안",
+          "불편",
+          "안정",
+          "불편해"
+        ]
+      },
+      {
+        "theme_id": "adjustability",
+        "label": "조절성",
+        "keywords": [
+          "각도",
+          "리클라인",
+          "등받이",
+          "고정"
+        ]
+      }
+    ],
+    "패션의류 > 남성언더웨어/잠옷": [
+      {
+        "theme_id": "fabric_texture",
+        "label": "원단감",
+        "keywords": [
+          "까끌",
+          "부드럽",
+          "재질"
+        ]
+      },
+      {
+        "theme_id": "visible_seams",
+        "label": "선 visible",
+        "keywords": [
+          "티가",
+          "이음선",
+          "선"
+        ]
+      }
+    ],
+    "패션의류 > 남성의류": [
+      {
+        "theme_id": "fit_adjustment",
+        "label": "핏 조정",
+        "keywords": [
+          "비침",
+          "작은편",
+          "크게",
+          "작게",
+          "정도"
+        ]
+      },
+      {
+        "theme_id": "seasonality",
+        "label": "계절성",
+        "keywords": [
+          "덥",
+          "더운감",
+          "여름",
+          "겨울"
+        ]
+      }
+    ],
+    "패션의류 > 여성언더웨어/잠옷": [
+      {
+        "theme_id": "hip_line_correction",
+        "label": "힙라인보정",
+        "keywords": [
+          "라인",
+          "보정",
+          "힙",
+          "라인정리"
+        ]
+      },
+      {
+        "theme_id": "natural_volume",
+        "label": "자연스러운볼륨",
+        "keywords": [
+          "볼륨",
+          "부풀",
+          "자연스럽",
+          "골반볼륨"
+        ]
+      }
+    ],
+    "패션의류 > 여성의류": [
+      {
+        "theme_id": "fit_adjustment",
+        "label": "핏 조정",
+        "keywords": [
+          "조정",
+          "끈",
+          "코르셋",
+          "등판"
+        ]
+      },
+      {
+        "theme_id": "body_shape_coverage",
+        "label": "체형 커버",
+        "keywords": [
+          "커버",
+          "팔뚝",
+          "허벅지",
+          "배부분"
+        ]
+      }
+    ],
+    "패션잡화 > 가방소품": [
+      {
+        "theme_id": "inner_bag",
+        "label": "내부가방",
+        "keywords": [
+          "이너백",
+          "파우치",
+          "내부"
+        ]
+      },
+      {
+        "theme_id": "strap_attachment",
+        "label": "스트랩 부착",
+        "keywords": [
+          "스트랩",
+          "크로스",
+          "고정",
+          "끈"
+        ]
+      }
+    ],
+    "패션잡화 > 남성가방": [
+      {
+        "theme_id": "water_resistance",
+        "label": "수분차단",
+        "keywords": [
+          "수분",
+          "방수",
+          "물"
+        ]
+      },
+      {
+        "theme_id": "adjustable_length",
+        "label": "길이조절",
+        "keywords": [
+          "길이",
+          "조절",
+          "고정"
+        ]
+      }
+    ],
+    "패션잡화 > 남성신발": [
+      {
+        "theme_id": "foot_shape",
+        "label": "발형",
+        "keywords": [
+          "발볼",
+          "발등",
+          "발바닥"
+        ]
+      },
+      {
+        "theme_id": "cushion",
+        "label": "쿠션감",
+        "keywords": [
+          "쿠션",
+          "발바닥",
+          "통증",
+          "쿠션감"
+        ]
+      }
+    ],
+    "패션잡화 > 모자": [
+      {
+        "theme_id": "sun_protection",
+        "label": "광보호",
+        "keywords": [
+          "UV차단",
+          "햇빛",
+          "가려지",
+          "방수"
+        ]
+      },
+      {
+        "theme_id": "adjustability",
+        "label": "조절성",
+        "keywords": [
+          "와이어",
+          "조절",
+          "원하는 모양",
+          "턱끈"
+        ]
+      }
+    ],
+    "패션잡화 > 벨트": [
+      {
+        "theme_id": "color_match",
+        "label": "색상 일치",
+        "keywords": [
+          "색감",
+          "컬러",
+          "브라운",
+          "검정",
+          "다크"
+        ]
+      },
+      {
+        "theme_id": "logo_presence",
+        "label": "로고 존재",
+        "keywords": [
+          "로고",
+          "글씨",
+          "마감",
+          "부드럽"
+        ]
+      }
+    ],
+    "패션잡화 > 선글라스/안경테": [
+      {
+        "theme_id": "cleaning_effect",
+        "label": "세척효과",
+        "keywords": [
+          "깨끗",
+          "깨끗하게",
+          "미세먼지",
+          "기름",
+          "자국"
+        ]
+      },
+      {
+        "theme_id": "durability",
+        "label": "내구성",
+        "keywords": [
+          "세탁",
+          "약해",
+          "수축",
+          "두꺼",
+          "두께"
+        ]
+      }
+    ],
+    "패션잡화 > 순금": [
+      {
+        "theme_id": "personalization",
+        "label": "개인화",
+        "keywords": [
+          "각인",
+          "문구",
+          "수정",
+          "내용"
+        ]
+      },
+      {
+        "theme_id": "customization",
+        "label": "커스터마이징",
+        "keywords": [
+          "수정",
+          "요청",
+          "맞춤",
+          "맞춤제작"
+        ]
+      }
+    ],
+    "패션잡화 > 시계": [
+      {
+        "theme_id": "battery_type",
+        "label": "배터리 종류",
+        "keywords": [
+          "건전지",
+          "배터리",
+          "종류",
+          "모델"
+        ]
+      },
+      {
+        "theme_id": "tool_compatibility",
+        "label": "공구 호환성",
+        "keywords": [
+          "오프너",
+          "사용가능",
+          "호환",
+          "모델"
+        ]
+      }
+    ],
+    "패션잡화 > 신발용품": [
+      {
+        "theme_id": "attachment",
+        "label": "부착력",
+        "keywords": [
+          "끼우",
+          "잘 끼워",
+          "부드럽",
+          "딸깍"
+        ]
+      },
+      {
+        "theme_id": "compatibility",
+        "label": "호환성",
+        "keywords": [
+          "호환",
+          "부착",
+          "신발",
+          "크록스"
+        ]
+      }
+    ],
+    "패션잡화 > 양말": [
+      {
+        "theme_id": "silicone_treatment",
+        "label": "실리콘 처리",
+        "keywords": [
+          "실리콘",
+          "이형",
+          "떨어짐",
+          "벗겨짐"
+        ]
+      },
+      {
+        "theme_id": "foot_shape_fit",
+        "label": "발형 맞춤",
+        "keywords": [
+          "발볼",
+          "발가락",
+          "타이트",
+          "작을수"
+        ]
+      }
+    ],
+    "패션잡화 > 여성가방": [
+      {
+        "theme_id": "color_match",
+        "label": "색상 일치",
+        "keywords": [
+          "색상",
+          "실물",
+          "예뻐요",
+          "예쁘"
+        ]
+      },
+      {
+        "theme_id": "print_quality",
+        "label": "인쇄 품질",
+        "keywords": [
+          "인쇄",
+          "인쇄포함",
+          "열전사",
+          "인쇄용"
+        ]
+      }
+    ],
+    "패션잡화 > 여성신발": [
+      {
+        "theme_id": "foot_shape",
+        "label": "발형",
+        "keywords": [
+          "발볼",
+          "발등",
+          "발크기",
+          "발모양"
+        ]
+      },
+      {
+        "theme_id": "dance_suitability",
+        "label": "무용 적합성",
+        "keywords": [
+          "춤",
+          "춤추기",
+          "리듬",
+          "움직임",
+          "점프"
+        ]
+      }
+    ],
+    "패션잡화 > 여행용가방/소품": [
+      {
+        "theme_id": "traditional_design",
+        "label": "전통디자인",
+        "keywords": [
+          "전통",
+          "자개",
+          "무늬",
+          "한국적인"
+        ]
+      },
+      {
+        "theme_id": "customization",
+        "label": "커스터마이징",
+        "keywords": [
+          "커스터마이징",
+          "개인화",
+          "디자인",
+          "맞춤"
+        ]
+      }
+    ],
+    "패션잡화 > 장갑": [
+      {
+        "theme_id": "sun_protection",
+        "label": "자외선 차단",
+        "keywords": [
+          "자외선",
+          "차단",
+          "햇빛",
+          "보호"
+        ]
+      },
+      {
+        "theme_id": "finger_hole",
+        "label": "손가락 구멍",
+        "keywords": [
+          "구멍",
+          "손가락",
+          "빠져나가",
+          "어깨"
+        ]
+      }
+    ],
+    "패션잡화 > 주얼리": [
+      {
+        "theme_id": "ear_shape",
+        "label": "귀형태",
+        "keywords": [
+          "귀볼",
+          "귀모양",
+          "귀사이즈"
+        ]
+      },
+      {
+        "theme_id": "adjustment",
+        "label": "조절성",
+        "keywords": [
+          "조절",
+          "맞춤",
+          "손가락 굵기"
+        ]
+      }
+    ],
+    "패션잡화 > 지갑": [
+      {
+        "theme_id": "certification",
+        "label": "인증",
+        "keywords": [
+          "인증",
+          "정품",
+          "보증서",
+          "인증서"
+        ]
+      },
+      {
+        "theme_id": "personalization",
+        "label": "개인화",
+        "keywords": [
+          "각인",
+          "각인이불가",
+          "각인없이"
+        ]
+      }
+    ],
+    "패션잡화 > 패션소품": [
+      {
+        "theme_id": "durability",
+        "label": "내구성",
+        "keywords": [
+          "내구성",
+          "지속",
+          "오래",
+          "내구"
+        ]
+      },
+      {
+        "theme_id": "water_resistance",
+        "label": "방수성",
+        "keywords": [
+          "방수",
+          "생활방수",
+          "물",
+          "습기"
+        ]
+      }
+    ],
+    "패션잡화 > 헤어액세서리": [
+      {
+        "theme_id": "hair_type_compatibility",
+        "label": "머리형 적합성",
+        "keywords": [
+          "머리",
+          "모발",
+          "빠짐",
+          "빗질"
+        ]
+      },
+      {
+        "theme_id": "adjustability",
+        "label": "조절성",
+        "keywords": [
+          "끈",
+          "조절",
+          "고무줄",
+          "짱짱"
+        ]
+      }
+    ],
+    "화장품/미용 > 남성화장품": [
+      {
+        "theme_id": "fragrance_intensity",
+        "label": "향 세기",
+        "keywords": [
+          "향 세기",
+          "향이 강하다",
+          "향이 약하다",
+          "향이 쎄지 않다"
+        ]
+      },
+      {
+        "theme_id": "product_form",
+        "label": "제형",
+        "keywords": [
+          "제형",
+          "펌브형",
+          "리필",
+          "구성품"
+        ]
+      }
+    ],
+    "화장품/미용 > 네일케어": [
+      {
+        "theme_id": "tape_quality",
+        "label": "테이프 품질",
+        "keywords": [
+          "테이프",
+          "깨지",
+          "부서",
+          "적당한 길이"
+        ]
+      },
+      {
+        "theme_id": "application_process",
+        "label": "적용 과정",
+        "keywords": [
+          "적용",
+          "번거로",
+          "큐어링",
+          "부드럽게"
+        ]
+      }
+    ],
+    "화장품/미용 > 마스크/팩": [
+      {
+        "theme_id": "texture",
+        "label": "질감",
+        "keywords": [
+          "질감",
+          "부드럽",
+          "밀림",
+          "미끌미끌"
+        ]
+      },
+      {
+        "theme_id": "skin_condition",
+        "label": "피부 컨디션",
+        "keywords": [
+          "피부",
+          "촉촉",
+          "부들부들",
+          "매끈"
+        ]
+      }
+    ],
+    "화장품/미용 > 바디케어": [
+      {
+        "theme_id": "skin_sensitivity",
+        "label": "피부 민감도",
+        "keywords": [
+          "자극",
+          "가려",
+          "트러블",
+          "건성",
+          "지성"
+        ]
+      },
+      {
+        "theme_id": "product_strength",
+        "label": "효과 강도",
+        "keywords": [
+          "효과",
+          "지속",
+          "번짐",
+          "유지",
+          "약함"
+        ]
+      }
+    ],
+    "화장품/미용 > 베이스메이크업": [
+      {
+        "theme_id": "texture",
+        "label": "질감",
+        "keywords": [
+          "부드럽",
+          "매끈",
+          "가루",
+          "입자"
+        ]
+      },
+      {
+        "theme_id": "application_technique",
+        "label": "적용 기술",
+        "keywords": [
+          "브러시",
+          "퍼프",
+          "툴",
+          "메쉬망"
+        ]
+      }
+    ],
+    "화장품/미용 > 뷰티소품": [
+      {
+        "theme_id": "brush_shape",
+        "label": "모형태",
+        "keywords": [
+          "모",
+          "모형",
+          "모질",
+          "모의",
+          "모의형"
+        ]
+      },
+      {
+        "theme_id": "brush_size",
+        "label": "크기",
+        "keywords": [
+          "크기",
+          "사이즈",
+          "폭",
+          "길이",
+          "너비"
+        ]
+      }
+    ],
+    "화장품/미용 > 색조메이크업": [
+      {
+        "theme_id": "texture",
+        "label": "촉촉함",
+        "keywords": [
+          "촉촉",
+          "입술",
+          "건조",
+          "발라"
+        ]
+      }
+    ],
+    "화장품/미용 > 선케어": [
+      {
+        "theme_id": "water_resistance",
+        "label": "수분차단",
+        "keywords": [
+          "워터프루프",
+          "물에서",
+          "물놀이",
+          "수분"
+        ]
+      },
+      {
+        "theme_id": "spray_performance",
+        "label": "분사력",
+        "keywords": [
+          "분사",
+          "분사력",
+          "분사도",
+          "밀림"
+        ]
+      }
+    ],
+    "화장품/미용 > 스킨케어": [
+      {
+        "theme_id": "moisture_level",
+        "label": "습도 조절",
+        "keywords": [
+          "습도",
+          "건성",
+          "지성",
+          "번짐",
+          "유분"
+        ]
+      },
+      {
+        "theme_id": "product_safety",
+        "label": "안정성",
+        "keywords": [
+          "안정",
+          "알레르기",
+          "자극",
+          "트러블",
+          "부작용"
+        ]
+      }
+    ]
+  },
+  "leaf": {},
+  "generation": {
+    "status": "draft_pending_human_review",
+    "source": "full_raw_crawl",
+    "samples_per_cat2": 30,
+    "cat2_count": 210,
+    "warning": "Cat2 themes are model-generated candidates and are not canonical until reviewed."
+  }
+}

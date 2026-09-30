@@ -1,0 +1,35 @@
+{
+  "bestValidation": {
+    "reviewThemeSentiment": {
+      "microPrecision": 0.572,
+      "microRecall": 0.5016,
+      "microF1": 0.5345,
+      "macroF1": 0.2023,
+      "exactMatch": 0.2187
+    },
+    "qnaPrimary": {
+      "accuracy": 0.6601,
+      "macroF1": 0.3244
+    },
+    "qnaSecondary": {
+      "microPrecision": 0.3333,
+      "microRecall": 0.1765,
+      "microF1": 0.2308,
+      "macroF1": 0.0652,
+      "exactMatch": 0.7124
+    },
+    "usable": {
+      "accuracy": 1.0,
+      "macroF1": 1.0,
+      "classCounts": {
+        "True": 153
+      }
+    }
+  },
+  "bestEpoch": 5,
+  "testSkipped": true,
+  "weightsSaved": false,
+  "reviewThresholdPolicy": "predeclared_fixed",
+  "validationLabelFingerprint": "8b30b5e774d7bdbe3494fecd98e228156ede7cdb9cc056bf9f7b5f7c64f779b0",
+  "warning": "Fixed 50:50 neural/lexical Review blend; Q&A predictions stay neural.\n\nDevelopment-only complementarity diagnostic, not automatic deployment. Mixing is\npredeclared, not fit to Validation; threshold is grid-selected unless explicitly frozen.\n Mixed probabilities are not calibrated confidence."
+}

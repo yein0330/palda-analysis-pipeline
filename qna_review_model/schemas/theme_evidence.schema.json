@@ -1,0 +1,39 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "record_id": {
+      "title": "Record Id",
+      "type": "string"
+    },
+    "quote": {
+      "title": "Quote",
+      "type": "string"
+    },
+    "stage": {
+      "enum": [
+        "pre_purchase",
+        "post_purchase"
+      ],
+      "title": "Stage",
+      "type": "string"
+    },
+    "polarity": {
+      "enum": [
+        "positive",
+        "negative",
+        "neutral",
+        "concern"
+      ],
+      "title": "Polarity",
+      "type": "string"
+    }
+  },
+  "required": [
+    "record_id",
+    "quote",
+    "stage",
+    "polarity"
+  ],
+  "title": "ThemeEvidence",
+  "type": "object"
+}

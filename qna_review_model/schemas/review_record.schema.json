@@ -1,0 +1,79 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "record_type": {
+      "const": "review",
+      "default": "review",
+      "title": "Record Type",
+      "type": "string"
+    },
+    "record_id": {
+      "title": "Record Id",
+      "type": "string"
+    },
+    "product_id": {
+      "title": "Product Id",
+      "type": "string"
+    },
+    "text": {
+      "minLength": 1,
+      "title": "Text",
+      "type": "string"
+    },
+    "score": {
+      "anyOf": [
+        {
+          "maximum": 5,
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Score"
+    },
+    "option": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Option"
+    },
+    "created_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Created At"
+    },
+    "source": {
+      "enum": [
+        "naver_brand",
+        "naver_catalog"
+      ],
+      "title": "Source",
+      "type": "string"
+    }
+  },
+  "required": [
+    "record_id",
+    "product_id",
+    "text",
+    "source"
+  ],
+  "title": "ReviewRecord",
+  "type": "object"
+}

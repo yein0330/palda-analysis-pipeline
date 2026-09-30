@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "report-input-v1",
+  "type": "object",
+  "required": ["schemaVersion", "taxonomyVersion", "analysisId", "productId", "category", "sample", "reviewGroups", "qnaGroups"],
+  "properties": {
+    "schemaVersion": {"const": "report-input-v1"},
+    "taxonomyVersion": {"type": "string"},
+    "analysisId": {"type": "string"},
+    "productId": {"type": "string"},
+    "category": {"type": "object", "required": ["path"]},
+    "sample": {"type": "object"},
+    "reviewGroups": {"type": "array"},
+    "qnaGroups": {"type": "array"}
+  },
+  "additionalProperties": false
+}

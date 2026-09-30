@@ -1,0 +1,62 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "record_type": {
+      "const": "qna",
+      "default": "qna",
+      "title": "Record Type",
+      "type": "string"
+    },
+    "record_id": {
+      "title": "Record Id",
+      "type": "string"
+    },
+    "product_id": {
+      "title": "Product Id",
+      "type": "string"
+    },
+    "question": {
+      "minLength": 1,
+      "title": "Question",
+      "type": "string"
+    },
+    "created_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Created At"
+    },
+    "has_seller_answer": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Has Seller Answer"
+    },
+    "source": {
+      "const": "naver_brand",
+      "default": "naver_brand",
+      "title": "Source",
+      "type": "string"
+    }
+  },
+  "required": [
+    "record_id",
+    "product_id",
+    "question"
+  ],
+  "title": "QNARecord",
+  "type": "object"
+}

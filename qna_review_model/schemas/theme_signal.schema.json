@@ -1,0 +1,118 @@
+{
+  "$defs": {
+    "ThemeEvidence": {
+      "additionalProperties": false,
+      "properties": {
+        "record_id": {
+          "title": "Record Id",
+          "type": "string"
+        },
+        "quote": {
+          "title": "Quote",
+          "type": "string"
+        },
+        "stage": {
+          "enum": [
+            "pre_purchase",
+            "post_purchase"
+          ],
+          "title": "Stage",
+          "type": "string"
+        },
+        "polarity": {
+          "enum": [
+            "positive",
+            "negative",
+            "neutral",
+            "concern"
+          ],
+          "title": "Polarity",
+          "type": "string"
+        }
+      },
+      "required": [
+        "record_id",
+        "quote",
+        "stage",
+        "polarity"
+      ],
+      "title": "ThemeEvidence",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "theme_id": {
+      "title": "Theme Id",
+      "type": "string"
+    },
+    "theme": {
+      "title": "Theme",
+      "type": "string"
+    },
+    "qna_mentions": {
+      "minimum": 0,
+      "title": "Qna Mentions",
+      "type": "integer"
+    },
+    "qna_share": {
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Qna Share",
+      "type": "number"
+    },
+    "review_mentions": {
+      "minimum": 0,
+      "title": "Review Mentions",
+      "type": "integer"
+    },
+    "positive_mentions": {
+      "minimum": 0,
+      "title": "Positive Mentions",
+      "type": "integer"
+    },
+    "negative_mentions": {
+      "minimum": 0,
+      "title": "Negative Mentions",
+      "type": "integer"
+    },
+    "neutral_mentions": {
+      "minimum": 0,
+      "title": "Neutral Mentions",
+      "type": "integer"
+    },
+    "satisfaction": {
+      "anyOf": [
+        {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Satisfaction"
+    },
+    "evidence": {
+      "items": {
+        "$ref": "#/$defs/ThemeEvidence"
+      },
+      "title": "Evidence",
+      "type": "array"
+    }
+  },
+  "required": [
+    "theme_id",
+    "theme",
+    "qna_mentions",
+    "qna_share",
+    "review_mentions",
+    "positive_mentions",
+    "negative_mentions",
+    "neutral_mentions"
+  ],
+  "title": "ThemeSignal",
+  "type": "object"
+}

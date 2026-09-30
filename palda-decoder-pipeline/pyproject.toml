@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "palda-decoder-pipeline"
+version = "0.1.0"
+description = "Automated grounded summary and selling-point training pipeline for PALDA"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+train = [
+  "accelerate>=1.2",
+  "bitsandbytes>=0.45; platform_system == 'Linux'",
+  "datasets>=3.2",
+  "peft>=0.14",
+  "torch>=2.2",
+  "transformers>=4.47",
+  "trl>=0.28,<0.29",
+]
+serve = [
+  "torch>=2.2",
+  "transformers[serving]>=4.57,<5",
+]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+palda-decoder = "palda_decoder.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

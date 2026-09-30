@@ -1,0 +1,55 @@
+{
+  "input_jsonl_paths": [
+    "../../palda-encoder-pipeline-repo/data/releases/dataset-v0.1/train.jsonl",
+    "../../palda-encoder-pipeline-repo/data/releases/dataset-v0.1/validation.jsonl",
+    "../../palda-encoder-pipeline-repo/data/releases/dataset-v0.1/test.jsonl"
+  ],
+  "models_path": "models.example.json",
+  "work_dir": "../data/work",
+  "release_dir": "../data/releases/decoder-v0.1",
+  "artifact_dir": "../artifacts/decoder-v0.1",
+  "max_records_per_type": 5000,
+  "representatives_per_group": 10,
+  "min_group_size": 1,
+  "include_neutral": false,
+  "max_workers": 4,
+  "retries": 2,
+  "use_llm_judges": true,
+  "min_judges": 1,
+  "min_quality_score": 0.65,
+  "seed": 42,
+  "train_ratio": 0.8,
+  "validation_ratio": 0.1,
+  "train": {
+    "sft_enabled": true,
+    "grpo_enabled": false,
+    "model_name": "Qwen/Qwen2.5-7B-Instruct",
+    "epochs": 1,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 16,
+    "learning_rate": 0.0001,
+    "max_length": 3072,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "use_4bit": true,
+    "seed": 42,
+    "max_steps": null,
+    "max_train_samples": null,
+    "max_eval_samples": null,
+    "evaluation": {
+      "enabled": true,
+      "batch_size": 4,
+      "max_input_length": 2048,
+      "max_new_tokens": 512,
+      "max_samples": null
+    },
+    "grpo": {
+      "max_steps": 200,
+      "batch_size": 1,
+      "gradient_accumulation_steps": 8,
+      "learning_rate": 0.000005,
+      "num_generations": 4,
+      "max_completion_length": 512
+    }
+  }
+}

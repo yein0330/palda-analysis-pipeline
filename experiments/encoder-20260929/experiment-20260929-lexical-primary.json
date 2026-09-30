@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "palda-lexical-validation-diagnostic-v1",
+  "bestValidation": {
+    "reviewThemeSentiment": {
+      "microPrecision": 0.3376,
+      "microRecall": 0.5813,
+      "microF1": 0.4271,
+      "macroF1": 0.2104,
+      "exactMatch": 0.1315
+    },
+    "qnaPrimary": {
+      "accuracy": 0.4211,
+      "macroF1": 0.2455
+    },
+    "qnaSecondary": {
+      "microPrecision": 0.1854,
+      "microRecall": 0.3146,
+      "microF1": 0.2333,
+      "macroF1": 0.0748,
+      "exactMatch": 0.5425
+    },
+    "usable": {
+      "accuracy": 1.0,
+      "macroF1": 1.0,
+      "classCounts": {
+        "True": 247
+      }
+    }
+  },
+  "elapsedSeconds": 10.371832609176636,
+  "testSkipped": true,
+  "weightsSaved": true,
+  "savedArtifactScope": [
+    "qnaPrimary"
+  ],
+  "records": {
+    "train": 10765,
+    "validation": 749
+  },
+  "features": 40000,
+  "hashes": {
+    "train.jsonl": "c172f32bcf7eb23d427c332a9763585a2a5e366cc9a74939b6bc9f30023c6209",
+    "validation.jsonl": "48c37dac16e81156ece12230e0d9625deee8be9f8b6d915150ef513b4d87e04f",
+    "label_map.json": "1708446b3b15477f3757bb20c8c240c11d3c9f1ced2f6df258ce033c05a7f888"
+  },
+  "warning": "Development diagnostic, not Test. Usable is constant True, not trained. No confidence calibration."
+}

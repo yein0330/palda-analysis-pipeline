@@ -1,0 +1,10 @@
+{
+  "default": {
+    "kanana": 1.0,
+    "llama": 1.0,
+    "qwen": 1.0
+  },
+  "by_theme": {},
+  "by_category_theme": {}
+}
+

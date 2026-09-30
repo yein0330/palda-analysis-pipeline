@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "palda-encoder-pipeline"
+version = "0.2.0"
+description = "Human-light data generation, labeling, training, and evaluation pipeline for the PALDA encoder"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+train = [
+  "numpy>=1.26",
+  "scikit-learn>=1.4",
+  "torch>=2.2",
+  "transformers>=4.44",
+]
+serve = [
+  "torch>=2.2",
+  "transformers[serving]>=4.57,<5",
+]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+palda-encoder = "palda_encoder.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

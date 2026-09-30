@@ -1,0 +1,1277 @@
+{
+  "schema": "palda-public-code-export-v1",
+  "source_snapshot_date": "2026-09-30",
+  "files": [
+    {
+      "path": "qna_review_model/config/category_themes.json",
+      "sha256": "42c16f7bcb9863728ebb29bc19f59e68ec1ce01ddc9e02a9d1ac3554f50ef4cd",
+      "bytes": 6620
+    },
+    {
+      "path": "qna_review_model/config/category_themes_cat2_draft.json",
+      "sha256": "bfc51e981dc33b0c171c4844ca03e5f80c900e012031faf4742b2563f37b35be",
+      "bytes": 108233
+    },
+    {
+      "path": "qna_review_model/pyproject.toml",
+      "sha256": "8eaabb2b15d9ce05f582f2858e14433f77b05643ee5f3006264f30e4e1f74d27",
+      "bytes": 511
+    },
+    {
+      "path": "qna_review_model/requirements-train.txt",
+      "sha256": "d2cc73277a843aa5802c33b8fda5c55d2ccc1b959ce251db1c3eec98dce87c65",
+      "bytes": 306
+    },
+    {
+      "path": "qna_review_model/schemas/cross_stage_insight.schema.json",
+      "sha256": "2ccf7f112f159f35be67dde74a80b6be80d533e11ebf173fd27a00162381d4b8",
+      "bytes": 2406
+    },
+    {
+      "path": "qna_review_model/schemas/product_analysis.schema.json",
+      "sha256": "3964ba7842288af74bc0f6cb1e713314c397337c515a53a527917d4345f8a315",
+      "bytes": 9019
+    },
+    {
+      "path": "qna_review_model/schemas/product_context.schema.json",
+      "sha256": "5cdab62b235f84b63ab8feaa598ea911de4a545d6feaf135149579b669a97b82",
+      "bytes": 1368
+    },
+    {
+      "path": "qna_review_model/schemas/qna_record.schema.json",
+      "sha256": "7cacdd314aa47a713194f7c955a7a2b19a3c5368f5df47f922cb4789b1eac2b5",
+      "bytes": 1128
+    },
+    {
+      "path": "qna_review_model/schemas/review_record.schema.json",
+      "sha256": "b8acee196462c39ae514e84c8ca222c64978ff01198c654b58b7508bce252a5b",
+      "bytes": 1361
+    },
+    {
+      "path": "qna_review_model/schemas/seller_action.schema.json",
+      "sha256": "ab80c11c839b059f22ba97820b657b4a310a7d66fe419f65f8eadeed7d2fa62f",
+      "bytes": 569
+    },
+    {
+      "path": "qna_review_model/schemas/theme_definition.schema.json",
+      "sha256": "43a9fa3d136e32e6784722e13abd7480c503026eb0163db4f46b37e74c1440e3",
+      "bytes": 624
+    },
+    {
+      "path": "qna_review_model/schemas/theme_evidence.schema.json",
+      "sha256": "4924d3ec3020755eb2772badc783df81742891889eaf336b8c68d8393f49d057",
+      "bytes": 650
+    },
+    {
+      "path": "qna_review_model/schemas/theme_signal.schema.json",
+      "sha256": "a3ce421ecf681aa0d7e266a4b957156116fbc085ea8f46802bafbe923bed2c72",
+      "bytes": 2332
+    },
+    {
+      "path": "qna_review_model/scripts/audit_encoder_validation.py",
+      "sha256": "152327f40402e7a0ccc72b488ab679b3b47a4d372b0a57eb8a1d828904d4a747",
+      "bytes": 8720
+    },
+    {
+      "path": "qna_review_model/scripts/benchmark_encoder_lexical.py",
+      "sha256": "62159b4588085f984dc95abb3e2ec34dc0f2f5beb75cceaf5a37039c12177135",
+      "bytes": 9763
+    },
+    {
+      "path": "qna_review_model/scripts/bootstrap_encoder_validation.py",
+      "sha256": "199e278711e97f57425a690eb0bcfd4997d3671f56b9a0632ea4ec1fd10248b2",
+      "bytes": 3245
+    },
+    {
+      "path": "qna_review_model/scripts/build_cat2_stratified_examples.py",
+      "sha256": "f13b1898be6c686e08c2c800438c1be4ac9bb96ba9381e4046d65e55c4352a3f",
+      "bytes": 5752
+    },
+    {
+      "path": "qna_review_model/scripts/build_cat2_theme_draft.py",
+      "sha256": "23d877a0117e413cd3a529811d21a0ffe3de5d46e91659dcd41e67927d753a06",
+      "bytes": 7583
+    },
+    {
+      "path": "qna_review_model/scripts/build_cat2_theme_review_html.py",
+      "sha256": "a12fca4e2f8ea26f9b69ef439bddb053e8c154a55e09b19a12f60f900645f740",
+      "bytes": 7174
+    },
+    {
+      "path": "qna_review_model/scripts/build_cat2_theme_samples.py",
+      "sha256": "28daff215e281cfd56206ef56604ce9663fd10e36d10600c834929b3c9d0db5b",
+      "bytes": 5683
+    },
+    {
+      "path": "qna_review_model/scripts/build_decoder_oracle_inputs.py",
+      "sha256": "59fbfa8a3fb52c61bba049009e9ed6552842e54096eefdbf7a8a9c36678979f0",
+      "bytes": 938
+    },
+    {
+      "path": "qna_review_model/scripts/build_decoder_review_html.py",
+      "sha256": "bd06d71d58b1b94758cf52bf984085de04987d868ca2a988dda8423bf561fe16",
+      "bytes": 7611
+    },
+    {
+      "path": "qna_review_model/scripts/build_encoder_ablation.py",
+      "sha256": "d81b1ae18681bd2b2f1001aa6c754cf6c02f096faa11434f71f7633f618e6aea",
+      "bytes": 6121
+    },
+    {
+      "path": "qna_review_model/scripts/build_encoder_abstention_ablation.py",
+      "sha256": "bcfc72e8a4e8c796275480ba3fe00eb47b8aee3c1932be4948dce606bbf0d958",
+      "bytes": 3090
+    },
+    {
+      "path": "qna_review_model/scripts/build_encoder_dataset_v2.py",
+      "sha256": "51e8b777c3ae9ee72e78ebccca9845dc97dc6ea28a80db7a3af04b02009222f4",
+      "bytes": 18151
+    },
+    {
+      "path": "qna_review_model/scripts/build_encoder_experiment_v1.py",
+      "sha256": "e09ca9c6713778f8f604063642e4112ba5e0ede0f0f1f74781f0fcf2987d1738",
+      "bytes": 17899
+    },
+    {
+      "path": "qna_review_model/scripts/build_encoder_review_assignments.py",
+      "sha256": "7ac3f45a35a0fc715c0911c7705769f3b108befbb32a6685a2c8b313cb56cfca",
+      "bytes": 17293
+    },
+    {
+      "path": "qna_review_model/scripts/build_gold_sft.py",
+      "sha256": "e67cec207e681bfc749e2781717e3e32a00391577018951bef40dbfcdad5dfb8",
+      "bytes": 7461
+    },
+    {
+      "path": "qna_review_model/scripts/build_leaf_coverage_html.py",
+      "sha256": "9a64b981387321d496a84da0ccad7942d7afe1db0efa609426f1c158d2157478",
+      "bytes": 5180
+    },
+    {
+      "path": "qna_review_model/scripts/build_one_per_leaf_queue.py",
+      "sha256": "7667b630891af6c2a52e6556edd31a3ab3430bfd415a6ced4bd0cf5b8bce8d81",
+      "bytes": 9188
+    },
+    {
+      "path": "qna_review_model/scripts/build_review_html.py",
+      "sha256": "b93f18bc77efdb4c3397a6d8ac4b93a3db97f8137f2d9a0c804636926c1f4947",
+      "bytes": 24936
+    },
+    {
+      "path": "qna_review_model/scripts/build_simulation_gold_review_candidates.py",
+      "sha256": "20d938d28ff19e906179e0e9327023a4b3e208d0442528c12afac4a5d6c86e2a",
+      "bytes": 5476
+    },
+    {
+      "path": "qna_review_model/scripts/build_static_hard_negative_pages.py",
+      "sha256": "9205ac7c5089dad5b943aaf31ffc8d8d7204161b8d57fe60d606d255d44b64c5",
+      "bytes": 4516
+    },
+    {
+      "path": "qna_review_model/scripts/calibrate_encoder_primary.py",
+      "sha256": "02f87b268c52b3d4ff61e972483fb92bb2d2af0017aa7a5ef1fa4d18eeba6d24",
+      "bytes": 6312
+    },
+    {
+      "path": "qna_review_model/scripts/calibrate_encoder_validation.py",
+      "sha256": "1c84f5b1a8b056f37d1b23db9f39637353fbdb1d4473d266c0aead3a16f06bf6",
+      "bytes": 4354
+    },
+    {
+      "path": "qna_review_model/scripts/check_judge_regressions.py",
+      "sha256": "5e4343559ac937b99810cb50167b00ac709d283b7f42330b15da86f6cec7090c",
+      "bytes": 1871
+    },
+    {
+      "path": "qna_review_model/scripts/compare_encoder_validation.py",
+      "sha256": "9ec0fee452f288448492ddee6a3457ed201fc713c59a9cb40a3ddad7d0611332",
+      "bytes": 4133
+    },
+    {
+      "path": "qna_review_model/scripts/convert_legacy_encoder_reviews.py",
+      "sha256": "766790acbff4d4d661bc5b090b7b9685fb0d41538a1c068d46c1f6fb9cd89777",
+      "bytes": 11016
+    },
+    {
+      "path": "qna_review_model/scripts/diagnose_encoder_abstention.py",
+      "sha256": "e0ac9dc21735516c5ddc77602428858dfa8002c112f079af036f1d57284ae8da",
+      "bytes": 4879
+    },
+    {
+      "path": "qna_review_model/scripts/diagnose_encoder_primary_blend.py",
+      "sha256": "f69346d9d89e1b527411c96859fbc1ad474f9dc872e06bdfbe0b16230202f2f9",
+      "bytes": 3482
+    },
+    {
+      "path": "qna_review_model/scripts/diagnose_encoder_review_blend.py",
+      "sha256": "6d7117ef1af5c4e96d5985cb24e13b1f865ab2685e1abff33c1af300130e8c36",
+      "bytes": 2928
+    },
+    {
+      "path": "qna_review_model/scripts/diagnose_encoder_review_errors.py",
+      "sha256": "8b421a5b6f720327ddc6153fd343a6ca65503de1451372a7b71cf316108a854c",
+      "bytes": 3372
+    },
+    {
+      "path": "qna_review_model/scripts/enrich_cat2_theme_examples.py",
+      "sha256": "2b442d59c283cf3101104c54d89780f8d72d9bbd57ae79e764fd4d7f8da040e2",
+      "bytes": 7151
+    },
+    {
+      "path": "qna_review_model/scripts/evaluate_adapter.py",
+      "sha256": "7ad2c9ff35f628e75811f455a9dc51ece4c09e086ac599e283fa9f6654b31026",
+      "bytes": 8322
+    },
+    {
+      "path": "qna_review_model/scripts/evaluate_encoder_checkpoint.py",
+      "sha256": "51544b28e2d8fe890c2def1cc8c4fc6774bf87952a577943a4a1fde6360943b5",
+      "bytes": 3694
+    },
+    {
+      "path": "qna_review_model/scripts/evaluate_encoder_review_candidate.py",
+      "sha256": "784df935500b287b249cb6147a954d8b12426668fec382ea0b6b22730d8e5b53",
+      "bytes": 4044
+    },
+    {
+      "path": "qna_review_model/scripts/expand_encoder_label_map.py",
+      "sha256": "8c01ac7cdf0573510fa6bd3606082e5e277996f55e26a99833434876681fbc35",
+      "bytes": 2220
+    },
+    {
+      "path": "qna_review_model/scripts/export_encoder_from_simulation_split.py",
+      "sha256": "5802bd0d76dc3bc551209b0805ad2edbd3bc8adf03f3ac1a63f59cb953a9403f",
+      "bytes": 5726
+    },
+    {
+      "path": "qna_review_model/scripts/export_review_xlsx.py",
+      "sha256": "153175619a8ae7d6ee325a95acd5e1aefdfc0c3975453c2b032e7f95c38297d6",
+      "bytes": 5182
+    },
+    {
+      "path": "qna_review_model/scripts/finalize_decoder_drafts.py",
+      "sha256": "91e0ccb20592fd1ac67aa0009ebcbc31acb680f3c1b19b92d954dd93cd0a85eb",
+      "bytes": 4594
+    },
+    {
+      "path": "qna_review_model/scripts/generate_cat2_theme_candidates.py",
+      "sha256": "1342aafe873fc55a3fe0d483277f3204223d90ffe1476e73d3cdcf54a111834f",
+      "bytes": 8581
+    },
+    {
+      "path": "qna_review_model/scripts/generate_decoder_report_drafts.py",
+      "sha256": "acb78f5ccc90cd6affb888db647cf8cddfab0368af82adb26b3a2544aac7987b",
+      "bytes": 13857
+    },
+    {
+      "path": "qna_review_model/scripts/generate_draft_annotations.py",
+      "sha256": "64057e9bb75d0853b5eba3dd0291218f53845225aa84e6fac394dfbab8ead353",
+      "bytes": 7540
+    },
+    {
+      "path": "qna_review_model/scripts/generate_service_annotations.py",
+      "sha256": "c60f8a43e93463204fdd1bf18625dd6a9b44b46ec079ecc4685f3784477fed1d",
+      "bytes": 7867
+    },
+    {
+      "path": "qna_review_model/scripts/import_encoder_reviews_v2.py",
+      "sha256": "43d95dfc7a1b2e1eecc7328c2f77c360301f35d99ec383ddcdf09dfbaa51b879",
+      "bytes": 8797
+    },
+    {
+      "path": "qna_review_model/scripts/measure_encoder_coverage.py",
+      "sha256": "b1184b1b6f17aa69808141999b42c5aae834e4e85398e0c9f4b51c8d38abe055",
+      "bytes": 3043
+    },
+    {
+      "path": "qna_review_model/scripts/merge_reviewer_csvs.py",
+      "sha256": "cc38a2ab694817f57a08dd081db92252a77510bdaa0a4d29edd8f0ae6bf0574f",
+      "bytes": 3446
+    },
+    {
+      "path": "qna_review_model/scripts/prepare_blind_encoder_judge.py",
+      "sha256": "6ed3458a9b08ef29e4e1f69bcbc214bcf39acd2fb2697541577d0647cd14919b",
+      "bytes": 2711
+    },
+    {
+      "path": "qna_review_model/scripts/prepare_encoder_inner_holdout.py",
+      "sha256": "e5e82bd4eaaf5e578da1ab00ae311944b226a23c41398807aee4944a5b1c8b8d",
+      "bytes": 3661
+    },
+    {
+      "path": "qna_review_model/scripts/profile_leaf_coverage.py",
+      "sha256": "9c6bd2507b59297af9d36c9921f208809063c374fc839fa342e37432221b5a78",
+      "bytes": 7804
+    },
+    {
+      "path": "qna_review_model/scripts/renormalize_service_annotations.py",
+      "sha256": "69de84eeeee24af751b9b69b28d7499867b36b0f641d45e584c5f6d215913e82",
+      "bytes": 2216
+    },
+    {
+      "path": "qna_review_model/scripts/score_encoder_judge_constraints.py",
+      "sha256": "a4ce22a5a938438fbcda33ff23b07ebb561c254bd1256fe01fe5908bc6a65b0b",
+      "bytes": 5220
+    },
+    {
+      "path": "qna_review_model/scripts/serve_review_with_auth.py",
+      "sha256": "ecc585e85798336503c3e99209464a5e84300f39ad3f48a52f917060f3e9e407",
+      "bytes": 2586
+    },
+    {
+      "path": "qna_review_model/scripts/split_review_assignments.py",
+      "sha256": "678746b924757d644428c4f7ee34c0352f71a83154bf12b1f86958d3045aefe4",
+      "bytes": 5263
+    },
+    {
+      "path": "qna_review_model/scripts/train_encoder_cpu_baseline.py",
+      "sha256": "ae20efbd15f6d9647bf5be74b31de32ae374ae7409c486c5ae3422d8d0954930",
+      "bytes": 11788
+    },
+    {
+      "path": "qna_review_model/scripts/train_encoder_transformer.py",
+      "sha256": "48410e32e8ccee0b0d3268511deec92db7bf10fbf5d31aee14eab188521eea94",
+      "bytes": 31370
+    },
+    {
+      "path": "qna_review_model/scripts/train_qlora.py",
+      "sha256": "d13ec0e97cf9784dbfe2046dbbb737d61fccc139a249dfd0a9dc6fe3c476f737",
+      "bytes": 4171
+    },
+    {
+      "path": "qna_review_model/src/qna_review_model/__init__.py",
+      "sha256": "a2c83ede8beddf55a861e3ab8c637b279a050df4304549c472c722c585a9e1a2",
+      "bytes": 238
+    },
+    {
+      "path": "qna_review_model/src/qna_review_model/analysis.py",
+      "sha256": "1b9572f5a6c5250cdd215e17ea0767c8eb1956a4d886586dca08c2e6c21b912f",
+      "bytes": 6954
+    },
+    {
+      "path": "qna_review_model/src/qna_review_model/annotation.py",
+      "sha256": "11aced4028cda65a644304b859bccf7e10a2fefe71784c7c7090aeb3a8cc7e97",
+      "bytes": 19214
+    },
+    {
+      "path": "qna_review_model/src/qna_review_model/cli.py",
+      "sha256": "6c8b7b683bf25706f523bac0878a05d01720fe5b654a7413c6b828790f01b845",
+      "bytes": 12664
+    },
+    {
+      "path": "qna_review_model/src/qna_review_model/crawler.py",
+      "sha256": "21bddd263e8b195f738778a1186e790d6d8954a74157ad4cdb44ca9687d8ee6a",
+      "bytes": 8167
+    },
+    {
+      "path": "qna_review_model/src/qna_review_model/decoder_data.py",
+      "sha256": "a237880bcc641b696363099ff4f470bf11dd5d39c922451f2301a3589e54a89e",
+      "bytes": 7330
+    },
+    {
+      "path": "qna_review_model/src/qna_review_model/decoder_draft.py",
+      "sha256": "134e1707137f375bd81094903c42ca70126894865628d061329668a16c900060",
+      "bytes": 5026
+    },
+    {
+      "path": "qna_review_model/src/qna_review_model/encoder_data.py",
+      "sha256": "ce3aba8b45dcaab51a165fc46fb76ef128a30752f84847562d4e6bffb7c5f211",
+      "bytes": 3261
+    },
+    {
+      "path": "qna_review_model/src/qna_review_model/encoder_review.py",
+      "sha256": "9c431bef8d7d557e129653a29d2b9bff107500ade80359f47bf8f46202066c6b",
+      "bytes": 5153
+    },
+    {
+      "path": "qna_review_model/src/qna_review_model/paths.py",
+      "sha256": "264053b405299bd281363025088e772dc82872c46e3425c244356170fc821901",
+      "bytes": 294
+    },
+    {
+      "path": "qna_review_model/src/qna_review_model/pilot.py",
+      "sha256": "63e008ff93e69f88628baa8262cfb95bb47415d6adfe60801501c373a84d7c48",
+      "bytes": 18059
+    },
+    {
+      "path": "qna_review_model/src/qna_review_model/profile.py",
+      "sha256": "bcddfb7459614ff9ee2b74a706c252b17628a7fd0cbc27283585c3cfd6d775df",
+      "bytes": 3589
+    },
+    {
+      "path": "qna_review_model/src/qna_review_model/schemas.py",
+      "sha256": "05a7e7f1fede25201768dd9ecd05ca8669ec0e18735c0a97a62aa484dee257d8",
+      "bytes": 3856
+    },
+    {
+      "path": "qna_review_model/src/qna_review_model/service_annotation.py",
+      "sha256": "d7fd336f752d54e60214cf97fe7b2eb163eca329f86f56a3371aaedb4c5c5154",
+      "bytes": 9089
+    },
+    {
+      "path": "qna_review_model/src/qna_review_model/themes.py",
+      "sha256": "f23ea7af051056f1a133b96c2ea0d2fb9227ecaff8bce9a17e57a956e5a0697a",
+      "bytes": 1636
+    },
+    {
+      "path": "qna_review_model/src/qna_review_model/training_data.py",
+      "sha256": "bfe51929630a4bb1d36f80504983c0819ac653d387fd435bb929d1129041c10b",
+      "bytes": 4210
+    },
+    {
+      "path": "qna_review_model/tests/test_analysis.py",
+      "sha256": "27d525746819e9aa58ad6e17f6735caf20c0f5af620a88783feaed44438b37be",
+      "bytes": 2704
+    },
+    {
+      "path": "qna_review_model/tests/test_annotation.py",
+      "sha256": "9ece853083c3c8b19a10f74d88b72a36c938f9e0e83b7cebc160df8b98373102",
+      "bytes": 3100
+    },
+    {
+      "path": "qna_review_model/tests/test_crawler.py",
+      "sha256": "b122d9e797f83fc658d26f17b85bb6c6ebf4280b10e8d91067114dddad530f59",
+      "bytes": 3798
+    },
+    {
+      "path": "qna_review_model/tests/test_decoder_data.py",
+      "sha256": "105533aa588e9c8b3837df0536b49c3c3062d66ea424799ae5d55c9432e678a8",
+      "bytes": 3674
+    },
+    {
+      "path": "qna_review_model/tests/test_encoder_ablation.py",
+      "sha256": "238a448cc87202100f55fc634a9fa1720a0e2124a6b572eea9160b32c0a0bedb",
+      "bytes": 5251
+    },
+    {
+      "path": "qna_review_model/tests/test_encoder_abstention.py",
+      "sha256": "754e31023e1393711582a7035a00c41fcb81fb7fb6dd77ef6e682e6066fda280",
+      "bytes": 1888
+    },
+    {
+      "path": "qna_review_model/tests/test_encoder_blend.py",
+      "sha256": "6df9d8a24ad9f1332ed0f2bbe21b6c28ccbfa6fc6db4d91196f8fb766db1fa15",
+      "bytes": 1498
+    },
+    {
+      "path": "qna_review_model/tests/test_encoder_comparison.py",
+      "sha256": "72d6d1931ce34317ccd2392c0de165af8d2985133d5e82d18914a30a8dc074f6",
+      "bytes": 1542
+    },
+    {
+      "path": "qna_review_model/tests/test_encoder_coverage.py",
+      "sha256": "4f0f80263d8b69b3eb426e6535ce39d8d24140fe30361dd201bb17ab1a1c2a13",
+      "bytes": 1168
+    },
+    {
+      "path": "qna_review_model/tests/test_encoder_data.py",
+      "sha256": "b1de9598a217386b419f0d402b0880bec7e92570f0478a5d6272f0ecfdad5142",
+      "bytes": 2291
+    },
+    {
+      "path": "qna_review_model/tests/test_encoder_experiment.py",
+      "sha256": "f1ef65d534da44db368a847b412f9b3bcae7e4be2294bbb48701ce1444c9a55c",
+      "bytes": 4538
+    },
+    {
+      "path": "qna_review_model/tests/test_encoder_inner_holdout.py",
+      "sha256": "1a977cd16941b9cc6b69805bc71fae9aeeced1681441fa0cce5e6aa3a832aea3",
+      "bytes": 1149
+    },
+    {
+      "path": "qna_review_model/tests/test_encoder_judge_constraints.py",
+      "sha256": "fa029d74612ba684161711d30b082755f83fd34e26b86e3ef95a48c5de1bbf82",
+      "bytes": 566
+    },
+    {
+      "path": "qna_review_model/tests/test_encoder_label_attention.py",
+      "sha256": "774f1fab9165812e311889c003031d3788d01a5fd05bc335c1ad9c794947032b",
+      "bytes": 3508
+    },
+    {
+      "path": "qna_review_model/tests/test_encoder_lexical.py",
+      "sha256": "850e035b704f1a545b6b61b22b181d7b1851dfe3ccd5ad09c448a4cfc8f3bfd5",
+      "bytes": 3101
+    },
+    {
+      "path": "qna_review_model/tests/test_encoder_pooling.py",
+      "sha256": "a0a61a656be5afc2de4d624409569bbb318821753582d15e3f800e968dcb3026",
+      "bytes": 547
+    },
+    {
+      "path": "qna_review_model/tests/test_encoder_primary_calibration.py",
+      "sha256": "bfab594774092958d485389c53019f711f13be2fdc283df3650de5a389adb45b",
+      "bytes": 2578
+    },
+    {
+      "path": "qna_review_model/tests/test_encoder_review_assignments.py",
+      "sha256": "f214f7627aef29af884454fd0443f493e20a566820341ab94a567616e81516c3",
+      "bytes": 646
+    },
+    {
+      "path": "qna_review_model/tests/test_encoder_review_errors.py",
+      "sha256": "1169b74bd835758372483152890b4dc09d3116980750108c8118c40d6e865b47",
+      "bytes": 969
+    },
+    {
+      "path": "qna_review_model/tests/test_encoder_task_loss.py",
+      "sha256": "d4bb55f66ce758e8508972f191bf059a4b6ab6e5bd1ab220d9813dc5a51bc7fd",
+      "bytes": 1411
+    },
+    {
+      "path": "qna_review_model/tests/test_encoder_weights.py",
+      "sha256": "f3dcf9c350daea8e8703cc6a88c538032e01d3a4a1003a45f2b112884e3b18b9",
+      "bytes": 979
+    },
+    {
+      "path": "qna_review_model/tests/test_import_encoder_reviews.py",
+      "sha256": "0e8c4c05ef96ad402121c4386535b7f17ea231b933dbc4c6261024733568e345",
+      "bytes": 2065
+    },
+    {
+      "path": "qna_review_model/tests/test_pilot.py",
+      "sha256": "1dc2497f94cd38f7be6f1c63787380579186655d963df2cb15f5c772ed646923",
+      "bytes": 1662
+    },
+    {
+      "path": "qna_review_model/tests/test_review_html.py",
+      "sha256": "03f734670c1f6ed7fa6adb0daf79fdd194da89032123307f6ffe32da1770840b",
+      "bytes": 738
+    },
+    {
+      "path": "qna_review_model/tests/test_service_annotation.py",
+      "sha256": "b04ed42f7ab90d67c4d4b6f336a27ecdc3332b0374985bed6328248fbdfa40d4",
+      "bytes": 3673
+    },
+    {
+      "path": "qna_review_model/tests/test_training_data.py",
+      "sha256": "5ce5591d259e3f595328677c53e24b6b6801cca8a19051907b1dc93c2f140387",
+      "bytes": 834
+    },
+    {
+      "path": "palda-encoder-pipeline/configs/annotation_rubric_v2.txt",
+      "sha256": "f9116dc9869dd4c3b8318b72be622340aaf407616bead42c7427e4ad990331c8",
+      "bytes": 2225
+    },
+    {
+      "path": "palda-encoder-pipeline/configs/models.example.json",
+      "sha256": "11e7f45d4572b4a372ed4fefaaf0c40a32096b4e1d43595af9f60cb5a8a604db",
+      "bytes": 834
+    },
+    {
+      "path": "palda-encoder-pipeline/configs/pipeline.example.json",
+      "sha256": "d494dd093f22157f3ddcf08cd24bcb64cde402b6aadd8707bdd7dbd1c5314e8b",
+      "bytes": 1649
+    },
+    {
+      "path": "palda-encoder-pipeline/configs/reliability.example.json",
+      "sha256": "558d70f30e0056c50b670ccf1fa2e725f1aaa90842b89eb2af18e509e5a6a2b2",
+      "bytes": 122
+    },
+    {
+      "path": "palda-encoder-pipeline/pyproject.toml",
+      "sha256": "acc258f0b95f5e493de89c35fdfd85be81393df32507a9b6bddafdf1f67f40f2",
+      "bytes": 726
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/audit_common_themes.py",
+      "sha256": "70feb011a3192b7835d4944a47fad36965456eee5da50c0ca5bdc3f4ee210ffc",
+      "bytes": 10266
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/audit_judge_calibration.py",
+      "sha256": "c4b9167072897cb7d4519db58b50901872682e74acc32290ec63ebd9fea88621",
+      "bytes": 7165
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/audit_release_coverage.py",
+      "sha256": "94941844accbb528d9adbbf78ee42f72b61c03d542c9d6e9073b391bc0ed0508",
+      "bytes": 2822
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/audit_service_predictions.py",
+      "sha256": "efaa81bd7564c866f105d8402dffb34df92183bcfef63173a6d91d45d2ad267b",
+      "bytes": 4559
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/benchmark_encoder_pair.py",
+      "sha256": "84e54bafbb9c24af7bda66097fef8fff447fb230e51a09ad99fc2b55012fbcac",
+      "bytes": 2793
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/build_balanced_raw_sample.py",
+      "sha256": "f760542ac5c5367e3f8c4f72d472f252761ca5d65018a789d45169afbe7a60d8",
+      "bytes": 1244
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/build_consensus_augmented_release.py",
+      "sha256": "e11893cdfbb5a1cf1ff88e03b47f477f8711e7c987e60f89f8ed6bff39cccc4a",
+      "bytes": 5236
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/build_coverage_generation_plan.py",
+      "sha256": "4253cf2df2a001cefff6e7da2394d95f821112e8222555215dac3b587dfb3ca1",
+      "bytes": 4361
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/build_hard_negative_labeling_pilot.py",
+      "sha256": "667a6c49eb641ac8e23e0dc2a592b8a6dca207a38cd51873cc02c49ae61ecf56",
+      "bytes": 4629
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/build_hard_negative_review_set.py",
+      "sha256": "97266aa5d2d512d12d2528ce81c04c07bd97a2787fb33fc3cd25ba82effa3197",
+      "bytes": 9630
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/build_human_benchmark.py",
+      "sha256": "3616a390292e59019fb53af18ef250b6ba2dc977b198778a6ea853cd2b0c35f3",
+      "bytes": 986
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/build_isolated_release.py",
+      "sha256": "e4c6ca44e43b60d9fd54649a21eab063f58017bc9877a6426cbf8f759bb20e91",
+      "bytes": 847
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/build_multi_intent_qna_plan.py",
+      "sha256": "ad58971bdc6ee56dfaf8e012dc28d48916cbcd23841c3dcd9d84826c92b6e868",
+      "bytes": 2289
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/build_oof_gold_folds.py",
+      "sha256": "30fafc802483b514b513882192a13875a3027b747faee350e19586f47ce84e5f",
+      "bytes": 5173
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/build_oof_transform_plan.py",
+      "sha256": "79ebe5831ad979d8d2b41897fbd31edf544ac96162cc20a64ea3140a2a403065",
+      "bytes": 3738
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/build_rejudged_release.py",
+      "sha256": "cc12ab01feab03806eea55a77a03adbf0f204516a22a35de857caf054923fa81",
+      "bytes": 4529
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/build_unusable_generation_plan.py",
+      "sha256": "0ae888c33efedbb664667c4722c93c2b56c775c7c3e287945bf82beae4adf8a8",
+      "bytes": 1592
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/capture_gold_oracle_examples.py",
+      "sha256": "6e88ef967a2c472bef01273d0648ef98f3352435dc2cf771da63ddd943f717cf",
+      "bytes": 11428
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/capture_oracle_expansion.py",
+      "sha256": "54257d894f80202a4115d508d68f9947f3ee7706d84bf325a1baacb3dc96f1dc",
+      "bytes": 8274
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/capture_pipeline_examples.py",
+      "sha256": "c156549b1ed1f8a6adad11eebc7f2a9c82d866eadc4b99f38281aad74115338b",
+      "bytes": 7289
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/compare_decoder_adapter.py",
+      "sha256": "3ef5a02ed2676cd8e1f091d5cbb8eb2d173ff582a5c2faffb558faf934f74250",
+      "bytes": 6433
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/compare_label_quality.py",
+      "sha256": "b60783152bc14e411855607968dd2f31d437191cc4b49a08e382a2a4e945e924",
+      "bytes": 11459
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/compare_oracle_selling_points.py",
+      "sha256": "f68bb7f7b1034d6cf41895709347c517334d875af1bd7384bf5de7fd45828390",
+      "bytes": 5331
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/decoder_input_group_precision.py",
+      "sha256": "14ae905a8cdee24c614a0d6acf20aa8898b0db3a77201e036caba35ed8e39c2c",
+      "bytes": 6051
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/export_quality_examples.py",
+      "sha256": "f1805a9efd3eefafede59a23d850d569a83ba8d66c1995be0f91614d6bdf06ee",
+      "bytes": 11339
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/filter_synthetic_quality.py",
+      "sha256": "8bb6a58349e99910622cfb8055b49d1a707bafdc67ac9b614656d99d26479f4c",
+      "bytes": 2616
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/grounded_feedback_experiment.py",
+      "sha256": "7d759f2eb8fc439ec05e41cd7a39967da4b6d717a9b7da7781094a609eef5f9c",
+      "bytes": 13516
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/import_palda_encoder_v1.py",
+      "sha256": "61408edd33f236b3efc3473956feab065c688f0220d8455be93a5f1def1e19b3",
+      "bytes": 8212
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/input_size_tradeoff.py",
+      "sha256": "8ef78beffa27103de8a58996541b68e7a0bc18574a827eaae3328eb35d06293e",
+      "bytes": 28845
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/input_size_tradeoff_judge.py",
+      "sha256": "41fa23ec1157c30ab1497b86d8028e09bb8b59055cf921211c80bf15420c2c22",
+      "bytes": 8753
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/input_size_tradeoff_monitor.py",
+      "sha256": "0a1336044cc8073b62ce8af326f0a42f67e6d54efc98a673073fd75fe4a83c6e",
+      "bytes": 5565
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/live_quality_experiment.py",
+      "sha256": "0d8553132e6c3dd23e2f030a84781d607b34e6be9077a8bc27a365424aed7d83",
+      "bytes": 8276
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/manage_llm_servers.py",
+      "sha256": "cc1f776d385c16aa8f12e670c808f5669c504813447345b26cf5c423bae6990d",
+      "bytes": 9050
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/merge_jsonl.py",
+      "sha256": "4b874a55bd6cf356d4450d3a7c717e0167e94c0227e30c927345e07d20d6d288",
+      "bytes": 1481
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/merge_judge_runs.py",
+      "sha256": "58c08fd8cb8b6fc305685f184f39fe5f64ba86de2ffc4b09d730d82086050515",
+      "bytes": 2055
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/normalize_label_votes.py",
+      "sha256": "a04a24f4f43ffc93efb0a9f22a4a487ac97e07096909ed18bedbb5f22c8b4308",
+      "bytes": 1268
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/paired_bootstrap_service.py",
+      "sha256": "d53690ce0145ffb15cc1f62b63ce042822d8e3873d4b65fdcf9652d7ce85b667",
+      "bytes": 12512
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/pipeline_architecture_tradeoff.py",
+      "sha256": "6a0d2c1e62d4a08507a3d0b73ed610e6e462c0f5488fe2645ab1a002ce1e6f87",
+      "bytes": 9836
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/promote_consensus_delta.py",
+      "sha256": "64b70109fe529c0b02c2dc1092c191e9e96465629d34d007017d58c639bc10ab",
+      "bytes": 1772
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/prototype_evidence_diversity.py",
+      "sha256": "43b1105dd4641768103f950afdfd0ba18bff0c921a35a55dfd006d4e8386df75",
+      "bytes": 6185
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/quality_dashboard.py",
+      "sha256": "6b6724dedb4f3598be76f769c8e87cdcf9ec344c8e07393748c362d45a1e573f",
+      "bytes": 6754
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/research_loss_experiments.py",
+      "sha256": "53437a1f801a6e4917ef58478865304c85aaed670628e4b1250f4f254daae979",
+      "bytes": 7564
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/run_label_quality_round2.py",
+      "sha256": "f9c611132906bab364175e699438caab19a93f13e9df60ffd10949e44d4437bb",
+      "bytes": 7432
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/run_raw_products.py",
+      "sha256": "50519b6560ce4469bb39e62b92a93e4e9bd465b54a0087b0419c15141c14ca8b",
+      "bytes": 5481
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/score_silver_ceiling.py",
+      "sha256": "e50a45e4e14fcf31b66bf7ae0870ae38ccfcaeddd831b5a26d82ca4889bca33a",
+      "bytes": 5301
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/select_consensus_status.py",
+      "sha256": "006b9a946ed44b272b2acb3fb62a5ca06614fd7a1c706c08ea775024eba9d9dc",
+      "bytes": 1512
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/select_insufficient_votes.py",
+      "sha256": "8d19a87d841e9fe0d939fcef58f9e9859e04d381310b413917be0b183616186f",
+      "bytes": 1863
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/summarize_oof_errors.py",
+      "sha256": "a62d32f951ffa79bc150122a21c0e029c7638112a7001b91c9cb94aa667b407c",
+      "bytes": 5567
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/tradeoff_suite_supervisor.py",
+      "sha256": "cc72f6060481c275c98c84949b6c45f5499fbba8c5e4b69e6ee8895f5620922b",
+      "bytes": 4720
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/wandb_qualitative.py",
+      "sha256": "e1ff0cbfda75f51fa957286a887a14d63abd949ce79741a8b4b09bf2b5a51b25",
+      "bytes": 14795
+    },
+    {
+      "path": "palda-encoder-pipeline/scripts/wandb_quality_sync.py",
+      "sha256": "168a342279d12ad9d678d71ab1870782bf3df44d28a5242559107017fe6c1c65",
+      "bytes": 11179
+    },
+    {
+      "path": "palda-encoder-pipeline/src/palda_encoder/__init__.py",
+      "sha256": "cf3b52cad460f623cc61f0947b086fcb09c4f22f6c51daf064315b2b1c48a562",
+      "bytes": 72
+    },
+    {
+      "path": "palda-encoder-pipeline/src/palda_encoder/benchmark.py",
+      "sha256": "31b25a0976ca592b0e8891a129f75dcf67e320a70d61a162dc53f92c6d6a7945",
+      "bytes": 10735
+    },
+    {
+      "path": "palda-encoder-pipeline/src/palda_encoder/cli.py",
+      "sha256": "e4e2fdf2aec7770bd7b716696223b79ae4c5cb2a3bafd64f6eaafc1aaeeeaf98",
+      "bytes": 20938
+    },
+    {
+      "path": "palda-encoder-pipeline/src/palda_encoder/consensus.py",
+      "sha256": "41db75e742919137bc588b24ec017ee4279321494f7db7a6af4c13f7f2212a25",
+      "bytes": 9187
+    },
+    {
+      "path": "palda-encoder-pipeline/src/palda_encoder/generation_plan.py",
+      "sha256": "7d15f6972ba1ef9b6c6cb79b182a0f0a27770e663326e7f6ef0a238f411c2eb8",
+      "bytes": 3669
+    },
+    {
+      "path": "palda-encoder-pipeline/src/palda_encoder/gold_anchor.py",
+      "sha256": "939ea6d7b7393c23f6410cfd4e8f4fe9577f2521fd6bc35835f7229b0492db94",
+      "bytes": 5394
+    },
+    {
+      "path": "palda-encoder-pipeline/src/palda_encoder/io.py",
+      "sha256": "44495d8c624c4e35d007a87d6d81c4843dc754e2b81901386f190566032c802f",
+      "bytes": 2597
+    },
+    {
+      "path": "palda-encoder-pipeline/src/palda_encoder/iteration.py",
+      "sha256": "64bbb97da8bd470ecf9ac4c39283490cf769b68a7b6e03ddb46283df3b4ad698",
+      "bytes": 13545
+    },
+    {
+      "path": "palda-encoder-pipeline/src/palda_encoder/llm.py",
+      "sha256": "228f7277f0a6e806b1a59c43138d7daf10aac775084f98fe3dec57d0c0a8f8e1",
+      "bytes": 25709
+    },
+    {
+      "path": "palda-encoder-pipeline/src/palda_encoder/normalize.py",
+      "sha256": "e71fc58a028fc1c5b3e92983da08a3b4c0eb5768563724f3b0537d7538b2254a",
+      "bytes": 5274
+    },
+    {
+      "path": "palda-encoder-pipeline/src/palda_encoder/raw_sample.py",
+      "sha256": "62d68e9ed97401875abd3fe74e0e0c5d1d23fb11de1e0925a0f8297f2bbcf519",
+      "bytes": 12040
+    },
+    {
+      "path": "palda-encoder-pipeline/src/palda_encoder/release.py",
+      "sha256": "45ab26c03dc3b9af9566d5cc944f020097f70596bd99b10bf2cbe47990383c5c",
+      "bytes": 9297
+    },
+    {
+      "path": "palda-encoder-pipeline/src/palda_encoder/schema.py",
+      "sha256": "7631773147221022c89d7f7280265ef3ad376ffabd6137288db741d110715cb4",
+      "bytes": 5212
+    },
+    {
+      "path": "palda-encoder-pipeline/src/palda_encoder/service_train.py",
+      "sha256": "16d232f74d7f3a142a6c3ecd40d949f0c95039aba7e97fd6c9adc94fd96016d6",
+      "bytes": 32435
+    },
+    {
+      "path": "palda-encoder-pipeline/src/palda_encoder/strategy_plan.py",
+      "sha256": "fdbf7941562eb53fe3099c73afa1d6fbf424ab602f539876905637a23067fff9",
+      "bytes": 7434
+    },
+    {
+      "path": "palda-encoder-pipeline/src/palda_encoder/strategy_release.py",
+      "sha256": "88f2122b4c540bb5f461b41065c460b51867b26b9bc6370390608f8cbc48602f",
+      "bytes": 4647
+    },
+    {
+      "path": "palda-encoder-pipeline/src/palda_encoder/train.py",
+      "sha256": "1504c0029949d74485084ecb997a3ed182e862d59800edacd92c331450e0b81d",
+      "bytes": 20967
+    },
+    {
+      "path": "palda-encoder-pipeline/tests/test_common_theme_audit.py",
+      "sha256": "f9bd4e87791ca6df896eaa68a0e15225a964297fd2358901232e0827c77c9480",
+      "bytes": 1973
+    },
+    {
+      "path": "palda-encoder-pipeline/tests/test_gold_anchor.py",
+      "sha256": "0fb260720b282a014cfed3f76a07b01947c51c28811ca9688ea6d5e2a0d13a12",
+      "bytes": 1934
+    },
+    {
+      "path": "palda-encoder-pipeline/tests/test_input_size_tradeoff.py",
+      "sha256": "1358373b1bc2a19685f04dfe52e177ba41a9c610eb99323535999351f469b8e9",
+      "bytes": 2723
+    },
+    {
+      "path": "palda-encoder-pipeline/tests/test_input_size_tradeoff_judge.py",
+      "sha256": "0c13e34873d45163c07dc0abc2dca6118468fa72100e4a4e14ff5ce31cb45bd8",
+      "bytes": 1411
+    },
+    {
+      "path": "palda-encoder-pipeline/tests/test_label_quality.py",
+      "sha256": "53ac3ef568f5888d0ecbd0b17cc54299d0325752eb17bf2e6d8bd2adf3eca990",
+      "bytes": 2906
+    },
+    {
+      "path": "palda-encoder-pipeline/tests/test_live_quality.py",
+      "sha256": "f2010db07738dfbe375f6080606c44e86b68a4ad28e30ed7ce8bb9844a6b1ff2",
+      "bytes": 1806
+    },
+    {
+      "path": "palda-encoder-pipeline/tests/test_pipeline.py",
+      "sha256": "845758332aa33b21ae7cb7a89888df1f2f60a2afa34e702e80c3e2b01f6a453e",
+      "bytes": 28587
+    },
+    {
+      "path": "palda-encoder-pipeline/tests/test_pipeline_architecture_tradeoff.py",
+      "sha256": "df2e4d607f4be8a3b9c37d8607ce996853a7f2ff3177eb3f17fa9369f693d92d",
+      "bytes": 1278
+    },
+    {
+      "path": "palda-encoder-pipeline/tests/test_research_losses.py",
+      "sha256": "e4526dbd67a9d12fcb8ce8e5455a04d3f97203ad55ce6f6f2b71915db326d688",
+      "bytes": 2966
+    },
+    {
+      "path": "palda-encoder-pipeline/tests/test_service_train.py",
+      "sha256": "106b46bbc5e5e0811157f6c84388ab3a8e046946db3683a2962ebf5a17165121",
+      "bytes": 5994
+    },
+    {
+      "path": "palda-encoder-pipeline/tests/test_train_metrics.py",
+      "sha256": "1774a971d31dfd3131eda0d35989aeb666fb1426506dc193a216ae094235bf89",
+      "bytes": 1615
+    },
+    {
+      "path": "palda-encoder-pipeline/tests/test_wandb_qualitative.py",
+      "sha256": "86fadfbb0a21329eb5b6b731eab6521ef24c9c9933430c919b153a70391fa69a",
+      "bytes": 2289
+    },
+    {
+      "path": "palda-encoder-pipeline/tests/test_wandb_quality_sync.py",
+      "sha256": "48afdb755ae9754f552f82081dc6356ceda1cff0c870b82549e597fc322396dd",
+      "bytes": 2574
+    },
+    {
+      "path": "palda-decoder-pipeline/configs/models.example.json",
+      "sha256": "4fb63b4bda6cef37514ab08078401ced10b36597efb84ef2f93fe92cbfc6b87f",
+      "bytes": 741
+    },
+    {
+      "path": "palda-decoder-pipeline/configs/pipeline.example.json",
+      "sha256": "16383a95bea1b5a211f3f5651d5374a93ba6d1dc90040840a8f7006d4028f6f0",
+      "bytes": 1505
+    },
+    {
+      "path": "palda-decoder-pipeline/pyproject.toml",
+      "sha256": "7e6d40026c471814d493c347e6b9699e7e6d631a588337b472efd475e6129ece",
+      "bytes": 793
+    },
+    {
+      "path": "palda-decoder-pipeline/scripts/audit_saved_predictions.py",
+      "sha256": "867cb759d7fa80e10f2f4a14112e6b32d3fcda1145f0becbbaded1dd5fe7580b",
+      "bytes": 2677
+    },
+    {
+      "path": "palda-decoder-pipeline/scripts/build_selling_point_preference_pairs.py",
+      "sha256": "c442b60c9e3b7cab4ace1ca921ced8822c9f68500f6ae290ec91714523026319",
+      "bytes": 9917
+    },
+    {
+      "path": "palda-decoder-pipeline/scripts/import_palda_decoder_v1.py",
+      "sha256": "15bafb8f2c8247710fe8f0941c5157895f91fb90cd5b2f922a3067b00de0ca3a",
+      "bytes": 11662
+    },
+    {
+      "path": "palda-decoder-pipeline/scripts/manage_llm_servers.py",
+      "sha256": "cc1f776d385c16aa8f12e670c808f5669c504813447345b26cf5c423bae6990d",
+      "bytes": 9050
+    },
+    {
+      "path": "palda-decoder-pipeline/scripts/sample_selling_point_human_eval.py",
+      "sha256": "0777422f29b9319d4abaaca5c16577f33180a6b58529db975769f856584f3685",
+      "bytes": 7007
+    },
+    {
+      "path": "palda-decoder-pipeline/src/palda_decoder/__init__.py",
+      "sha256": "8de3d1c538c4305b972d19393c712557c4ea9e5671d20c18915d83e3a694ffde",
+      "bytes": 85
+    },
+    {
+      "path": "palda-decoder-pipeline/src/palda_decoder/audit.py",
+      "sha256": "8430eb7a4638b2226d6f3b38360dd254a538b0ef03eee286cb361932e4893912",
+      "bytes": 3155
+    },
+    {
+      "path": "palda-decoder-pipeline/src/palda_decoder/cli.py",
+      "sha256": "9d9c9899491ff30061155884804296f24584fb0600db64f35a955a28469c0838",
+      "bytes": 8738
+    },
+    {
+      "path": "palda-decoder-pipeline/src/palda_decoder/evaluate.py",
+      "sha256": "ad782c41e7420382ce34ada610f3da3adaeebafa41587f226ca1dff20ceafc14",
+      "bytes": 6514
+    },
+    {
+      "path": "palda-decoder-pipeline/src/palda_decoder/export.py",
+      "sha256": "9cef32b7e4c370de09134a6541d9651bee7405d46b7fbd71d70cf9f4ee474356",
+      "bytes": 2638
+    },
+    {
+      "path": "palda-decoder-pipeline/src/palda_decoder/io.py",
+      "sha256": "40945a56100799262c582b587716c82c04b1f6117fc3f4f85539707cfcd70e8e",
+      "bytes": 2267
+    },
+    {
+      "path": "palda-decoder-pipeline/src/palda_decoder/llm.py",
+      "sha256": "96d5b29d5200d6d6e62bf20a1a8d857474d1a0d5c8c997438f8ff53dc203478b",
+      "bytes": 16961
+    },
+    {
+      "path": "palda-decoder-pipeline/src/palda_decoder/pipeline.py",
+      "sha256": "260c4adab223c784254a832fc56f4a027d638c272b4cd455bed125fff00b06e5",
+      "bytes": 7784
+    },
+    {
+      "path": "palda-decoder-pipeline/src/palda_decoder/prepare.py",
+      "sha256": "9e0bebf390de023eb56184c36ba664d9d099c0841cecd4b60a6078b54c140ed8",
+      "bytes": 6693
+    },
+    {
+      "path": "palda-decoder-pipeline/src/palda_decoder/release.py",
+      "sha256": "3cda8aedf48ab0284b4840f5ccd94eedb5a85934a1a7caafe29701de6f734ef8",
+      "bytes": 4215
+    },
+    {
+      "path": "palda-decoder-pipeline/src/palda_decoder/rewards.py",
+      "sha256": "81574e8a0f49c968800dcd35ba32f0d0f1591f5ef39498253399f00309e96710",
+      "bytes": 4556
+    },
+    {
+      "path": "palda-decoder-pipeline/src/palda_decoder/select.py",
+      "sha256": "09c3531af9fe4dba561655094c21c3deb280982f7de870cc8b50f0bd49dee8af",
+      "bytes": 3454
+    },
+    {
+      "path": "palda-decoder-pipeline/src/palda_decoder/train.py",
+      "sha256": "0471d8791793ec235b05586b2ef6e7de605f624e23418cee389dfdaa11e12851",
+      "bytes": 8594
+    },
+    {
+      "path": "palda-decoder-pipeline/tests/test_pipeline.py",
+      "sha256": "63597fb5cf294db28176863f12456a954964e5b6fed4310c77d74917428bf3c6",
+      "bytes": 15182
+    },
+    {
+      "path": "palda-service-runtime/.env.example",
+      "sha256": "db8ddbc246b435a110e2a53f5c0ea41df502dabad0eee97dbd0328d8abbad7f0",
+      "bytes": 1180
+    },
+    {
+      "path": "palda-service-runtime/Dockerfile",
+      "sha256": "2cd51751f4c41ea085cc52df251c921482e8021b4a70c250458594ed39b2b3a6",
+      "bytes": 456
+    },
+    {
+      "path": "palda-service-runtime/compose.yaml",
+      "sha256": "fb4994617f01e4ba0c19fc659a427474c197b31909e46da0f2f612716a3c65a7",
+      "bytes": 661
+    },
+    {
+      "path": "palda-service-runtime/pyproject.toml",
+      "sha256": "025dd518062a0062b8c9299de29de69902b9aab60a11a49173be39def9cec6ef",
+      "bytes": 949
+    },
+    {
+      "path": "palda-service-runtime/schemas/report_input_schema.json",
+      "sha256": "51adddd9d470a978ee5fa15f7ab78b3e5f01b072d2f3ca746802febb65808c8e",
+      "bytes": 633
+    },
+    {
+      "path": "palda-service-runtime/schemas/report_output_schema.json",
+      "sha256": "15355f8fa7b9a2f72386054aaab26f60fb84f50c98f9cd06946118b429860b8a",
+      "bytes": 3853
+    },
+    {
+      "path": "palda-service-runtime/src/palda_runtime/__init__.py",
+      "sha256": "88ff3c934a35a3d03fd45446871b8684102b96bbc5f20e5e81b6e34685202cb9",
+      "bytes": 152
+    },
+    {
+      "path": "palda-service-runtime/src/palda_runtime/aggregation.py",
+      "sha256": "52c14c4e5baa93c619f4b3863a2051761bd724cd2761cbee6113110ad3a0698d",
+      "bytes": 12681
+    },
+    {
+      "path": "palda-service-runtime/src/palda_runtime/api.py",
+      "sha256": "b855a0c0d54c01ed5f3a183af362ec72938e415611244d94c817e7ab4eb58aad",
+      "bytes": 5775
+    },
+    {
+      "path": "palda-service-runtime/src/palda_runtime/artifacts.py",
+      "sha256": "fb6ff68d9fc9db01986bc77f3ae0f6555f10fd0de60f9ecade9f25dc56661b85",
+      "bytes": 3913
+    },
+    {
+      "path": "palda-service-runtime/src/palda_runtime/benchmark.py",
+      "sha256": "ad1413f01e27947066387dd67c2afbf41b81e33af63c17a25a33f03c29fc71ee",
+      "bytes": 3726
+    },
+    {
+      "path": "palda-service-runtime/src/palda_runtime/grounded_v2.py",
+      "sha256": "26a078c61273b467946849af3b7b4470f73c8c9e73b568972435d06146a20c84",
+      "bytes": 28430
+    },
+    {
+      "path": "palda-service-runtime/src/palda_runtime/http_benchmark.py",
+      "sha256": "3ecb6efb9fd6d231ba98a84e6a039e8672ea382d17e21f1b2043a695dd2ce0d7",
+      "bytes": 3514
+    },
+    {
+      "path": "palda-service-runtime/src/palda_runtime/models.py",
+      "sha256": "87786f37d0d5f92d76cc4eb27f34e10be8c576f88cf5fe3a24ee4f00913e6281",
+      "bytes": 26680
+    },
+    {
+      "path": "palda-service-runtime/src/palda_runtime/runtime.py",
+      "sha256": "7ce6bb881ea1bd705c9862586e9bfa29c4c16e1b2e6e5080ffb360082592ebbe",
+      "bytes": 4655
+    },
+    {
+      "path": "palda-service-runtime/src/palda_runtime/sample1000.py",
+      "sha256": "00f5ba7e172ebbaf70fb2b933959bc0888fa16b3eb281c2b787442fdb4e09dcb",
+      "bytes": 8885
+    },
+    {
+      "path": "palda-service-runtime/src/palda_runtime/schemas.py",
+      "sha256": "7e679bf5f11c89fa0755152e26d91b35dfc3227dc12579ebdaa6903ca1760234",
+      "bytes": 4356
+    },
+    {
+      "path": "palda-service-runtime/src/palda_runtime/single_product1000.py",
+      "sha256": "212468ee527db000779221308b8ae94ea82e328ad07c01700722591400d1a12c",
+      "bytes": 2845
+    },
+    {
+      "path": "palda-service-runtime/src/palda_runtime/smoke.py",
+      "sha256": "9d6c39552a1d86e2689546cdab2d08b6fb57813741449d5d9e1257bbf9729fbd",
+      "bytes": 2626
+    },
+    {
+      "path": "palda-service-runtime/src/palda_runtime/store.py",
+      "sha256": "62a45e0cc2dde00c0212bd45703699b2ba55464b41cff5489111be56bc713e12",
+      "bytes": 1753
+    },
+    {
+      "path": "palda-service-runtime/src/palda_runtime/worker.py",
+      "sha256": "61d2b108514b70b3b8f7aebf5dcd8342817615414282a01b6a210a2b5509c318",
+      "bytes": 3576
+    },
+    {
+      "path": "palda-service-runtime/src/palda_service_runtime.egg-info/SOURCES.txt",
+      "sha256": "b310720811a358bc1e88387bee889c4c9260ff4cec8508b7985bee50711f4c40",
+      "bytes": 771
+    },
+    {
+      "path": "palda-service-runtime/src/palda_service_runtime.egg-info/dependency_links.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "path": "palda-service-runtime/src/palda_service_runtime.egg-info/entry_points.txt",
+      "sha256": "5b9ca7cf078f436649be7bdab25f8f11aa4fb85405a883ab54eb2e0081fd824d",
+      "bytes": 206
+    },
+    {
+      "path": "palda-service-runtime/src/palda_service_runtime.egg-info/requires.txt",
+      "sha256": "830bee48202aef7be69445200415883166632817acf1d43acbc2ce7031ca7b34",
+      "bytes": 233
+    },
+    {
+      "path": "palda-service-runtime/src/palda_service_runtime.egg-info/top_level.txt",
+      "sha256": "843ca0f3efa6d11ddf216b75bad6aafa6bd348146d5d5ac49ca61dae53234722",
+      "bytes": 14
+    },
+    {
+      "path": "palda-service-runtime/tests/test_aggregation.py",
+      "sha256": "0957d7853b256f9f2b0246cbf1d71119d91184617b1c065822ebe5314dcb4ce3",
+      "bytes": 8041
+    },
+    {
+      "path": "palda-service-runtime/tests/test_api.py",
+      "sha256": "4774c2abf513d609e1bb0e9b3aaf2ce8b55e1b2e5a40298c13f6067254189b8e",
+      "bytes": 3328
+    },
+    {
+      "path": "palda-service-runtime/tests/test_artifacts.py",
+      "sha256": "ca01ee04b6849012b94c66141703c6224fe61c2f87f951dc772455484274f1e7",
+      "bytes": 1318
+    },
+    {
+      "path": "palda-service-runtime/tests/test_benchmark.py",
+      "sha256": "69550bc29eaa112313d32e63c844e2bbc69395b847e0f22848f4e758ada77ef8",
+      "bytes": 200
+    },
+    {
+      "path": "palda-service-runtime/tests/test_grounded_v2.py",
+      "sha256": "65fc8e1c7e69a0f32379f64a87f594c342726ae5600e79a38d0051d1aa22e53f",
+      "bytes": 9468
+    },
+    {
+      "path": "palda-service-runtime/tests/test_http_benchmark.py",
+      "sha256": "d0e46867a1b4c655f3957ec58bd2ea1f54154ed6d17966be04d716b2245d138b",
+      "bytes": 1542
+    },
+    {
+      "path": "palda-service-runtime/tests/test_models.py",
+      "sha256": "855668ad7a1cb5703f23e15b6e5c589752c5adee1aa7f9ff281e815cb193d5ce",
+      "bytes": 1989
+    },
+    {
+      "path": "palda-service-runtime/tests/test_runtime.py",
+      "sha256": "2e4942c4f8da9c7f55e25b7239b104fbda7527e906afad1b20f358da8e146feb",
+      "bytes": 1283
+    },
+    {
+      "path": "palda-service-runtime/tests/test_smoke.py",
+      "sha256": "3f90438468527d51f79605c6f525e86c52b2ab8c9e070d6a7ea29cf74e34c8e6",
+      "bytes": 1183
+    }
+  ],
+  "excluded": [
+    "raw datasets",
+    "per-record predictions",
+    "model weights",
+    "secrets",
+    "local model endpoint config",
+    "real-source annotation audit",
+    "internal handoff ZIP",
+    "old git history"
+  ],
+  "note": "Source hashes apply to verbatim code copies; public handoff docs have server home paths replaced."
+}
